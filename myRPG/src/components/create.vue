@@ -33,16 +33,30 @@ export default{
             ],
           },
           resultados: {
+            email: { required: true, message: 'E-mail é obrigatório', trigger: 'blur' },
+            user: '',
+            password: '',
+            confirmePassowrd: '',
+            dataNascimento: '',
             desejo: '',
             experiencia: '',
-            experienciaDescricao: ''
+            experienciaDescricao: '',
+            experienciaDescricao: '',
           },
         }
     },
     components:{
     },
     methods: {
-      
+      create(){
+        let email = this.resultados.email,
+        let user = this.resultados.user,
+        let password = this.resultados.password,
+        let confirmePassowrd = this.resultados.confirmePassowrd,
+        let dataNascimento = this.resultados.dataNascimento,
+        let desejo = this.resultados.desejo,
+        let experienciaDescricao = this.resultados.experienciaDescricao,
+      }
     }
 }
 </script>
@@ -58,30 +72,31 @@ export default{
                 <el-row :gutter="20">
                   <el-col :span="12">
                     <el-form-item label="Email:">
-                      <el-input></el-input>
+                      <el-input v-model="resultados.emal"></el-input>
                     </el-form-item>
                   </el-col>
                   <el-col :span="12">
                     <el-form-item label="Nome de usuário:">
-                      <el-input></el-input>
+                      <el-input v-model="resultados.user"></el-input>
                     </el-form-item>
                   </el-col>
                 </el-row>
                 <el-row :gutter="20">
                   <el-col :span="8">
                     <el-form-item label="Senha:">
-                      <el-input type="password"></el-input>
+                      <el-input v-model="resultados.password" type="password"></el-input>
                     </el-form-item>
                   </el-col>
                   <el-col :span="8">
                     <el-form-item label="Confirmação de Senha:">
-                      <el-input type="password"></el-input>
+                      <el-input v-model="resultados.confirmePassowrd" type="password"></el-input>
                     </el-form-item>
                   </el-col>
                   <el-col :span="8">
                     <el-form-item label="Data de Nascimento:">
                       <div class="block">
                         <el-date-picker
+                          v-model="resultados.dataNascimento"
                           type="date">
                         </el-date-picker>
                       </div>
