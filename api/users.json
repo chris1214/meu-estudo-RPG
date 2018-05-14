@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Chris",
+      "email": "christopher_andrio@hotmail.com",
+      "password": "123456",
+      "age": "19",
+      "faixaEtaria": "+18",
+      "nivel": 0,
+      "tags": {
+            "mestre": "Mestre",
+            "player": "PLayer"        
+        },
+    },
+    {
+      "id": 2,
+      "name": "Hagalaz",
+      "email": "hagalaz@hotmail.com",
+      "password": "654321",
+      "age": "19",
+      "faixaEtaria": "+18",
+      "nivel": "Hacker",
+      "tags": {
+            "mestre": "Mestre entre os Mestres",
+            "player": "PLayer Supremo"        
+        },
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+.align-right {
+  text-align: right;
+}
+.el-input, .el-select {
+  width: 100%
+}
