@@ -5,26 +5,76 @@
       "name": "Chris",
       "email": "christopher_andrio@hotmail.com",
       "password": "123456",
-      "age": "19",
+      "dataNascimento": "1998-11-17",
       "faixaEtaria": "+18",
       "nivel": 0,
       "tags": {
-            "mestre": "Mestre",
-            "player": "PLayer"        
-        },
+        "desejo": "",
+        "experiencia": "",
+        "mestre": "Mestre",
+        "player": "PLayer"
+      },
+      "experienciaComRpg": "....."
     },
     {
       "id": 2,
       "name": "Hagalaz",
       "email": "hagalaz@hotmail.com",
       "password": "654321",
-      "age": "19",
+      "dataNascimento": "1998-11-17",
       "faixaEtaria": "+18",
       "nivel": "Hacker",
       "tags": {
-            "mestre": "Mestre entre os Mestres",
-            "player": "PLayer Supremo"        
-        },
+        "mestre": "Mestre entre os Mestres",
+        "player": "PLayer Supremo"
+      },
+      "experienciaComRpg": "....."
+    },
+    {
+      "email": "chris@hotmail.com",
+      "user": "Admin",
+      "password": "0123",
+      "confirmePassowrd": "0123",
+      "dataNascimento": "2018-05-23T03:00:00.000Z",
+      "tags": {
+        "desejo": "mestre",
+        "experiencia": "alta"
+      },
+      "experienciaDescricao": "um dois tres ;.....",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "chris@hotmail.com",
+      "password": "0123",
+      "dataNascimento": "1998-11-17T02:00:00.000Z",
+      "nivelDeMestragem": 1,
+      "nivelDePlayer": 1,
+      "tags": {
+        "desejo": "ambos",
+        "experiencia": "alta",
+        "user": "Ambos",
+        "nivel": "Player e Mestre"
+      },
+      "experienciaDescricao": "Um Dois Tre ....",
+      "user": "Admin",
+      "id": 4
+    },
+    {
+      "name": "Hagalaz",
+      "email": "Admin@hotmail.com",
+      "password": "0123456",
+      "dataNascimento": "1998-11-17T02:00:00.000Z",
+      "nivelDeMestragem": 1,
+      "nivelDePlayer": 1,
+      "tags": {
+        "desejo": "ambos",
+        "experiencia": "alta",
+        "user": "Ambos",
+        "nivel": "Player e Mestre"
+      },
+      "experienciaDescricao": "Mestre",
+      "id": 5
     }
   ]
 }
