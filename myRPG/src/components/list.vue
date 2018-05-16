@@ -1,13 +1,21 @@
 <script>
+import renderImagem from './RenderImagem'
 export default{
     data(){
         return{
            activeIndex: '2',
+           imgs: [
+            {img: '../img/Runa-Ansuz.png'},
+            {img: '../img/000nv.png'},
+            {img: '../img/Dragon.jpg'},
+           ]
         }
     },
     components:{
+      renderImagem
     },
 }
+
 
 </script>
 <template>
@@ -33,11 +41,17 @@ export default{
     <div class="background-IMG">
       <b-container fluid class="padding-top">
         <b-row>
-          <b-col>col</b-col>
-          <b-col>col</b-col>
-          <b-col>col</b-col>
-          <b-col>col</b-col>
-          <b-col>col</b-col>
+          <div v-for="item in imgs">
+            <b-col>
+              <renderImagem
+                height="height: 200px;"
+                label="Label"
+                :src="item.img"
+              />
+            </b-col>
+          </div>
+          <b-col v-for="item in imgs"><img src="item"></b-col>
+          <b-col><img src="../img/000nv.png"></b-col>
           <b-col>col</b-col>
         </b-row>
       </b-container>
@@ -71,5 +85,6 @@ export default{
   background-image: url('../img/kingCastle.jpg');
   height: 100vh;
 }
+
 
 </style>

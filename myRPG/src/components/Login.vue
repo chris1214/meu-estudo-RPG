@@ -7,7 +7,7 @@ export default {
       values: {
         email: '',
         password: '',
-      }
+      },
     }
   },
   methods: {
@@ -29,12 +29,10 @@ export default {
           if(this.values.email == this.users[i].email && this.values.password == this.users[i].password){
             console.log(this.users[i].name)
             this.$router.push('/list/' + this.users[i].name + '#' + this.users[i].id)
-          }else{
-            console.log('Error');
           }
         }
       }else {
-        alert("False");
+         this.$message.error('Campo E-mail ou Senha vazio');
       }
     }
   },

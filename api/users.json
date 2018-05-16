@@ -75,6 +75,23 @@
       },
       "experienciaDescricao": "Mestre",
       "id": 5
+    },
+    {
+      "name": "Admin",
+      "email": "christopher_andrio@hotmail.com",
+      "password": "admin",
+      "dataNascimento": "1998-11-17T02:00:00.000Z",
+      "nivelDeMestragem": 1,
+      "nivelDePlayer": 1,
+      "tags": {
+        "desejo": "ambos",
+        "experiencia": "alta",
+        "user": "Ambos",
+        "nivel": "Player e Mestre"
+      },
+      "experienciaDescricao": "Mestre/Admin",
+      "confirmePassowrd": "admin",
+      "id": 6
     }
   ]
 }

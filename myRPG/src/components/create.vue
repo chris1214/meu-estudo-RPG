@@ -50,14 +50,24 @@ export default{
           },
           confirmePassowrd: '',
           regra: {
-            email: [{ required: false, type: 'email', message: 'E-mail é obrigatório' }],
-            user: [{ required: false, message: 'Nome de Usuário é obrigatório', trigger: 'change' }],
-            password: [{ required: false, message: 'Senha é obrigatório', trigger: 'blur' }],
-            confirmePassowrd: [{ required: false, message: 'Confirmação de senha é obrigatório', trigger: 'blur' }],
-            dataNascimento: [{ required: false, message: 'Data de Nascimento é obrigatório', trigger: 'change' }],
-            desejo: [{ required: false, message: 'E-mail é obrigatório', trigger: 'change' }],
-            experiencia: [{ required: false, message: 'E-mail é obrigatório', trigger: 'change' }],
-          }
+            email: [
+              { required: true, type: 'email', message: 'E-mail é obrigatório' }
+            ],
+            name: [
+              { required: true, message: 'Nome de Usuário é obrigatório'},
+              {min: 3, max: 50, message: 'No minimo 3 caracteres e no maximo 50', trigger: 'blur'}
+            ],
+            password: [
+              { required: true, message: 'Senha e obrigatório'},
+              {min: 5, max: 50, message: 'No minimo 5 caracteres e no maximo 50', trigger: 'blur'}
+            ],
+            confirmePassowrd: [{ required: true, message: 'Confirmação de senha é obrigatório'}],
+            dataNascimento: [{ required: true, type: 'date', message: 'Data de Nascimento é obrigatório'}],
+            tags: {
+              desejo: [{ required: true, message: 'Desejo é obrigatório', trigger: 'change'}],
+              experiencia: [{ required: true, message: 'Experiencia é obrigatório', trigger: 'change'}],
+            },
+          },
         }
     },
     components:{
@@ -76,7 +86,7 @@ export default{
         let email = this.resultados.email;
         let name = this.resultados.name;
         let password = this.resultados.password;
-        let confirmePassowrd = this.confirmePassowrd;
+        let confirmePassowrd = this.resultados.confirmePassowrd;
         let dataNascimento = this.resultados.dataNascimento;
         let desejo = this.resultados.tags.desejo;
         let experiencia = this.resultados.tags.experiencia;
@@ -140,11 +150,25 @@ export default{
 
           }
         }
-        if (email && name && password && confirmePassowrd == password && dataNascimento && desejo && experiencia){
-          console.log("True")
-          this.pushAll();
+        if (email && name && password && dataNascimento && desejo && experiencia){
+          if(confirmePassowrd == password){
+            this.$message({
+              message: 'Novo Usuário criado com sucesso!',
+              type: 'success'
+            });
+            this.pushAll();
+          }else{
+            this.$message.error('campo Senha e Confirmação de Senha devem ser iguais');
+          }
         }else{
-          console.log("OPS")
+        console.log(email)
+        console.log(name)
+        console.log(password)
+        console.log(confirmePassowrd)
+        console.log(dataNascimento)
+        console.log(desejo)
+        console.log(experiencia)
+          this.$message.error('Todos os campos com (*) são obrigatórios');
         }
       }
     }
@@ -158,37 +182,36 @@ export default{
         <b-col md="8" offset-md="2">
           <b-card title="Create"
                   class="mb-2">
-            {{resultados.email}}
             <div>
-              <el-form label-position="top" :rules="regra">
+              <el-form label-position="top" :model="resultados" :rules="regra">
                 <el-row :gutter="20">
                   <el-col :span="12">
-                    <el-form-item label="Email:">
-                      <el-input type="email" v-model="resultados.email"></el-input>
+                    <el-form-item label="Email:" prop="email" :rules="regra.email">
+                      <el-input type="email" v-model.email="resultados.email"></el-input>
                     </el-form-item>
                   </el-col>
                   <el-col :span="12">
-                    <el-form-item label="Nome de usuário:" prop="user">
+                    <el-form-item label="Nome de usuário:" prop="name">
                       <el-input v-model="resultados.name" type="text"></el-input>
                     </el-form-item>
                   </el-col>
                 </el-row>
                 <el-row :gutter="20">
                   <el-col :span="8">
-                    <el-form-item label="Senha:" prop="password">
-                      <el-input v-model="resultados.password" type="password"></el-input>
+                    <el-form-item label="Senha:"  prop="password">
+                      <el-input v-model.password="resultados.password" type="password"></el-input>
                     </el-form-item>
                   </el-col>
                   <el-col :span="8">
                     <el-form-item label="Confirmação de Senha:" prop="confirmePassowrd">
-                      <el-input v-model="confirmePassowrd" type="password"></el-input>
+                      <el-input v-model.password="resultados.confirmePassowrd" type="password"></el-input>
                     </el-form-item>
                   </el-col>
                   <el-col :span="8">
                     <el-form-item label="Data de Nascimento:" prop="dataNascimento">
                       <div class="block">
                         <el-date-picker
-                          v-model="resultados.dataNascimento"
+                          v-model.date="resultados.dataNascimento"
                           type="date">
                         </el-date-picker>
                       </div>
@@ -198,7 +221,7 @@ export default{
 
                 <el-row :gutter="20">
                   <el-col :span="12">
-                    <el-form-item label="Desejo me tornar um:" prop="desejo">
+                    <el-form-item label="Desejo me tornar um:" prop="tags.desejo">
                       <el-select v-model="resultados.tags.desejo">
                         <el-option
                           v-for="item in dados.desejoMeTornar"
@@ -210,7 +233,7 @@ export default{
                     </el-form-item>
                   </el-col>
                   <el-col :span="12">
-                    <el-form-item label="Minha experiencia com RPG é: " prop="experiencia">
+                    <el-form-item label="Minha experiencia com RPG é: " prop="tags.experiencia">
                       <el-select v-model="resultados.tags.experiencia">
                         <el-option
                           v-for="item in dados.minhaExperienciaComRpg"
