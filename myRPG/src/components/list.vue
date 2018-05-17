@@ -1,26 +1,73 @@
 <script>
 import renderImagem from './RenderImagem'
+import imgResponsiva from './imgResponsiva'
 export default{
-    data(){
-        return{
-           activeIndex: '2',
-           imgs: [
-            {img: '../img/Runa-Ansuz.png'},
-            {img: '../img/000nv.png'},
-            {img: '../img/Dragon.jpg'},
-           ]
+  data(){
+      return{
+         activeIndex: '2',
+         fotos: [],
+         imageUrl: '',
+         upload: {
+          title: '',
+          url: ''
+         },
+         httpMesa: 'http://localhost:3000/mesas',
+         filtro: '',
+      }
+  },
+  methods: {
+    getAll(myHttp, resposta){
+    this.$http.get(`${myHttp}`).then(
+      response => {
+        this[resposta] = response.body;
+      }, error => {
+        console.log('Error')
+      }
+    )
+    },
+    myGet(){
+      this.getAll(`${this.httpMesa}`, 'fotos');
+    },
+    button(){
+      this.$http.post(`${this.httpMesa}`, this.upload).then(
+        response => {
+          upload: {
+            title: '';
+            url: ''
+          }
+          this.myGet();
+        }, error => {
+          this.$message.error('Erro');
         }
-    },
-    components:{
-      renderImagem
-    },
+      )
+    }
+  },
+  computed: {
+    filterFotos (){
+      if(this.filtro){
+        let filtro = new RegExp(this.filtro.trim(), 'i');
+        return this.fotos.filter(foto => filtro.test(foto.title));
+      }else{
+        return this.fotos;
+      }
+    }
+  },
+  created(){
+    this.myGet();
+  },
+  components:{
+    renderImagem,
+    imgResponsiva
+  },
 }
+
+
 
 
 </script>
 <template>
   <div>
-    <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal">
+    <el-menu :default-active="activeIndex" mode="horizontal">
       <el-menu-item class="myDisableImg" disabled index="1">
         <div class="containerIMG">
           <img class="img" src="../img/Runa-Ansuz.png">
@@ -31,34 +78,66 @@ export default{
       <el-menu-item index="4">Minhas mesas</el-menu-item>
       <el-menu-item index="5">Mesas que já participo</el-menu-item>
       <el-menu-item class="pullRight" index="7">Perfil</el-menu-item>
-      <span style="margin-top: 11px;" class="pullRight">
-        <el-input
-          placeholder="Filtro"
-          prefix-icon="el-icon-search">
-        </el-input>
+      <span class="pullRight">
+        <el-row>
+          <el-col :span="24">
+            <el-input
+              type="text"
+              autocomplete="off"
+              placeholder="Filtro"
+              prefix-icon="el-icon-search"
+              v-model="filtro">
+            </el-input>
+          </el-col>
+        </el-row>
       </span>
     </el-menu>
-    <div class="background-IMG">
-      <b-container fluid class="padding-top">
-        <b-row>
-          <div v-for="item in imgs">
-            <b-col>
-              <renderImagem
-                height="height: 200px;"
-                label="Label"
-                :src="item.img"
-              />
-            </b-col>
-          </div>
-          <b-col v-for="item in imgs"><img src="item"></b-col>
-          <b-col><img src="../img/000nv.png"></b-col>
-          <b-col>col</b-col>
-        </b-row>
-      </b-container>
-    </div>
+    <el-row>
+      <el-col :span="4">
+        <el-input
+          type="text"
+          autocomplete="off"
+          placeholder="Filtro"
+          prefix-icon="el-icon-search"
+          v-model="filtro">
+        </el-input>
+      </el-col>
+    </el-row>
+      <div class="background-IMG">
+        <b-container fluid class="padding-top">
+          <el-row :gutter="20">
+            <div v-for="foto in filterFotos">
+              <el-col :span="4">
+                <renderImagem
+                  :label="foto.title"
+                  height="height: 200px;"
+                  :url="foto.url"
+                  :alt="foto.title"
+                />
+              </el-col>
+            </div>
+          </el-row>
+          <el-row>
+            <el-col :span="4">
+              <button @click="button()">Name</button>
+              <span style="margin-top: 11px;" class="pullRight">
+            </span>
+            </el-col>
+            <el-col :span="4">
+              <span>Upload</span>
+              <el-input v-model="upload.title"/>
+              <el-input v-model="upload.url"/>
+            </el-col>
+          </el-row>
+        </b-container>
+      </div>
   </div>
 </template>
+
 <style>
+.el-col {
+  margin-bottom: 20px
+}
 .el-menu-vertical-demo:not(.el-menu--collapse) {
   width: 200px;
   min-height: 400px;
@@ -87,4 +166,9 @@ export default{
 }
 
 
+
+
+
+
 </style>
+

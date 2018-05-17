@@ -1,6 +1,6 @@
 <script>
 export default {
-    props: ["label", "src", "router", "height"],
+    props: ["label", "url", "height", "alt"],
     data() {
       return {
       }
@@ -17,18 +17,14 @@ export default {
   <div slot="body">
 
     <!-- TODO - ajustar espaçamento do topo -->
-        {{src.img}}
-        {{src}}
-    <img src="src">
-    <img :src="src">
-        <div class="meu-thumbex margin-10px-10px-30px" :body-style="{ padding: '0px' }" :style="height">
-          <div class="meu-thumbnail">
-              <img :src="src">
-              <div class="margin-40-3">
-                <span><strong>{{ label }}</strong></span>
-              </div>
-          </div>
+    <div class="meu-thumbex margin-10px-10px-30px" :body-style="{ padding: '0px' }" :style="height">
+      <div class="meu-thumbnail">
+        <img :src="url" :alt="alt">
+        <div class="margin-40-3">
+          <span><strong>{{ label }}</strong></span>
         </div>
+      </div>
+    </div>
 
   </div>
 </template>
