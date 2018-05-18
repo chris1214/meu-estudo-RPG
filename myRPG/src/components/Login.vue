@@ -28,7 +28,7 @@ export default {
         for(var i = 0; i < this.users.length; i++){
           if(this.values.email == this.users[i].email && this.values.password == this.users[i].password){
             console.log(this.users[i].name)
-            this.$router.push('/list/' + this.users[i].name + '#' + this.users[i].id)
+            this.$router.push('/inicio/' + this.users[i].name + '#' + this.users[i].id)
           }
         }
       }else {
