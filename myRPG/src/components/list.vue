@@ -67,7 +67,7 @@ export default{
 </script>
 <template>
   <div>
-    <el-menu :default-active="activeIndex" mode="horizontal">
+    <el-menu class="myMenu" :default-active="activeIndex" mode="horizontal">
       <el-menu-item class="myDisableImg" disabled index="1">
         <div class="containerIMG">
           <img class="img" src="../img/Runa-Ansuz.png">
@@ -83,7 +83,6 @@ export default{
           <el-col :span="24">
             <el-input
               type="text"
-              autocomplete="off"
               placeholder="Filtro"
               prefix-icon="el-icon-search"
               v-model="filtro">
@@ -92,19 +91,9 @@ export default{
         </el-row>
       </span>
     </el-menu>
-    <el-row>
-      <el-col :span="4">
-        <el-input
-          type="text"
-          autocomplete="off"
-          placeholder="Filtro"
-          prefix-icon="el-icon-search"
-          v-model="filtro">
-        </el-input>
-      </el-col>
-    </el-row>
       <div class="background-IMG">
-        <b-container fluid class="padding-top">
+      </div>
+    <b-container fluid class="padding-top">
           <el-row :gutter="20">
             <div v-for="foto in filterFotos">
               <el-col :span="4">
@@ -130,11 +119,16 @@ export default{
             </el-col>
           </el-row>
         </b-container>
-      </div>
   </div>
 </template>
 
 <style>
+.myMenu {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
 .el-col {
   margin-bottom: 20px
 }
@@ -158,17 +152,15 @@ export default{
 }
 
 .padding-top {
-  padding-top: 50px
+  padding-top: 50px;
+  margin-top: 25px;
 }
 .background-IMG {
   background-image: url('../img/kingCastle.jpg');
   height: 100vh;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
-
-
-
-
-
-
 </style>
 

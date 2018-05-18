@@ -92,6 +92,108 @@
       "experienciaDescricao": "Mestre/Admin",
       "confirmePassowrd": "admin",
       "id": 6
+    },
+    {
+      "name": "admin",
+      "email": "chris@hotmail.com",
+      "password": "admin",
+      "dataNascimento": "2002-07-11T03:00:00.000Z",
+      "nivelDeMestragem": 0,
+      "nivelDePlayer": 1,
+      "tags": {
+        "desejo": "player",
+        "experiencia": "baixa",
+        "user": "Player",
+        "nivel": "Player Iniciante"
+      },
+      "experienciaDescricao": "juyumlmk",
+      "confirmePassowrd": "admin",
+      "id": 7
+    },
+    {
+      "name": "Chris0002",
+      "email": "chris123456@hotmail.com",
+      "password": "123456",
+      "dataNascimento": "2018-05-08T03:00:00.000Z",
+      "nivelDeMestragem": 1,
+      "nivelDePlayer": 1,
+      "tags": {
+        "desejo": "ambos",
+        "experiencia": "alta",
+        "user": "Ambos",
+        "nivel": "Player e Mestre"
+      },
+      "experienciaDescricao": "",
+      "confirmePassowrd": "123456",
+      "id": 8
+    },
+    {
+      "name": "Andrio",
+      "email": "andrio@hotmail.com",
+      "password": "andrio",
+      "dataNascimento": "2018-05-17T03:00:00.000Z",
+      "nivelDeMestragem": 1,
+      "nivelDePlayer": 1,
+      "tags": {
+        "desejo": "ambos",
+        "experiencia": "baixa",
+        "user": "Ambos",
+        "nivel": "Player e Mestre Iniciante"
+      },
+      "experienciaDescricao": "assdasdasa",
+      "confirmePassowrd": "andrio",
+      "id": 9
+    },
+    {
+      "name": "Lucas",
+      "email": "lucas@hotmail.com",
+      "password": "123456",
+      "dataNascimento": "1995-07-11T03:00:00.000Z",
+      "nivelDeMestragem": 0,
+      "nivelDePlayer": 1,
+      "tags": {
+        "desejo": "player",
+        "experiencia": "baixa",
+        "user": "Player",
+        "nivel": "Player Iniciante"
+      },
+      "experienciaDescricao": "Nem uma ",
+      "confirmePassowrd": "123456",
+      "id": 10
+    },
+    {
+      "name": "Euuu",
+      "email": "Eu@hotmail.com",
+      "password": "123456",
+      "dataNascimento": "2018-05-23T03:00:00.000Z",
+      "nivelDeMestragem": 1,
+      "nivelDePlayer": 1,
+      "tags": {
+        "desejo": "ambos",
+        "experiencia": "baixa",
+        "user": "Ambos",
+        "nivel": "Player e Mestre Iniciante"
+      },
+      "experienciaDescricao": "asdasd",
+      "confirmePassowrd": "123456",
+      "id": 11
+    },
+    {
+      "name": "Tate",
+      "email": "tati@hotmail.com",
+      "password": "123456",
+      "dataNascimento": "2018-05-29T03:00:00.000Z",
+      "nivelDeMestragem": 1,
+      "nivelDePlayer": 1,
+      "tags": {
+        "desejo": "ambos",
+        "experiencia": "media",
+        "user": "Ambos",
+        "nivel": "Player e Mestre"
+      },
+      "experienciaDescricao": "asdasd",
+      "confirmePassowrd": "123456",
+      "id": 12
     }
   ],
   "mesas": [
@@ -134,6 +236,46 @@
       "title": "Final Fantasy",
       "url": "http://s2.glbimg.com/ysjRbaP3HDFWdiI-UFTotBkNHko=/695x0/s.glbimg.com/po/tt2/f/original/2017/01/10/final-fantasy-xv-12.jpg",
       "id": 8
+    },
+    {
+      "title": "Vamos para guerra",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdskPvvmpQ2YokycJBVijAHtgZYmYMrEEu4EpyBY3ocqROTeMC",
+      "id": 9
+    },
+    {
+      "title": "Cidade Medieval",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhaK_n4YD7XZtgKA-uRqzQvhctKyXydWM_FuNY9uNXNj3xFkjEpg",
+      "id": 10
+    },
+    {
+      "title": "Arvore",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAxixxKdN2EhqtHPY-dC83ODtlxxRUYMul4vOczvhpJQkDh2v0iw",
+      "id": 11
+    },
+    {
+      "title": "Elfa",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUVOConKzioj1AJFdm5xxqRIQKXYQLt6tYS24SOYsIvIpqPx1Npg",
+      "id": 12
+    },
+    {
+      "title": "Castelo em ruina",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcjNSM6eUG6gEUWBInAtXpmg1BJAtjklbe8f0_QuvLv2TJ6gaQ",
+      "id": 13
+    },
+    {
+      "title": "Uma IMG de fundo",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWKhgdnUEswYXIoD9xfaulOn-EKupLntHw3mesSkI_vvN_LahH",
+      "id": 14
+    },
+    {
+      "title": "Guerra",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWsX-3eUk4JhUwsttVS4OQmiAy93WkleLOdGlo7vxRzL-f-A4kpA",
+      "id": 15
+    },
+    {
+      "title": "Tate",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMBB5bpSFhBrcjXDZm24fea0_YZRY1LraDfyNJU00uzMBAV7TI",
+      "id": 16
     }
   ]
 }
