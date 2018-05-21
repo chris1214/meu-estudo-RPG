@@ -1,7 +1,7 @@
 <script>
 import renderImagem from '../utils/RenderImagem'
 export default{
-  props: ['filtro', 'title', 'myShow'],
+  props: ['filtro', 'title', 'myShow', "name","id"],
   data(){
       return{
          fotos: [],
@@ -32,6 +32,9 @@ export default{
         return this.fotos;
       }
     },
+    enter(id){
+      console.log(id)
+    },
   },
   watch:{
     myShow: function (value){
@@ -42,6 +45,8 @@ export default{
   },
   created(){
     this.myGet();
+    console.log(this.name)
+    console.log(this.id)
   },
   components:{
     renderImagem,
@@ -60,6 +65,11 @@ export default{
         <div v-for="foto in filterFotos">
           <el-col  :xs="12" :sm="6" :md="6" :lg="4" :xl="4">
             <renderImagem
+              :id="id"
+              :name="name"
+              :router="foto.id"
+              :mestre="foto.mestre"
+              :faixaEtaria="foto.faixaEtaria"
               :label="foto.title"
               height="height: 200px;"
               :url="foto.url"

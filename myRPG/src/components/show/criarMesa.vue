@@ -62,6 +62,7 @@ export default{
             playersMin: '',
             playersMax: '',
             mapaPrincipal: '',
+            descricao: '',
             mapasSecundarios: []
           },
           mapasSecundariosTitle: '',
@@ -86,7 +87,12 @@ export default{
               title: '',
               url: '',
               mestre:'',
-              id: ''
+              idMestre: '',
+              playersMin: '',
+              playersMax: '',
+              mapaPrincipal: '',
+              descricao: '',
+              mapasSecundarios: []
             }
           }, error => {
             this.$message.error('Erro');
@@ -221,6 +227,13 @@ export default{
                   <el-col :span="4">
                     <el-form-item label="Quantidade Maxima de players">
                       <el-input v-model="resultados.playersMax" type="number"/>
+                    </el-form-item>
+                  </el-col>
+                </el-row>
+                <el-row>
+                  <el-col>
+                    <el-form-item label="Descrição da mesa">
+                      <el-input type="textarea" v-model="resultados.descricao"></el-input>
                     </el-form-item>
                   </el-col>
                 </el-row>

@@ -67,8 +67,8 @@ export default{
     </div>
     <div class="background-IMG" />
     <div class="margin-top">
-      <list :filtro="filtro" title="Mesas" v-show="conteudo.list" :myShow="conteudo.list"/>
-      <criarMesa :id="id" :name="name" v-show="conteudo.criarMesa"/>
+      <list :name="name" :id="id" :filtro="filtro" title="Mesas" v-show="conteudo.list" :myShow="conteudo.list"/>
+      <criarMesa :name="name" :id="id" v-show="conteudo.criarMesa"/>
     </div>
   </div>
 </template>
@@ -107,6 +107,7 @@ export default{
   position: fixed;
   width: 100%;
   top: 0;
+  background-repeat:no-repeat;
 }
 
 </style>

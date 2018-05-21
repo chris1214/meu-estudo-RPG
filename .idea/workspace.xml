@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b2c247-1427-446e-b05c-d9fea72ccea9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myRPG/src/components/mesa.vue" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myRPG/src/components/show/sistemas/propio.vue" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myRPG/src/img/Cavalheiro e dragao.jpg" afterPath="$PROJECT_DIR$/myRPG/src/img/CavalheiroEdragao.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/users.json" afterPath="$PROJECT_DIR$/api/users.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myRPG/src/components/Login.vue" afterPath="$PROJECT_DIR$/myRPG/src/components/Login.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myRPG/src/components/inicio.vue" afterPath="$PROJECT_DIR$/myRPG/src/components/inicio.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue" afterPath="$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myRPG/src/components/show/sistemas/propio.vue" afterPath="$PROJECT_DIR$/myRPG/src/components/show/sistemas/propio.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myRPG/src/components/show/list.vue" afterPath="$PROJECT_DIR$/myRPG/src/components/show/list.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myRPG/src/components/utils/RenderImagem.vue" afterPath="$PROJECT_DIR$/myRPG/src/components/utils/RenderImagem.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myRPG/src/router/index.js" afterPath="$PROJECT_DIR$/myRPG/src/router/index.js" />
     </list>
     <ignored path="meu-estudo-RPG.iws" />
@@ -32,50 +36,18 @@
       <file leaf-file-name="Login.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myRPG/src/components/Login.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="88" column="36" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="36" />
+            <state relative-caret-position="705">
+              <caret line="93" column="30" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/list.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="criarMesa.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="259" column="59" selection-start-line="259" selection-start-column="59" selection-end-line="259" selection-end-column="59" />
-              <folding>
-                <element signature="n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#el-col#0;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#el-col#1;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#el-col#2;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#el-col#3;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#el-col#2;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#el-col#3;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <marker date="1526915246761" expanded="false" signature="5388:6957" ph="..." />
-                <marker date="1526915246761" expanded="false" signature="5425:5940" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="propio.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/sistemas/propio.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="54">
+              <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -84,10 +56,70 @@
       <file leaf-file-name="inicio.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myRPG/src/components/inicio.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1962">
-              <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+            <state relative-caret-position="723">
+              <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="criarMesa.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="88" column="24" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
+              <folding>
+                <element signature="n#el-col#0;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#el-col#1;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#el-col#2;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#el-col#3;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#el-col#2;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#el-col#3;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RenderImagem.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myRPG/src/components/utils/RenderImagem.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="669">
+              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myRPG/src/router/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mesa.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myRPG/src/components/mesa.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IlhaFuturista.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myRPG/src/img/IlhaFuturista.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -126,13 +158,14 @@
         <option value="$PROJECT_DIR$/myRPG/src/util/RenderImagem.vue" />
         <option value="$PROJECT_DIR$/myRPG/src/components/RenderImagem.vue" />
         <option value="$PROJECT_DIR$/myRPG/src/components/list.vue" />
-        <option value="$PROJECT_DIR$/myRPG/src/components/utils/RenderImagem.vue" />
+        <option value="$PROJECT_DIR$/myRPG/src/components/show/sistemas/propio.vue" />
         <option value="$PROJECT_DIR$/myRPG/src/components/show/list.vue" />
         <option value="$PROJECT_DIR$/myRPG/src/router/index.js" />
         <option value="$PROJECT_DIR$/myRPG/src/components/inicio.vue" />
         <option value="$PROJECT_DIR$/myRPG/src/components/Login.vue" />
-        <option value="$PROJECT_DIR$/myRPG/src/components/show/sistemas/propio.vue" />
+        <option value="$PROJECT_DIR$/myRPG/src/components/utils/RenderImagem.vue" />
         <option value="$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue" />
+        <option value="$PROJECT_DIR$/myRPG/src/components/mesa.vue" />
       </list>
     </option>
   </component>
@@ -311,63 +344,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meu-estudo-RPG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meu-estudo-RPG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myRPG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="show" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meu-estudo-RPG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meu-estudo-RPG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myRPG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="show" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sistemas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -849,7 +826,7 @@
       <workItem from="1526556581318" duration="16785000" />
       <workItem from="1526575221691" duration="1231000" />
       <workItem from="1526645504727" duration="14575000" />
-      <workItem from="1526902344978" duration="11303000" />
+      <workItem from="1526902344978" duration="17722000" />
     </task>
     <task id="LOCAL-00001" summary="Tela de criação de mesa iniciada e codigo refatorado">
       <created>1526662674886</created>
@@ -858,11 +835,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526662674886</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Tela de criação de mesa Feita ate a metade">
+      <created>1526915479022</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526915479022</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92932000" />
+    <option name="totallyTimeSpent" value="99351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="30" width="1682" height="1021" extended-state="6" />
@@ -936,23 +920,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tela de criação de mesa iniciada e codigo refatorado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tela de criação de mesa iniciada e codigo refatorado" />
+    <MESSAGE value="Tela de criação de mesa Feita ate a metade" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tela de criação de mesa Feita ate a metade" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myRPG/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/helperClass/myClass.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1176,16 +1151,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/img/Runa-Ansuz.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1211,22 +1176,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/img/IlhaFuturista.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/img/Hagalaz.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/img/Dragon.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/img/Cavalheiro e dragao.jpg">
+    <entry file="file://$PROJECT_DIR$/myRPG/src/img/CavalheiroEdragao.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -1236,30 +1191,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/img/Ilha.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/img/castelo.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/utils/RenderImagem.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/inicio.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1962">
-          <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/sistemas/propio.vue">
@@ -1270,46 +1204,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/img/Dragon.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/img/Ilha.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/img/IlhaFuturista.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/list.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/inicio.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/utils/RenderImagem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/components/create.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <caret line="184" column="16" selection-start-line="184" selection-start-column="16" selection-end-line="184" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/components/Login.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="88" column="36" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="36" />
+        <state relative-caret-position="705">
+          <caret line="93" column="30" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="259" column="59" selection-start-line="259" selection-start-column="59" selection-end-line="259" selection-end-column="59" />
+        <state relative-caret-position="684">
+          <caret line="88" column="24" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
           <folding>
-            <element signature="n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#el-col#0;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#el-col#1;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#el-col#2;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#el-col#3;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#el-col#2;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#el-col#3;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#el-row#1;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <marker date="1526915246761" expanded="false" signature="5388:6957" ph="..." />
-            <marker date="1526915246761" expanded="false" signature="5425:5940" ph="..." />
+            <element signature="n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/list.vue">
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/mesa.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        <state relative-caret-position="93">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
           <folding />
         </state>
       </provider>

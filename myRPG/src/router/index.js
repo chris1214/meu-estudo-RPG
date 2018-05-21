@@ -4,6 +4,7 @@ import Login from '@/components/Login'
 import create from '@/components/create'
 import list from '@/components/show/list'
 import inicio from '@/components/inicio'
+import mesa from '@/components/mesa'
 
 Vue.use(Router)
 
@@ -15,12 +16,12 @@ export default new Router({
       component: Login
     },
     {
-      path: '/create',
+      path: '/create/',
       name: 'Create',
       component: create
     },
     {
-      path: '/list',
+      path: '/list/',
       name: 'list',
       component: list,
     },
@@ -28,6 +29,12 @@ export default new Router({
       path: '/inicio/:name/:id',
       name: 'inicio',
       component: inicio,
+      props: true
+    },
+    {
+      path: '/inicio/:name/:id/:title/:mesaId',
+      name: 'mesa',
+      component: mesa,
       props: true
     }
   ]

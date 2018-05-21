@@ -91,5 +91,6 @@ export default {
   position: fixed;
   width: 100%;
   top: 0;
+  background-repeat:no-repeat;
 }
 </style>

@@ -331,6 +331,34 @@
         }
       ],
       "id": 21
+    },
+    {
+      "tipoDoSistema": "propio",
+      "valueTiposDeMesas": "Pirata",
+      "faixaEtaria": "+18",
+      "title": "Piratas",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGgHi2bZC7fEs4QOrC5Hix8EjEM-7cRWzT0oflOqtcDca9v4Wk",
+      "mestre": "Chris",
+      "idMestre": "1",
+      "playersMin": "2",
+      "playersMax": "5",
+      "mapaPrincipal": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo-5T9wMiIBfI84PfCqHy11lKxKqR7EX7CAqd5GF90Y-khWmnd",
+      "descricao": "Uma mesa sobre piratas",
+      "mapasSecundarios": [
+        {
+          "title": "Batalha",
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8RaRUH5lG9P_4xaxZwn7jsUkQLJgvFSLmm67cnr2DJ7v3SnSJ"
+        },
+        {
+          "title": "mar",
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBdaveAuYQfS_rGVCJ3F7gcqMtv48IZm2pLaH2Bk6eYOqIlxEr"
+        },
+        {
+          "title": "Afundar",
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoKEdx5jBHMzUvKP8ug8mceedgLPHG6EF6ccu6gVeTMP3-5d1O"
+        }
+      ],
+      "id": 22
     }
   ]
 }
