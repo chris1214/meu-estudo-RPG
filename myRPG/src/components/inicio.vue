@@ -2,6 +2,7 @@
 import list from './show/list'
 import criarMesa from './show/criarMesa'
 export default{
+  props: ['id', 'name'],
   data(){
       return{
         filtro: '',
@@ -35,9 +36,10 @@ export default{
   },
   components:{
     list,
-    criarMesa
+    criarMesa,
   },
 }
+
 </script>
 <template>
   <div>
@@ -63,13 +65,17 @@ export default{
             </el-input>
       </span>
     </div>
-    <div class="background-IMG">
+    <div class="background-IMG" />
+    <div class="margin-top">
+      <list :filtro="filtro" title="Mesas" v-show="conteudo.list" :myShow="conteudo.list"/>
+      <criarMesa :id="id" :name="name" v-show="conteudo.criarMesa"/>
     </div>
-    <list :filtro="filtro" title="Mesas" v-show="conteudo.list" :myShow="conteudo.list"/>
-    <criarMesa v-show="conteudo.criarMesa"/>
   </div>
 </template>
 <style scoped>
+.margin-top {
+  margin-top: 65px;
+}
 .myMenu {
   position: absolute;
   top: 0;
@@ -102,4 +108,5 @@ export default{
   width: 100%;
   top: 0;
 }
+
 </style>

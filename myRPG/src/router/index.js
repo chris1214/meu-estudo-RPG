@@ -25,7 +25,7 @@ export default new Router({
       component: list,
     },
     {
-      path: '/inicio/:name:id',
+      path: '/inicio/:name/:id',
       name: 'inicio',
       component: inicio,
       props: true
