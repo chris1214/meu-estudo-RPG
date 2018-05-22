@@ -5,6 +5,7 @@ import create from '@/components/create'
 import list from '@/components/show/list'
 import inicio from '@/components/inicio'
 import mesa from '@/components/mesa'
+import faixaEtaria from '@/components/utils/faixaEtaria'
 
 Vue.use(Router)
 
@@ -35,6 +36,12 @@ export default new Router({
       path: '/inicio/:name/:id/:title/:mesaId',
       name: 'mesa',
       component: mesa,
+      props: true
+    },
+    {
+      path: '/inicio/:name/:id/:title/:mesaId/:faixaEtaria',
+      name: 'faixaEtaria',
+      component: faixaEtaria,
       props: true
     }
   ]

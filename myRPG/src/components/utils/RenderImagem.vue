@@ -1,23 +1,33 @@
 <script>
 export default {
-  props: ["label", "url", "height", "alt", "mestre", "faixaEtaria", "router", "name", "id"],
+  props: ["label", "url", "height", "alt", "mestre", "faixaEtaria", "router", "name", "id", "disabled", "faixaEtariaUser"],
   data() {
     return {
-      rota: ''
+      rota: '',
+      trava: false,
     }
   },
   methods: {
-    myRouter (){
-      this.rota = '/inicio/' + this.name + '/' + this.id + '/' + this.label + '/' + this.router
-     }
+    minhaRota (){
+        this.rota = '/inicio/' + this.name + '/' + this.id + '/' + this.label + '/' + this.router
+     },
+  },
+  watch: {
+    faixaEtariaUser: function (value){
+      if(value >= this.faixaEtaria){
+          this.trava = false;
+          this.rota = '/inicio/' + this.name + '/' + this.id + '/' + this.label + '/' + this.router
+        }else {
+          this.trava = true;
+          this.rota = '/inicio/' + this.name + '/' + this.id + '/' + this.label + '/' + this.router + '/' + this.faixaEtaria
+        }
+    },
   },
   created() {
-    this.myRouter();
+    this.minhaRota();
   }
 }
 </script>
-
-
 <template>
   <div slot="body">
 
@@ -26,6 +36,9 @@ export default {
       <div class="meu-thumbnail">
         <router-link :to="rota">
           <img :src="url" :alt="alt">
+          <div class="mesaTravada" v-show="trava">
+            <span class="trava"><strong>+{{ faixaEtaria }}</strong></span>
+          </div>
           <div class="margin-40-3">
             <span><strong>{{ label }}</strong></span>
           </div>
@@ -33,7 +46,7 @@ export default {
             <span><strong>{{ mestre }}</strong></span>
           </div>
           <div class="faixaEtaria">
-            <span><strong>{{ faixaEtaria }}</strong></span>
+            <span><strong>+{{ faixaEtaria }}</strong></span>
           </div>
         </router-link>
       </div>
@@ -42,6 +55,9 @@ export default {
   </div>
 </template>
 <style scoped>
+.myColor {
+  color: red
+}
 .mestre {
   display: inline-flex;
   left: 2%;
@@ -50,7 +66,7 @@ export default {
   top: 3%;
   bottom: 25%;
   font-size: 12px;
-  line-height: 3px;
+  line-height: 100%;
 }
 .faixaEtaria {
   display: inline-flex;
@@ -61,6 +77,9 @@ export default {
   bottom: 25%;
   font-size: 12px;
   line-height: 3px;
+}
+.mesaTravada {
+  opacity: 0;
 }
 .image {
   background-size: cover;
@@ -107,7 +126,7 @@ export default {
     opacity: 0.88;
     overflow: hidden;
     position: relative;
-    transition: all 0.4s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
 }
 .meu-thumbnail img {
     backface-visibility: hidden;
@@ -150,6 +169,21 @@ span{
 
 .meu-thumbnail:hover span{
     opacity: 0;
+}
+.meu-thumbnail:hover span.trava{
+    opacity: 1;
+    color: red;
+}
+.meu-thumbnail:hover div.mesaTravada{
+  display: inline-flex;
+  left: 10%;
+  right: 10%;
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  font-size: 50px;
+  line-height: 275%;
+  opacity: 1;
 }
 
 .margin-10px {

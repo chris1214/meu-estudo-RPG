@@ -62,7 +62,7 @@ export default{
               {min: 5, max: 50, message: 'No minimo 5 caracteres e no maximo 50', trigger: 'blur'}
             ],
             confirmePassowrd: [{ required: true, message: 'Confirmação de senha é obrigatório'}],
-            dataNascimento: [{ required: true, type: 'date', message: 'Data de Nascimento é obrigatório'}],
+            dataNascimento: [{ required: true, message: 'Data de Nascimento é obrigatório',}],
             tags: {
               desejo: [{ required: true, message: 'Desejo é obrigatório', trigger: 'change'}],
               experiencia: [{ required: true, message: 'Experiencia é obrigatório', trigger: 'change'}],
@@ -212,7 +212,9 @@ export default{
                       <div class="block">
                         <el-date-picker
                           v-model.date="resultados.dataNascimento"
-                          type="date">
+                          type="date"
+                          format="dd/MM/yyyy"
+                          value-format="dd-MM-yyyy">
                         </el-date-picker>
                       </div>
                     </el-form-item>

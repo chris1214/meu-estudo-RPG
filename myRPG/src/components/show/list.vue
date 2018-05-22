@@ -7,6 +7,11 @@ export default{
          fotos: [],
          imageUrl: '',
          httpMesa: 'http://localhost:3000/mesas',
+         httpUser: 'http://localhost:3000/users',
+         user: [],
+         renderImg: true,
+         img: 'https://image.freepik.com/icones-gratis/simbolo-de-cadeado_318-50592.jpg',
+         faixaEtariaUser: ''
       }
   },
   methods: {
@@ -22,6 +27,15 @@ export default{
     myGet(){
       this.getAll(`${this.httpMesa}`, 'fotos');
     },
+    userOn(){
+      this.$http.get(`${this.httpUser}/${this.id}`).then(
+        response => {
+          this.user = response.body
+        }, error => {
+          console.log("usuario invalido")
+        }
+      )
+    }
   },
   computed: {
     filterFotos (){
@@ -32,9 +46,6 @@ export default{
         return this.fotos;
       }
     },
-    enter(id){
-      console.log(id)
-    },
   },
   watch:{
     myShow: function (value){
@@ -42,11 +53,43 @@ export default{
         this.myGet();
       }
     },
+    user: function (resultado){
+      var userDate = new Date(this.user.dataNascimento);
+      var newDate = new Date();
+      var faixaEtaria;
+      var idade =  Math.floor(Math.ceil(Math.abs(userDate.getTime() - newDate.getTime()) / (1000 * 3600 * 24)) / 365.25);
+
+      if (idade < 10){
+
+        faixaEtaria = '9'
+
+      } else if(idade > 10 && idade < 12){
+
+        faixaEtaria = '10'
+
+      } else if(idade > 12 && idade < 14){
+
+        faixaEtaria = '12'
+
+      } else if(idade > 14 && idade < 16){
+
+        faixaEtaria = '14'
+
+      } else if(idade > 16 && idade < 18){
+
+        faixaEtaria = '16'
+
+      } else if(idade > 18){
+
+        faixaEtaria = '18'
+
+      }
+      this.faixaEtariaUser = faixaEtaria;
+    },
   },
   created(){
     this.myGet();
-    console.log(this.name)
-    console.log(this.id)
+    this.userOn();
   },
   components:{
     renderImagem,
@@ -63,8 +106,9 @@ export default{
       </el-row>
       <el-row :gutter="20">
         <div v-for="foto in filterFotos">
-          <el-col  :xs="12" :sm="6" :md="6" :lg="4" :xl="4">
+          <el-col :xs="12" :sm="6" :md="6" :lg="4" :xl="4" @click="enter()">
             <renderImagem
+              :faixaEtariaUser="faixaEtariaUser"
               :id="id"
               :name="name"
               :router="foto.id"
