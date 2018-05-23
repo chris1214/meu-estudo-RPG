@@ -5,6 +5,7 @@ export default {
     return {
       rota: '',
       trava: false,
+      myColor: ''
     }
   },
   methods: {
@@ -22,6 +23,11 @@ export default {
           this.rota = '/inicio/' + this.name + '/' + this.id + '/' + this.label + '/' + this.router + '/' + this.faixaEtaria
         }
     },
+    trava: function (value) {
+      if (value){
+        this.myColor = 'color: red'
+      }
+    }
   },
   created() {
     this.minhaRota();
@@ -46,7 +52,7 @@ export default {
             <span><strong>{{ mestre }}</strong></span>
           </div>
           <div class="faixaEtaria">
-            <span><strong>+{{ faixaEtaria }}</strong></span>
+            <span :style="myColor"><strong>+{{ faixaEtaria }}</strong></span>
           </div>
         </router-link>
       </div>
@@ -70,7 +76,7 @@ export default {
 }
 .faixaEtaria {
   display: inline-flex;
-  left: 72%;
+  left: 56%;
   right: 3%;
   position: absolute;
   top: 4%;

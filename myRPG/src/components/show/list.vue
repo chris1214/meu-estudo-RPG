@@ -54,34 +54,35 @@ export default{
       }
     },
     user: function (resultado){
-      var userDate = new Date(this.user.dataNascimento);
+      var user = resultado.dataNascimento;
+      var userDate = new Date(user);
+
       var newDate = new Date();
       var faixaEtaria;
       var idade =  Math.floor(Math.ceil(Math.abs(userDate.getTime() - newDate.getTime()) / (1000 * 3600 * 24)) / 365.25);
-
       if (idade < 10){
 
         faixaEtaria = '9'
 
-      } else if(idade > 10 && idade < 12){
+      } else if(idade >= 10 && idade <= 11){
 
-        faixaEtaria = '10'
+         faixaEtaria = '10'
 
-      } else if(idade > 12 && idade < 14){
+      } else if(idade >= 12 && idade <= 13){
 
-        faixaEtaria = '12'
+         faixaEtaria = '12'
 
-      } else if(idade > 14 && idade < 16){
+      } else if(idade >= 14 && idade <= 15){
 
-        faixaEtaria = '14'
+         faixaEtaria = '14'
 
-      } else if(idade > 16 && idade < 18){
+      } else if(idade >= 16 && idade <= 17){
 
-        faixaEtaria = '16'
+         faixaEtaria = '16'
 
-      } else if(idade > 18){
+      } else if(idade >= 18){
 
-        faixaEtaria = '18'
+         faixaEtaria = '18'
 
       }
       this.faixaEtariaUser = faixaEtaria;

@@ -1,6 +1,6 @@
 <script>
-import list from './show/list'
-import criarMesa from './show/criarMesa'
+import list from './show/list';
+import criarMesa from './show/criarMesa';
 export default{
   props: ['id', 'name'],
   data(){
@@ -64,7 +64,7 @@ export default{
   <div>
     <div>
       <el-row :gutter="20" class="myMenu">
-        <el-col :xs="12" :sm="12" :md="12" :lg="12" :xl="12">
+        <el-col :xs="24" :sm="18" :md="16" :lg="14" :xl="12">
           <el-menu :default-active="activeIndex" mode="horizontal">
             <el-menu-item class="myDisableImg" disabled index="1">
               <div class="containerIMG">
@@ -78,7 +78,7 @@ export default{
             <el-menu-item index="6" @click="myMenu(menu.perfil)">Perfil</el-menu-item>
           </el-menu>
         </el-col>
-        <el-col :xs="12" :sm="6" :md="6" :lg="4" :xl="4" style="margin-top: 10px;">
+        <el-col :xs="12" :sm="12" :md="6" :lg="4" :xl="4" style="margin-top: 10px;">
           <span :myShow="conteudo.list">
             <el-input
               type="text"
@@ -88,7 +88,7 @@ export default{
             </el-input>
           </span>
         </el-col>
-        <el-col :xs="12" :sm="6" :md="6" :lg="7" :xl="7" style="margin-top: 10px; right: 0; position: relative">
+        <el-col :xs="12" :sm="12" :md="6" :lg="6" :xl="8" style="margin-top: 10px; right: 0; position: relative">
           <el-select v-model="value5" multiple placeholder="Select">
             <el-option
               v-for="item in options"

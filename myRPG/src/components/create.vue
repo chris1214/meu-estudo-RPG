@@ -214,7 +214,7 @@ export default{
                           v-model.date="resultados.dataNascimento"
                           type="date"
                           format="dd/MM/yyyy"
-                          value-format="dd-MM-yyyy">
+                          value-format="yyyy-MM-dd">
                         </el-date-picker>
                       </div>
                     </el-form-item>

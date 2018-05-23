@@ -44,8 +44,8 @@ export default{
   <div>
     <div class="img">
       <b-container>
-        <b-row style="margin-top: 10%;">
-          <b-col md="8" offset-md="2">
+        <b-row style="margin-top: 2%;">
+          <b-col md="11" offset-md="1">
             <b-card :title="mesa.title"
                     class="mb-2">
               <el-tabs>
@@ -108,7 +108,9 @@ export default{
   </div>
 </template>
 <style scoped>
-
+.card {
+  background-color: #ffffff5c;
+}
 .card-title {
    text-align: center;
 }
