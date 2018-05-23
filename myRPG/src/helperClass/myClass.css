@@ -4,3 +4,17 @@
 .el-input, .el-select {
   width: 100%
 }
+body {
+  font-family: fantasy;
+}
+.card {
+  background-color: #000000c7;
+  color: white;
+  min-height: 508px;
+}
+.el-form-item__label {
+  color: white;
+}
+.el-tabs__item {
+  color: white;
+}

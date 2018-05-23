@@ -63,6 +63,7 @@ export default{
             playersMax: '',
             mapaPrincipal: '',
             descricao: '',
+            players: [],
             mapasSecundarios: []
           },
           mapasSecundariosTitle: '',
@@ -92,6 +93,7 @@ export default{
               playersMax: '',
               mapaPrincipal: '',
               descricao: '',
+              players: [],
               mapasSecundarios: []
             }
           }, error => {
