@@ -33,7 +33,7 @@ export default {
       }else {
          this.$message.error('Campo E-mail ou Senha vazio');
       }
-    }
+    },
   },
   created(){
     this.myGet();
@@ -54,7 +54,7 @@ export default {
                 <el-form-item label="Email">
                   <el-input v-model="values.email"></el-input>
                 </el-form-item>
-                <el-form-item label="Senha">
+                <el-form-item label="enter">
                   <el-input v-model="values.password" type="password"></el-input>
                 </el-form-item>
                 <el-form-item>

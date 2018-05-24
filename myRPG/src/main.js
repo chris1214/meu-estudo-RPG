@@ -9,11 +9,16 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import helperClass from './helperClass/myClass.css';
-import locale from 'element-ui/lib/locale/lang/en'
+import locale from 'element-ui/lib/locale/lang/en';
+import draggable from 'vuedraggable';
 
 import VueResource from 'vue-resource'
 
-Vue.use(VueResource)
+import VueDragResize from 'vue-drag-resize'
+
+Vue.component('vue-drag-resize', VueDragResize)
+Vue.use(VueResource);
+Vue.use(draggable);
 Vue.use(BootstrapVue);
 Vue.config.productionTip = false;
 Vue.use(ElementUI, { locale });

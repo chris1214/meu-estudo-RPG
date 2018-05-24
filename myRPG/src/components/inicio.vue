@@ -50,14 +50,13 @@ export default{
         this.conteudo.criarMesa = true;
       }
         console.log(this.conteudo.list)
-    }
+    },
   },
   components:{
     list,
     criarMesa,
   },
 }
-
 
 </script>
 <template>
@@ -89,14 +88,7 @@ export default{
           </span>
         </el-col>
         <el-col :xs="12" :sm="12" :md="6" :lg="6" :xl="8" style="margin-top: 10px; right: 0; position: relative">
-          <el-select v-model="value5" multiple placeholder="Select">
-            <el-option
-              v-for="item in options"
-              :key="item.value"
-              :label="item.label"
-              :value="item.value">
-            </el-option>
-          </el-select>
+
         </el-col>
       </el-row>
     </div>
@@ -108,6 +100,10 @@ export default{
   </div>
 </template>
 <style scoped>
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+    width: 200px;
+    min-height: 400px;
+  }
 .el-menu--horizontal {
   border-bottom: none;
 }
@@ -149,6 +145,7 @@ export default{
   top: 0;
   background-repeat:no-repeat;
 }
+
 
 
 </style>
