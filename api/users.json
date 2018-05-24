@@ -275,45 +275,140 @@
   ],
   "chatMesa": [
     {
-      "userText": "aass",
+      "userText": "/r d20",
+      "text": "/r d20",
       "user": "Admin",
       "userID": "1",
       "mesaID": "8",
       "id": 1
     },
     {
-      "userText": "ai sim",
+      "userText": "/r d20",
+      "text": "/r d20 = 17",
       "user": "Admin",
       "userID": "1",
       "mesaID": "8",
       "id": 2
     },
     {
-      "userText": "Agora funciona",
+      "userText": "/r d20",
+      "text": "/r d20 = 5",
       "user": "Admin",
       "userID": "1",
+      "mesaID": "8",
       "id": 3
     },
     {
-      "userText": "isso ta errado kkkkkkk",
+      "userText": "bla",
+      "text": "bla",
       "user": "Admin",
       "userID": "1",
-      "mesaID": "7",
+      "mesaID": "8",
       "id": 4
     },
     {
-      "userText": "Agora sim",
+      "userText": "isso ai agora sim essa merda funciona",
+      "text": "isso ai agora sim essa merda funciona",
       "user": "Admin",
       "userID": "1",
-      "mesaID": "7",
+      "mesaID": "8",
       "id": 5
     },
     {
-      "userText": "Uma aventura medieval",
+      "userText": "/r d20",
+      "text": "/r d20 = 19",
       "user": "Admin",
       "userID": "1",
-      "mesaID": "1",
+      "mesaID": "8",
       "id": 6
+    },
+    {
+      "userText": "/r d10",
+      "text": "/r d20 = 3",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 7
+    },
+    {
+      "userText": "/r d10",
+      "text": "/r d104",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 8
+    },
+    {
+      "userText": "/r d10",
+      "text": "/r d10 9",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 9
+    },
+    {
+      "userText": "/r d10",
+      "text": "/r d10=5",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 10
+    },
+    {
+      "userText": "/r d20",
+      "text": "/r d20=15",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 11
+    },
+    {
+      "userText": "/r d20",
+      "text": "/r d20 = 8",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 12
+    },
+    {
+      "userText": "/r d10",
+      "text": "/r d10 = 10",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 13
+    },
+    {
+      "userText": "asgydcasygdva",
+      "text": "asgydcasygdva",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 14
+    },
+    {
+      "userText": "/r",
+      "text": "/r",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "7",
+      "id": 15
+    },
+    {
+      "userText": "/r d20",
+      "text": "/r d20 = 19",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "7",
+      "id": 16
+    },
+    {
+      "userText": "rola um dado ai ",
+      "text": "rola um dado ai ",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "7",
+      "id": 17
     }
   ]
 }

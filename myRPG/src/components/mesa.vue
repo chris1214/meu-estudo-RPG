@@ -10,13 +10,12 @@ export default{
         voltar: `/inicio/${this.name}/${this.id}`,
         chat: {
           userText: '',
+          text: '',
           user: this.name,
           userID: this.id,
           mesaID: this.mesaId
         },
-        myChat:[
-
-        ],
+        myChat:[],
       }
   },
   components:{
@@ -74,19 +73,33 @@ export default{
       this.totalDeVagas();
     },
     submitChat(){
+      var texto = this.chat.userText
+      var textTr = texto.split('d')[0]
+      var dado = texto.split('d')[1]
+      var numeroDado = Number(dado)
+      var text = this.chat.text = this.chat.userText;
+      if (textTr == '/r '){
+        if(typeof numeroDado === "number"){
+          var resultado = Math.round(Math.random() * dado)
+          this.chat.text = '/r d' + dado + ' = ' + resultado
+        }
+      }
+
       this.$http.post(`${this.httpChatMesa}`, this.chat).then(
         response => {
+          this.getAll(`${this.httpChatMesa}`, 'myChat', `?mesaID=${this.mesaId}`);
           this.chat = {
             userText: '',
+            text: '',
             user: this.name,
             userID: this.id,
+            mesaID: this.mesaId
           }
-          this.getAll(`${this.httpChatMesa}`, 'myChat', `?mesaID=${this.mesaId}`);
         }, error => {
           console.log('Error')
         }
       )
-    }
+    },
   },
   watch: {
   },
@@ -193,7 +206,7 @@ export default{
                         <div v-for="chat in myChat">
                           <p>
                             <b>{{chat.user}}: </b>
-                            {{chat.userText}}
+                            {{chat.text}}
                           </p>
                         </div>
                       </b-card>

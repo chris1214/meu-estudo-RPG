@@ -6,7 +6,8 @@ export default{
         width: 0,
         height: 0,
         top: 0,
-        left: 0
+        left: 0,
+        videoId: 'videoId',
       }
   },
   components:{
@@ -30,6 +31,7 @@ export default{
       <p>{{ top }} х {{ left }} </p>
       <p>{{ width }} х {{ height }}</p>
     </VueDragResize>
+
   </div>
 </template>
 <style>
