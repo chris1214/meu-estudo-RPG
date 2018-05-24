@@ -5,21 +5,35 @@ export default{
       return{
         mesa: [],
         httpMesa: 'http://localhost:3000/mesas',
+        httpChatMesa: 'http://localhost:3000/chatMesa',
         activeName: 'first',
-        voltar: `/inicio/${this.name}/${this.id}`
+        voltar: `/inicio/${this.name}/${this.id}`,
+        chat: {
+          userText: '',
+          user: this.name,
+          userID: this.id,
+          mesaID: this.mesaId
+        },
+        myChat:[
+
+        ],
       }
   },
   components:{
   },
   methods: {
-    getAll(){
-      this.$http.get(`${this.httpMesa}/${this.mesaId}`).then(
+    getAll(http, mesa, id){
+      this.$http.get(`${http}/${id}`).then(
         response => {
-          this.mesa = response.body;
+          this[mesa] = response.body;
         }, error => {
           console.log('Error')
         }
       )
+    },
+    getMesa() {
+      this.getAll(`${this.httpMesa}`, 'mesa', `${this.mesaId}`);
+      this.getAll(`${this.httpChatMesa}`, 'myChat', `?mesaID=${this.mesaId}`);
     },
     enviar(total, players){
       var user = this.name;
@@ -58,15 +72,28 @@ export default{
     },
     entrarNaMesa(){
       this.totalDeVagas();
-
+    },
+    submitChat(){
+      this.$http.post(`${this.httpChatMesa}`, this.chat).then(
+        response => {
+          this.chat = {
+            userText: '',
+            user: this.name,
+            userID: this.id,
+          }
+          this.getAll(`${this.httpChatMesa}`, 'myChat', `?mesaID=${this.mesaId}`);
+        }, error => {
+          console.log('Error')
+        }
+      )
     }
   },
+  watch: {
+  },
   created(){
-    this.getAll();
+    this.getMesa();
   }
 }
-
-
 </script>
 <template>
   <div>
@@ -163,38 +190,28 @@ export default{
                     </b-col>
                     <b-col md="10">
                       <b-card class="cardChat" title="Bate-papo">
-                        <p><b>{{name}}: </b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet
-                          atque consectetur culpa cum deleniti, ducimus earum est, et nesciunt nostrum nulla
-                          perspiciatis praesentium ratione recusandae rem tenetur voluptatibus voluptatum?</p>
-                        <p><b>{{name}}: </b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet
-                          atque consectetur culpa cum deleniti, ducimus earum est, et nesciunt nostrum nulla
-                          perspiciatis praesentium ratione recusandae rem tenetur voluptatibus voluptatum?</p>
-                        <p><b>{{name}}: </b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet
-                          atque consectetur culpa cum deleniti, ducimus earum est, et nesciunt nostrum nulla
-                          perspiciatis praesentium ratione recusandae rem tenetur voluptatibus voluptatum?</p>
-                        <p><b>{{name}}: </b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet
-                          atque consectetur culpa cum deleniti, ducimus earum est, et nesciunt nostrum nulla
-                          perspiciatis praesentium ratione recusandae rem tenetur voluptatibus voluptatum?</p>
-                        <p><b>{{name}}: </b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet
-                          atque consectetur culpa cum deleniti, ducimus earum est, et nesciunt nostrum nulla
-                          perspiciatis praesentium ratione recusandae rem tenetur voluptatibus voluptatum?</p>
-                        <p><b>{{name}}: </b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet
-                          atque consectetur culpa cum deleniti, ducimus earum est, et nesciunt nostrum nulla
-                          perspiciatis praesentium ratione recusandae rem tenetur voluptatibus voluptatum?</p>
-                        <p><b>{{name}}: </b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet
-                          atque consectetur culpa cum deleniti, ducimus earum est, et nesciunt nostrum nulla
-                          perspiciatis praesentium ratione recusandae rem tenetur voluptatibus voluptatum?</p>
-                        <p><b>{{name}}: </b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet
-                          atque consectetur culpa cum deleniti, ducimus earum est, et nesciunt nostrum nulla
-                          perspiciatis praesentium ratione recusandae rem tenetur voluptatibus voluptatum?</p>
-                        <p><b>{{name}}: </b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet
-                          atque consectetur culpa cum deleniti, ducimus earum est, et nesciunt nostrum nulla
-                          perspiciatis praesentium ratione recusandae rem tenetur voluptatibus voluptatum?</p>
-                        <p><b>{{name}}: </b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet
-                          atque consectetur culpa cum deleniti, ducimus earum est, et nesciunt nostrum nulla
-                          perspiciatis praesentium ratione recusandae rem tenetur voluptatibus voluptatum?</p>
+                        <div v-for="chat in myChat">
+                          <p>
+                            <b>{{chat.user}}: </b>
+                            {{chat.userText}}
+                          </p>
+                        </div>
                       </b-card>
-                      <el-input type="textarea"></el-input>
+                      <el-form>
+                        <el-row>
+                          <el-col :span="22">
+                            <el-form-item>
+                              <el-input class="myInputSubmit" type="text" v-model="chat.userText"></el-input>
+                            </el-form-item>
+                          </el-col>
+                          <el-col :span="2">
+                            <el-form-item>
+                              <el-button class="myButtonSubmit" native-type="submit" @click="submitChat" type="primary" size="mini">Enviar</el-button>
+                            </el-form-item>
+                          </el-col>
+                        </el-row>
+                      </el-form>
+
                     </b-col>
                   </b-row>
                 </el-tab-pane>
@@ -219,9 +236,20 @@ export default{
   color: #ffffff;
   background-color: #0000003b;
 }
-
+.myInputSubmit input.el-input__inner{
+  height: 60px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
 </style>
 <style scoped>
+
+.myButtonSubmit {
+  height: 60px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
 .char {
   width: 39px;
   height: 35px;
@@ -233,6 +261,7 @@ export default{
   min-height: 70vh;
   max-height: 70vh;
   background-color: #fffcfc4d;
+  border-bottom-left-radius: 0;
 }
 .card-title {
    text-align: center;

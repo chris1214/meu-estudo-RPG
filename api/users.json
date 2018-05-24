@@ -272,5 +272,48 @@
       "vagas": 0,
       "id": 8
     }
+  ],
+  "chatMesa": [
+    {
+      "userText": "aass",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 1
+    },
+    {
+      "userText": "ai sim",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 2
+    },
+    {
+      "userText": "Agora funciona",
+      "user": "Admin",
+      "userID": "1",
+      "id": 3
+    },
+    {
+      "userText": "isso ta errado kkkkkkk",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "7",
+      "id": 4
+    },
+    {
+      "userText": "Agora sim",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "7",
+      "id": 5
+    },
+    {
+      "userText": "Uma aventura medieval",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "1",
+      "id": 6
+    }
   ]
 }

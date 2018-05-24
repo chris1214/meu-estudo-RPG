@@ -161,13 +161,6 @@ export default{
             this.$message.error('campo Senha e Confirmação de Senha devem ser iguais');
           }
         }else{
-        console.log(email)
-        console.log(name)
-        console.log(password)
-        console.log(confirmePassowrd)
-        console.log(dataNascimento)
-        console.log(desejo)
-        console.log(experiencia)
           this.$message.error('Todos os campos com (*) são obrigatórios');
         }
       }

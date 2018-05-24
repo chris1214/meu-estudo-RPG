@@ -50,12 +50,12 @@ export default {
           <b-card title="Login"
                   class="mb-2">
             <div>
-              <el-form label-position="top">
+              <el-form ref="form" label-position="top">
                 <el-form-item label="Email">
                   <el-input v-model="values.email"></el-input>
                 </el-form-item>
-                <el-form-item label="enter">
-                  <el-input v-model="values.password" type="password"></el-input>
+                <el-form-item label="Senha">
+                  <el-input @enter.13="submit" v-model="values.password" type="password"></el-input>
                 </el-form-item>
                 <el-form-item>
                   <el-row>
@@ -68,7 +68,7 @@ export default {
                   </el-row>
                 </el-form-item>
                 <el-form-item>
-                  <el-button @click="login" type="primary" size="mini">
+                  <el-button native-type="submit" @click="login" type="primary" size="mini">
                     Login
                   </el-button>
                 </el-form-item>
