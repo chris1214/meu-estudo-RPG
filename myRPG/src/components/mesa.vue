@@ -5,6 +5,7 @@ export default{
       return{
         mesa: [],
         httpMesa: 'http://localhost:3000/mesas',
+        httpPlayers: 'http://localhost:3000/players',
         httpChatMesa: 'http://localhost:3000/chatMesa',
         activeName: 'first',
         voltar: `/inicio/${this.name}/${this.id}`,
@@ -19,7 +20,13 @@ export default{
         value1: null,
         url: '',
         urlYoutube: '',
-        play: ''
+        play: '',
+        players: [],
+        newPlayers: {
+          user: this.name,
+          userId: this.id,
+          mesaId: this.mesaId,
+        },
       }
   },
   components:{
@@ -37,25 +44,36 @@ export default{
     getMesa() {
       this.getAll(`${this.httpMesa}`, 'mesa', `${this.mesaId}`);
       this.getAll(`${this.httpChatMesa}`, 'myChat', `?mesaID=${this.mesaId}`);
+      this.getAll(`${this.httpPlayers}`, 'players', `?mesaId=${this.mesaId}`);
+    },
+    attPlayers() {
     },
     enviar(total, players){
       var user = this.name;
       var id = this.id;
       var myPush = this.mesa.players;
 
-      console.log(total)
-      console.log(players)
-
       if(players >= this.mesa.playersMax){
         this.$message.error('Desculpenos, porem a mesa esta lotada');
       }else {
-
         myPush.push({'user': user, 'id': id});
         this.mesa.vagas = this.mesa.vagas - total;
 
         this.$http.put(`${this.httpMesa}/${this.mesaId}`, this.mesa).then(
           response => {
             this.mesa = response.body;
+          }, error => {
+            console.log('Error')
+          }
+        )
+        this.$http.post(`${this.httpPlayers}`, this.newPlayers).then(
+          response => {
+            this.newPlayers = {
+              user: this.name,
+              userId: this.id,
+              mesaId: this.mesaId,
+            }
+            this.getAll(`${this.httpPlayers}`, 'players', `?mesaId=${this.mesaId}`);
           }, error => {
             console.log('Error')
           }
@@ -74,6 +92,7 @@ export default{
       this.enviar(total, players)
     },
     entrarNaMesa(){
+      this.getAll(`${this.httpPlayers}`, 'players', `?mesaId=${this.mesaId}`);
       this.totalDeVagas();
     },
     submitChat(){
@@ -86,7 +105,7 @@ export default{
       var numeroDado = Number(dado)
       var text = this.chat.text = this.chat.userText;
 
-      if(puse == "pause"){
+      if(puse == "exite"){
         this.play = ''
       }
       if(textYoutube == "!"){
@@ -114,7 +133,7 @@ export default{
         }
       )
     },
-    getId(url) {
+    getLink(url) {
         var regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
         var match = url.match(regExp);
 
@@ -125,7 +144,7 @@ export default{
         }
     },
     chama(urlYoutube){
-      var videoId = this.getId(urlYoutube);
+      var videoId = this.getLink(urlYoutube);
       this.url = 'https://www.youtube.com/v/' + videoId + '?autoplay=1';
       this.play = this.url
     }
@@ -166,9 +185,9 @@ export default{
                       </el-col>
                       <el-col>
                         <p><b>Players: </b>
-                          <span v-for="player in mesa.players">
+                          <span v-for="player in players">
                               {{player.user}},
-                            </span>
+                          </span>
                         </p>
                       </el-col>
                       <el-col>
@@ -231,6 +250,8 @@ export default{
                       </el-collapse-item>
                       <el-collapse-item title="Bot-commands">
                         <p style="color: black"><b>Rolar dado = </b>/r d20 (Troque o 20 pela quantidade de faces do dado)</p>
+                        <p style="color: black"><b>!play (url do video) = </b>toca musica do Youtube</p>
+                        <p style="color: black"><b>!exite = </b>tira a musica</p>
                       </el-collapse-item>
                     </el-collapse>
                   </b-col>

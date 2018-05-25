@@ -1,6 +1,8 @@
 <script>
 import list from './show/list';
 import criarMesa from './show/criarMesa';
+import minhasMesas from './show/minhasMesas';
+import MesasParticipo from './show/MesasParticipo';
 export default{
   props: ['id', 'name'],
   data(){
@@ -17,6 +19,8 @@ export default{
         conteudo: {
           list: true,
           criarMesa: false,
+          minhasMesas: false,
+          MesasParticipo: false,
         },
         options: [
           {
@@ -44,17 +48,34 @@ export default{
       if(valor == 'procurarPorMesa'){
         this.conteudo.list = true;
         this.conteudo.criarMesa = false;
+        this.conteudo.minhasMesas = false;
+        this.conteudo.MesasParticipo = false;
       }
       if(valor == 'criarMesa'){
         this.conteudo.list = false;
+        this.conteudo.minhasMesas = false;
+        this.conteudo.MesasParticipo = false;
         this.conteudo.criarMesa = true;
       }
-        console.log(this.conteudo.list)
+      if(valor == 'minhasMesas'){
+        this.conteudo.list = false;
+        this.conteudo.minhasMesas = true;
+        this.conteudo.criarMesa = false;
+        this.conteudo.MesasParticipo = false;
+      }
+      if(valor == 'MesasParticipo'){
+        this.conteudo.list = false;
+        this.conteudo.minhasMesas = false;
+        this.conteudo.criarMesa = false;
+        this.conteudo.MesasParticipo = true;
+      }
     },
   },
   components:{
     list,
     criarMesa,
+    minhasMesas,
+    MesasParticipo,
   },
 }
 
@@ -96,6 +117,8 @@ export default{
     <div class="margin-top">
       <list :name="name" :id="id" :filtro="filtro" title="Mesas" v-show="conteudo.list" :myShow="conteudo.list"/>
       <criarMesa :name="name" :id="id" v-show="conteudo.criarMesa"/>
+      <minhasMesas :name="name" :id="id" v-show="conteudo.minhasMesas"></minhasMesas>
+      <MesasParticipo :name="name" :id="id" v-show="conteudo.MesasParticipo"></MesasParticipo>
     </div>
   </div>
 </template>

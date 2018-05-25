@@ -71,13 +71,8 @@
           "url": "http://2.bp.blogspot.com/-4Vs9-1R7poY/VOsXCp7gRcI/AAAAAAAAIJc/g934BTN8qm0/s1600/526aaf1993c5f13c2924644d83be7e68.jpg"
         }
       ],
-      "players": [
-        {
-          "user": "Admin",
-          "id": "1"
-        }
-      ],
-      "vagas": 4,
+      "players": [],
+      "vagas": 5,
       "id": 1
     },
     {
@@ -120,17 +115,8 @@
           "url": "https://orig00.deviantart.net/7924/f/2013/013/4/b/dragons_by_88grzes-d5rdw8e.jpg"
         }
       ],
-      "players": [
-        {
-          "user": "Admin",
-          "id": "1"
-        },
-        {
-          "user": "Admin",
-          "id": "1"
-        }
-      ],
-      "vagas": 1,
+      "players": [],
+      "vagas": 2,
       "id": 3
     },
     {
@@ -155,8 +141,21 @@
           "url": "http://legend-of-mythos.weebly.com/uploads/1/7/8/3/17838111/796330_orig.jpg"
         }
       ],
-      "players": [],
-      "vagas": 5,
+      "players": [
+        {
+          "user": "Admin",
+          "id": "1"
+        },
+        {
+          "user": "Chris",
+          "id": "2"
+        },
+        {
+          "user": "Chris",
+          "id": "2"
+        }
+      ],
+      "vagas": 2,
       "id": 4
     },
     {
@@ -225,13 +224,8 @@
           "url": "http://2.bp.blogspot.com/-4Vs9-1R7poY/VOsXCp7gRcI/AAAAAAAAIJc/g934BTN8qm0/s1600/526aaf1993c5f13c2924644d83be7e68.jpg"
         }
       ],
-      "players": [
-        {
-          "user": "Admin",
-          "id": "1"
-        }
-      ],
-      "vagas": 14,
+      "players": [],
+      "vagas": 15,
       "id": 7
     },
     {
@@ -254,27 +248,11 @@
       ],
       "players": [
         {
-          "user": "Admin",
-          "id": "1"
-        },
-        {
-          "user": "Admin",
-          "id": "1"
-        },
-        {
-          "user": "Admin",
-          "id": "1"
-        },
-        {
-          "user": "Admin",
-          "id": "1"
-        },
-        {
-          "user": "Admin",
-          "id": "1"
+          "user": "Chris",
+          "id": "2"
         }
       ],
-      "vagas": 0,
+      "vagas": 4,
       "id": 8
     }
   ],
@@ -582,6 +560,48 @@
       "userID": "1",
       "mesaID": "8",
       "id": 38
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "text": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 39
+    },
+    {
+      "userText": "!exite",
+      "text": "!exite",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 40
+    }
+  ],
+  "players": [
+    {
+      "user": "Admin",
+      "userId": "1",
+      "mesaId": "4",
+      "id": 1
+    },
+    {
+      "user": "Chris",
+      "userId": "2",
+      "mesaId": "4",
+      "id": 2
+    },
+    {
+      "user": "Chris",
+      "userId": "2",
+      "mesaId": "4",
+      "id": 3
+    },
+    {
+      "user": "Chris",
+      "userId": "2",
+      "mesaId": "8",
+      "id": 4
     }
   ]
 }
