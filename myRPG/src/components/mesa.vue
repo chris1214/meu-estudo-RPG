@@ -16,6 +16,10 @@ export default{
           mesaID: this.mesaId
         },
         myChat:[],
+        value1: null,
+        url: '',
+        urlYoutube: '',
+        play: ''
       }
   },
   components:{
@@ -74,10 +78,20 @@ export default{
     },
     submitChat(){
       var texto = this.chat.userText
-      var textTr = texto.split('d')[0]
-      var dado = texto.split('d')[1]
+      var textYoutube = texto.split('play')[0];
+      var urlYoutube = texto.split('play')[1];
+      var puse = texto.split('!')[1];
+      var textTr = texto.split('d')[0];
+      var dado = texto.split('d')[1];
       var numeroDado = Number(dado)
       var text = this.chat.text = this.chat.userText;
+
+      if(puse == "pause"){
+        this.play = ''
+      }
+      if(textYoutube == "!"){
+        this.chama(urlYoutube)
+      }
       if (textTr == '/r '){
         if(typeof numeroDado === "number"){
           var resultado = Math.round(Math.random() * dado)
@@ -100,6 +114,21 @@ export default{
         }
       )
     },
+    getId(url) {
+        var regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+        var match = url.match(regExp);
+
+        if (match && match[2].length == 11) {
+            return match[2];
+        } else {
+            return 'error';
+        }
+    },
+    chama(urlYoutube){
+      var videoId = this.getId(urlYoutube);
+      this.url = 'https://www.youtube.com/v/' + videoId + '?autoplay=1';
+      this.play = this.url
+    }
   },
   watch: {
   },
@@ -111,139 +140,148 @@ export default{
 <template>
   <div>
     <div class="img">
-      <b-container>
-        <b-row style="margin-top: 2%;">
-          <b-col md="11" offset-md="1">
-            <b-card :title="mesa.title"
-                    class="mb-2">
-              <el-tabs>
-                <el-tab-pane label="Descrição da mesa">
+    </div>
+    <b-container>
+      <b-row style="margin-top: 2%;">
+        <b-col md="11" offset-md="1">
+          <b-card :title="mesa.title"
+                  class="mb-2">
+            <el-tabs>
+              <el-tab-pane label="Descrição da mesa">
 
-                  <el-row>
-                    <el-col :span="12">
-                      <el-row :gutter="40">
-                        <el-col>
-                          <p><b>Mestre: </b>{{mesa.mestre}}</p>
-                        </el-col>
-                        <el-col>
-                          <p><b>Faixa Etaria: </b>{{mesa.faixaEtaria}}</p>
-                        </el-col>
-                        <el-col>
-                          <p><b>Sistema: </b>{{mesa.tipoDoSistema}}</p>
-                        </el-col>
-                        <el-col>
-                          <p><b>Tipo da Mesa: </b>{{mesa.valueTiposDeMesas}}</p>
-                        </el-col>
-                        <el-col>
-                          <p><b>Players: </b>
-                            <span v-for="player in mesa.players">
+                <el-row>
+                  <el-col :span="12">
+                    <el-row :gutter="40">
+                      <el-col>
+                        <p><b>Mestre: </b>{{mesa.mestre}}</p>
+                      </el-col>
+                      <el-col>
+                        <p><b>Faixa Etaria: </b>{{mesa.faixaEtaria}}</p>
+                      </el-col>
+                      <el-col>
+                        <p><b>Sistema: </b>{{mesa.tipoDoSistema}}</p>
+                      </el-col>
+                      <el-col>
+                        <p><b>Tipo da Mesa: </b>{{mesa.valueTiposDeMesas}}</p>
+                      </el-col>
+                      <el-col>
+                        <p><b>Players: </b>
+                          <span v-for="player in mesa.players">
                               {{player.user}},
                             </span>
-                          </p>
-                        </el-col>
-                        <el-col>
-                          <p><b>Vagas: </b>{{mesa.vagas}} de {{mesa.playersMax}}</p>
-                        </el-col>
-                      </el-row>
-                    </el-col>
-                    <el-col :span="12" class="containerImgPrincipal">
-                      <p><b>Mapa Principal: </b></p>
-                      <img class="imgPrincipal" :src="mesa.mapaPrincipal">
-                    </el-col>
-                  </el-row>
-                  <el-row>
-                    <el-col>
-                      <p><b>Descrição da mesa:</b></p>
-                    </el-col>
-                    <el-col>
-                      <p>{{mesa.descricao}}</p>
-                    </el-col>
-                  </el-row>
+                        </p>
+                      </el-col>
+                      <el-col>
+                        <p><b>Vagas: </b>{{mesa.vagas}} de {{mesa.playersMax}}</p>
+                      </el-col>
+                    </el-row>
+                  </el-col>
+                  <el-col :span="12" class="containerImgPrincipal">
+                    <p><b>Mapa Principal: </b></p>
+                    <img class="imgPrincipal" :src="mesa.mapaPrincipal">
+                  </el-col>
+                </el-row>
+                <el-row>
+                  <el-col>
+                    <p><b>Descrição da mesa:</b></p>
+                  </el-col>
+                  <el-col>
+                    <p>{{mesa.descricao}}</p>
+                  </el-col>
+                </el-row>
 
-                </el-tab-pane>
-                <el-tab-pane label="Ficha">
-                  <el-button @click="entrarNaMesa()">Pedido para jogo</el-button>
-                </el-tab-pane>
-                <el-tab-pane label="Chat de bate-papo">
-                  <b-row>
-                    <b-col md="2">
-                      <el-collapse class="myChats">
-                        <el-collapse-item title="Chat-de-Voz">
-                          <el-row>
-                            <el-col :span="8">
-                              <img class="char" src="../img/charElfa.jpg">
-                            </el-col>
-                            <el-col :span="8">
-                              <img class="char" src="../img/charElfa.jpg">
-                            </el-col>
-                            <el-col :span="8">
-                              <img class="char" src="../img/charElfa.jpg">
-                            </el-col>
-                            <el-col :span="8">
-                              <img class="char" src="../img/charElfa.jpg">
-                            </el-col>
-                            <el-col :span="8">
-                              <img class="char" src="../img/charElfa.jpg">
-                            </el-col>
-                            <el-col :span="8">
-                              <img class="char" src="../img/charElfa.jpg">
-                            </el-col>
-                          </el-row>
-                        </el-collapse-item>
-                        <el-collapse-item title="Feedback">
-
-                        </el-collapse-item>
-                        <el-collapse-item title="Efficiency">
-
-                        </el-collapse-item>
-                        <el-collapse-item title="Controllability">
-
-                        </el-collapse-item>
-                      </el-collapse>
-                    </b-col>
-                    <b-col md="10">
-                      <b-card class="cardChat" title="Bate-papo">
-                        <div v-for="chat in myChat">
-                          <p>
-                            <b>{{chat.user}}: </b>
-                            {{chat.text}}
-                          </p>
-                        </div>
-                      </b-card>
-                      <el-form>
+              </el-tab-pane>
+              <el-tab-pane label="Ficha">
+                <el-button @click="entrarNaMesa()">Pedido para jogo</el-button>
+              </el-tab-pane>
+              <el-tab-pane label="Chat de bate-papo">
+                <b-row>
+                  <b-col md="2">
+                    <el-collapse class="myChats">
+                      <el-collapse-item title="Chat-de-Voz">
                         <el-row>
-                          <el-col :span="22">
-                            <el-form-item>
-                              <el-input class="myInputSubmit" type="text" v-model="chat.userText"></el-input>
-                            </el-form-item>
+                          <el-col :span="8">
+                            <img class="char" src="../img/charElfa.jpg">
                           </el-col>
-                          <el-col :span="2">
-                            <el-form-item>
-                              <el-button class="myButtonSubmit" native-type="submit" @click="submitChat" type="primary" size="mini">Enviar</el-button>
-                            </el-form-item>
+                          <el-col :span="8">
+                            <img class="char" src="../img/charElfa.jpg">
+                          </el-col>
+                          <el-col :span="8">
+                            <img class="char" src="../img/charElfa.jpg">
+                          </el-col>
+                          <el-col :span="8">
+                            <img class="char" src="../img/charElfa.jpg">
+                          </el-col>
+                          <el-col :span="8">
+                            <img class="char" src="../img/charElfa.jpg">
+                          </el-col>
+                          <el-col :span="8">
+                            <img class="char" src="../img/charElfa.jpg">
                           </el-col>
                         </el-row>
-                      </el-form>
+                      </el-collapse-item>
+                      <el-collapse-item title="Feedback" class="myFeedback">
+                        <div class="block">
+                          <span class="demonstration">Default</span>
+                          <el-rate v-model="value1"></el-rate>
+                        </div>
+                      </el-collapse-item>
+                      <el-collapse-item title="Efficiency">
 
-                    </b-col>
-                  </b-row>
-                </el-tab-pane>
-              </el-tabs>
-              <router-link :to="voltar">
-                <el-button size="mini">Voltar</el-button>
-              </router-link>
-            </b-card>
-          </b-col>
-        </b-row>
-      </b-container>
+                      </el-collapse-item>
+                      <el-collapse-item title="Bot-commands">
+                        <p style="color: black"><b>Rolar dado = </b>/r d20 (Troque o 20 pela quantidade de faces do dado)</p>
+                      </el-collapse-item>
+                    </el-collapse>
+                  </b-col>
+                  <b-col md="10">
+                    <b-card class="cardChat" title="Bate-papo">
+                      <div v-for="chat in myChat">
+                        <p>
+                          <b>{{chat.user}}: </b>
+                          {{chat.text}}
+                        </p>
+                      </div>
+                    </b-card>
+                    <el-form>
+                      <el-row>
+                        <el-col :span="22">
+                          <el-form-item>
+                            <el-input class="myInputSubmit" type="text" v-model="chat.userText"></el-input>
+                          </el-form-item>
+                        </el-col>
+                        <el-col :span="2">
+                          <el-form-item>
+                            <el-button class="myButtonSubmit" native-type="submit" @click="submitChat" type="primary" size="mini">Enviar</el-button>
+                          </el-form-item>
+                        </el-col>
+                      </el-row>
+                    </el-form>
 
-    </div>
+                  </b-col>
+                </b-row>
+              </el-tab-pane>
+            </el-tabs>
+            <router-link :to="voltar">
+              <el-button size="mini">Voltar</el-button>
+            </router-link>
+          </b-card>
+        </b-col>
+      </b-row>
+    </b-container>
+    <object class="myYoutubeVideo" v-show="true" width="420" height="315"
+            :data="play">
+    </object>
   </div>
 </template>
 <style>
 .myChats .el-collapse-item__header{
   color: #ffffff;
   background-color: #0000003b;
+}
+.myFeedback .el-collapse-item__content{
+  color: #ffffff;
+  background-color: black !important;
 }
 .myChats .el-collapse-item__content{
   color: #ffffff;
@@ -257,11 +295,19 @@ export default{
 }
 </style>
 <style scoped>
-
+.myYoutubeVideo {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -10000;
+}
 .myButtonSubmit {
   height: 60px;
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  width: 100%;
 }
 .char {
   width: 39px;
@@ -275,6 +321,7 @@ export default{
   max-height: 70vh;
   background-color: #fffcfc4d;
   border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .card-title {
    text-align: center;

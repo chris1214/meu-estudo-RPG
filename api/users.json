@@ -225,8 +225,13 @@
           "url": "http://2.bp.blogspot.com/-4Vs9-1R7poY/VOsXCp7gRcI/AAAAAAAAIJc/g934BTN8qm0/s1600/526aaf1993c5f13c2924644d83be7e68.jpg"
         }
       ],
-      "players": [],
-      "vagas": 15,
+      "players": [
+        {
+          "user": "Admin",
+          "id": "1"
+        }
+      ],
+      "vagas": 14,
       "id": 7
     },
     {
@@ -409,6 +414,174 @@
       "userID": "1",
       "mesaID": "7",
       "id": 17
+    },
+    {
+      "userText": "/r d20",
+      "text": "/r d20 = 3",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "7",
+      "id": 18
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=f4Mc-NYPHaQ",
+      "text": "!play https://www.youtube.com/watch?v=f4Mc-NYPHaQ",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 19
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=f4Mc-NYPHaQ",
+      "text": "!play https://www.youtube.com/watch?v=f4Mc-NYPHaQ",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 20
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=f4Mc-NYPHaQ",
+      "text": "!play https://www.youtube.com/watch?v=f4Mc-NYPHaQ",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 21
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "text": "!play https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 22
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "text": "!play https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 23
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "text": "!play https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 24
+    },
+    {
+      "userText": " !play https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "text": " !play https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 25
+    },
+    {
+      "userText": " !play https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "text": " !play https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 26
+    },
+    {
+      "userText": "!play ",
+      "text": "!play ",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 27
+    },
+    {
+      "userText": " !play https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "text": " !play https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 28
+    },
+    {
+      "userText": " !play https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "text": " !play https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 29
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=f4Mc-NYPHaQ",
+      "text": "!play https://www.youtube.com/watch?v=f4Mc-NYPHaQ",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 30
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=f4Mc-NYPHaQ",
+      "text": "!play https://www.youtube.com/watch?v=f4Mc-NYPHaQ",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 31
+    },
+    {
+      "userText": "!pla",
+      "text": "!pla",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 32
+    },
+    {
+      "userText": "",
+      "text": "",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 33
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=A22oy8dFjqc",
+      "text": "!play https://www.youtube.com/watch?v=A22oy8dFjqc",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 34
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=A22oy8dFjqc",
+      "text": "!play https://www.youtube.com/watch?v=A22oy8dFjqc",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 35
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=f4Mc-NYPHaQ",
+      "text": "!play https://www.youtube.com/watch?v=f4Mc-NYPHaQ",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 36
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=f4Mc-NYPHaQ",
+      "text": "!play https://www.youtube.com/watch?v=f4Mc-NYPHaQ",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 37
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=f4Mc-NYPHaQ",
+      "text": "!play https://www.youtube.com/watch?v=f4Mc-NYPHaQ",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 38
     }
   ]
 }

@@ -244,31 +244,33 @@ export default{
             <el-tab-pane label="Mapas" name="second">
               <el-form label-position="top">
                 <el-row :gutter="20">
-                  <el-col :span="4">
+                  <el-col :span="6">
                     <el-form-item label="Mapa principal">
                       <el-input v-model="resultados.mapaPrincipal" />
                     </el-form-item>
                   </el-col>
-                  <el-col :span="4">
+                  <el-col :span="6">
                     <el-form-item label="Titulo do Mapas secundarios">
                       <el-input v-model="mapasSecundariosTitle" />
                     </el-form-item>
                   </el-col>
-                  <el-col :span="4">
+                  <el-col :span="6">
                     <el-form-item label="Imagem do Mapas secundarios">
                       <el-input v-model="mapasSecundariosUrl" />
                     </el-form-item>
                   </el-col>
-                  <el-col :span="4">
+                  <el-col :span="3">
                     <el-form-item label="Mapas secundarios">
                       <el-button @click="addMapa" size="mini">Add Mapa secundario</el-button>
                     </el-form-item>
                   </el-col>
-                  <el-col :span="4">
-                    <b v-for="mapa in resultados.mapasSecundarios">
-                      {{mapa.title}}
-                    </b>
-                  </el-col>
+                  <el-col :span="3">
+                    <p v-for="mapa in resultados.mapasSecundarios">
+                      <b>
+                        {{mapa.title}}
+                      </b>
+                    </p>
+                    </el-col>
                 </el-row>
                 <el-row>
                   <el-col>
