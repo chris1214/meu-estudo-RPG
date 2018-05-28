@@ -96,19 +96,20 @@ export default{
       this.totalDeVagas();
     },
     submitChat(){
-      var texto = this.chat.userText
+      var texto = this.chat.userText;
       var textYoutube = texto.split('play')[0];
       var urlYoutube = texto.split('play')[1];
       var puse = texto.split('!')[1];
       var textTr = texto.split('d')[0];
       var dado = texto.split('d')[1];
-      var numeroDado = Number(dado)
+      var numeroDado = Number(dado);
       var text = this.chat.text = this.chat.userText;
 
       if(puse == "exite"){
         this.play = ''
       }
       if(textYoutube == "!"){
+        console.log(urlYoutube);
         this.chama(urlYoutube)
       }
       if (textTr == '/r '){
@@ -145,7 +146,8 @@ export default{
     },
     chama(urlYoutube){
       var videoId = this.getLink(urlYoutube);
-      this.url = 'https://www.youtube.com/v/' + videoId + '?autoplay=1';
+      this.url = 'https://www.youtube.com/embed/'+videoId+'?autoplay=1';
+      console.log(this.url);
       this.play = this.url
     }
   },
@@ -290,9 +292,9 @@ export default{
         </b-col>
       </b-row>
     </b-container>
-    <object class="myYoutubeVideo" v-show="true" width="420" height="315"
-            :data="play">
-    </object>
+    <iframe id="musica" class="myYoutubeVideo" v-show="true" width="420" height="315"
+            :src="play"  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+    </iframe >
   </div>
 </template>
 <style>

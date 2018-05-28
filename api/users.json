@@ -115,8 +115,13 @@
           "url": "https://orig00.deviantart.net/7924/f/2013/013/4/b/dragons_by_88grzes-d5rdw8e.jpg"
         }
       ],
-      "players": [],
-      "vagas": 2,
+      "players": [
+        {
+          "user": "User com 13 anos",
+          "id": "3"
+        }
+      ],
+      "vagas": 1,
       "id": 3
     },
     {
@@ -576,6 +581,342 @@
       "userID": "1",
       "mesaID": "8",
       "id": 40
+    },
+    {
+      "userText": "Eu sou Chris",
+      "text": "Eu sou Chris",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 41
+    },
+    {
+      "userText": "/r d20",
+      "text": "/r d20 = 3",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 42
+    },
+    {
+      "userText": "/r d20",
+      "text": "/r d20 = 4",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 43
+    },
+    {
+      "userText": "/r d20",
+      "text": "/r d20 = 4",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 44
+    },
+    {
+      "userText": "/r d10",
+      "text": "/r d10 = 6",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 45
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=Lw4Q_Zc5kUk",
+      "text": "!play https://www.youtube.com/watch?v=Lw4Q_Zc5kUk",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 46
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=Lw4Q_Zc5kUk",
+      "text": "!play https://www.youtube.com/watch?v=Lw4Q_Zc5kUk",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 47
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 48
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 49
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "text": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 50
+    },
+    {
+      "userText": " !play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "text": " !play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 51
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "text": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 52
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "text": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 53
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "text": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 54
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "text": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 55
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "text": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 56
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "text": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 57
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "text": "!play https://www.youtube.com/watch?v=op07UzSCu4c",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 58
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 59
+    },
+    {
+      "userText": "/r d20",
+      "text": "/r d20 = 19",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "4",
+      "id": 60
+    },
+    {
+      "userText": "/r d10",
+      "text": "/r d10 = 3",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "4",
+      "id": 61
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 62
+    },
+    {
+      "userText": " !play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": " !play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 63
+    },
+    {
+      "userText": " !play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": " !play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 64
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 65
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 66
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 67
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 68
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 69
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 70
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 71
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E\\",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E\\",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 72
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E\\",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E\\",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 73
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E\\",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E\\",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 74
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 75
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 76
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 77
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 78
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 79
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 80
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "8",
+      "id": 81
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "text": "!play https://www.youtube.com/watch?v=wSBviRuCi-E",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "1",
+      "id": 82
     }
   ],
   "players": [
@@ -602,6 +943,12 @@
       "userId": "2",
       "mesaId": "8",
       "id": 4
+    },
+    {
+      "user": "User com 13 anos",
+      "userId": "3",
+      "mesaId": "3",
+      "id": 5
     }
   ]
 }

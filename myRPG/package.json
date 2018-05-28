@@ -18,6 +18,7 @@
     "bootstrap-vue": "^2.0.0-rc.9",
     "element-ui": "^2.3.8",
     "vue": "^2.5.2",
+    "vue-drag-resize": "^1.2.3",
     "vue-resource": "^1.5.0",
     "vue-router": "^3.0.1",
     "vuedraggable": "^2.16.0"
