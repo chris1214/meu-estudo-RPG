@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b2c247-1427-446e-b05c-d9fea72ccea9" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/myRPG/Previa.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/myRPG/src/img/free0003.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/api/users.json" afterPath="$PROJECT_DIR$/api/users.json" />
-      <change beforePath="$PROJECT_DIR$/myRPG/package.json" afterPath="$PROJECT_DIR$/myRPG/package.json" />
-      <change beforePath="$PROJECT_DIR$/myRPG/src/components/mesa.vue" afterPath="$PROJECT_DIR$/myRPG/src/components/mesa.vue" />
+      <change beforePath="$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue" afterPath="$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue" />
     </list>
     <ignored path="meu-estudo-RPG.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,28 +29,8 @@
       <file leaf-file-name="Login.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myRPG/src/components/Login.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myRPG/src/components/create.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3587">
-              <caret line="211" column="28" lean-forward="false" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/list.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="87" column="30" lean-forward="false" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+            <state relative-caret-position="765">
+              <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -81,11 +62,10 @@
       <file leaf-file-name="users.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/users.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13311">
-              <caret line="951" column="5" lean-forward="false" selection-start-line="951" selection-start-column="5" selection-end-line="951" selection-end-column="5" />
+            <state relative-caret-position="19448">
+              <caret line="1144" column="5" lean-forward="false" selection-start-line="1144" selection-start-column="5" selection-end-line="1144" selection-end-column="5" />
               <folding>
-                <marker date="1527511799599" expanded="true" signature="19927:24937" ph="{&quot;id&quot;: 61...}" />
-                <marker date="1527511799599" expanded="true" signature="25421:25427" ph="{&quot;id&quot;: 24...}" />
+                <marker date="1527520742587" expanded="true" signature="30148:30154" ph="{&quot;id&quot;: 5...}" />
               </folding>
             </state>
           </provider>
@@ -94,8 +74,8 @@
       <file leaf-file-name="RenderImagem.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myRPG/src/components/utils/RenderImagem.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+            <state relative-caret-position="1071">
+              <caret line="63" column="10" lean-forward="false" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
               <folding>
                 <marker date="1527032710514" expanded="true" signature="24:28" ph="{...}" />
               </folding>
@@ -103,10 +83,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mesa.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MesasParticipo.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Previa.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myRPG/Previa.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mesa.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myRPG/src/components/mesa.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
+            <state relative-caret-position="4777">
               <caret line="325" column="14" lean-forward="false" selection-start-line="325" selection-start-column="14" selection-end-line="325" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -149,6 +149,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -193,8 +194,9 @@
         <option value="$PROJECT_DIR$/myRPG/src/components/show/mesasQueParticipo.vue" />
         <option value="$PROJECT_DIR$/myRPG/src/components/inicio.vue" />
         <option value="$PROJECT_DIR$/api/users.json" />
-        <option value="$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue" />
         <option value="$PROJECT_DIR$/myRPG/src/components/mesa.vue" />
+        <option value="$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue" />
+        <option value="$PROJECT_DIR$/myRPG/Previa.html" />
       </list>
     </option>
   </component>
@@ -207,8 +209,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/myRPG/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="30" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="y" value="-14" />
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
@@ -227,6 +230,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,16 +257,19 @@
               <item name="meu-estudo-RPG" type="462c0819:PsiDirectoryNode" />
               <item name="myRPG" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="helperClass" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meu-estudo-RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meu-estudo-RPG" type="462c0819:PsiDirectoryNode" />
+              <item name="myRPG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,19 +280,21 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/myRPG/src/components/show" />
-      <recent name="$PROJECT_DIR$/myRPG/src/components" />
-      <recent name="$PROJECT_DIR$/myRPG/src/util" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/myRPG/src/components/show" />
       <recent name="$PROJECT_DIR$/myRPG/src/components/utils" />
       <recent name="$PROJECT_DIR$/myRPG/src/components/show all" />
       <recent name="$PROJECT_DIR$/myRPG/src/img" />
       <recent name="$PROJECT_DIR$/myRPG/src/components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chris\Desktop\Projeto RPG\meu-estudo-RPG\myRPG\src\img" />
+      <recent name="$PROJECT_DIR$/myRPG/src/components/show" />
+      <recent name="$PROJECT_DIR$/myRPG/src/components" />
+      <recent name="$PROJECT_DIR$/myRPG/src/util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -740,7 +752,9 @@
       <workItem from="1527247413677" duration="192000" />
       <workItem from="1527249507608" duration="7400000" />
       <workItem from="1527257744036" duration="10469000" />
-      <workItem from="1527509263155" duration="2231000" />
+      <workItem from="1527509263155" duration="4525000" />
+      <workItem from="1527546928726" duration="1300000" />
+      <workItem from="1527559129795" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="Tela de criação de mesa iniciada e codigo refatorado">
       <created>1526662674886</created>
@@ -798,15 +812,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527256054442</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="corrigindo bug da musica no chat de bate-papo">
+      <created>1527511941638</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1527511941639</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173897000" />
+    <option name="totallyTimeSpent" value="178089000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1386" height="788" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -820,7 +840,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -887,7 +907,8 @@
     <MESSAGE value="n sei" />
     <MESSAGE value="Chat de texto" />
     <MESSAGE value="Musicas do youtube funcionando&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Musicas do youtube funcionando&#10;" />
+    <MESSAGE value="corrigindo bug da musica no chat de bate-papo" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrigindo bug da musica no chat de bate-papo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -898,13 +919,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myRPG/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/helperClass/myClass.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -938,7 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="68" column="33" lean-forward="false" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,7 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,21 +1124,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/utils/RenderImagem.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-          <folding>
-            <marker date="1527032710514" expanded="true" signature="24:28" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/components/create.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3587">
           <caret line="211" column="28" lean-forward="false" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1144,18 +1145,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/helperClass/myClass.css">
+    <entry file="file://$PROJECT_DIR$/myRPG/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="12">
+          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/minhasMesas.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/list.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="30" lean-forward="false" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <marker date="1527272830067" expanded="true" signature="2388:2438" ph="{&quot;tipoDoSistema&quot;: ''...}" />
+            <marker date="1527272830067" expanded="true" signature="9461:9487" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/inicio.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="121" column="10" lean-forward="false" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/Login.vue">
+    <entry file="file://$PROJECT_DIR$/api/users.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+        <state relative-caret-position="19448">
+          <caret line="1144" column="5" lean-forward="false" selection-start-line="1144" selection-start-column="5" selection-end-line="1144" selection-end-column="5" />
+          <folding>
+            <marker date="1527520742587" expanded="true" signature="30148:30154" ph="{&quot;id&quot;: 5...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/utils/RenderImagem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="10" lean-forward="false" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+          <folding>
+            <marker date="1527032710514" expanded="true" signature="24:28" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/mesa.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4777">
+          <caret line="325" column="14" lean-forward="false" selection-start-line="325" selection-start-column="14" selection-end-line="325" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#el-collapse-item#3;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#el-collapse-item#3;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#el-collapse-item#3;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#b-card#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/helperClass/myClass.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1171,78 +1239,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/list.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="87" column="30" lean-forward="false" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding>
-            <marker date="1527272830067" expanded="true" signature="2388:2438" ph="{&quot;tipoDoSistema&quot;: ''...}" />
-            <marker date="1527272830067" expanded="true" signature="9461:9487" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/users.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13311">
-          <caret line="951" column="5" lean-forward="false" selection-start-line="951" selection-start-column="5" selection-end-line="951" selection-end-column="5" />
-          <folding>
-            <marker date="1527511799599" expanded="true" signature="19927:24937" ph="{&quot;id&quot;: 61...}" />
-            <marker date="1527511799599" expanded="true" signature="25421:25427" ph="{&quot;id&quot;: 24...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/minhasMesas.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/mesa.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="325" column="14" lean-forward="false" selection-start-line="325" selection-start-column="14" selection-end-line="325" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#el-collapse-item#3;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#el-collapse-item#3;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#el-collapse-item#3;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#b-card#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/inicio.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="121" column="10" lean-forward="false" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        <state relative-caret-position="408">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/Previa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding />
         </state>
       </provider>

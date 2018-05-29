@@ -21,28 +21,27 @@ export default{
         }, error => {
           console.log('Error')
         }
+      ).then(
+        function(){
+          var player = this.myPlayers.length;
+          console.log(player)
+          if(player){
+            for(var i = 0; i < player; i++){
+              this.$http.get(`${this.httpMesas}?id=${value[i].mesaId}`).then(
+                response => {
+                  this.mesas.push(response.body);
+                }, error => {
+                  console.log('Error')
+                }
+              )
+            }
+          }
+        }
       )
     },
     myGet(){
       this.getAll(`${this.httpPlayers}`, 'myPlayers', `?userId=${this.id}`)
         /*this.getAll(`${this.httpMesas}`, 'mesas', `?id=${}`)*/
-    }
-  },
-  watch: {
-    myPlayers: function(value){
-    var player = value.length
-    console.log(player)
-    if(player){
-      for(var i = 0; i < player; i++){
-          this.$http.get(`${this.httpMesas}?id=${value[i].mesaId}`).then(
-            response => {
-              this.mesas.push(response.body);
-            }, error => {
-              console.log('Error')
-            }
-          )
-        }
-      }
     }
   },
   created(){

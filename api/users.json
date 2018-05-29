@@ -259,6 +259,33 @@
       ],
       "vagas": 4,
       "id": 8
+    },
+    {
+      "tipoDoSistema": "propio",
+      "valueTiposDeMesas": "Medieval",
+      "faixaEtaria": "12",
+      "title": "Uma mesa muito doida",
+      "url": "https://images.alphacoders.com/130/130061.jpg",
+      "mestre": "User com 13 anos",
+      "idMestre": "3",
+      "playersMin": "1",
+      "playersMax": "10",
+      "mapaPrincipal": "https://vignette.wikia.nocookie.net/hybrid-fanfic/images/a/ac/8589130565809-demon-dragon-wallpaper-hd.jpg/revision/latest?cb=20141229021955",
+      "descricao": "Uma descrição muito doida",
+      "players": [
+        {
+          "user": "User com 13 anos",
+          "id": "3"
+        }
+      ],
+      "mapasSecundarios": [
+        {
+          "title": "Mais uma mesa ai",
+          "url": "https://i.pinimg.com/originals/3f/ae/ef/3faeefab917eebc7e7e417a753e4d8a8.jpg"
+        }
+      ],
+      "id": 9,
+      "vagas": null
     }
   ],
   "chatMesa": [
@@ -917,6 +944,166 @@
       "userID": "1",
       "mesaID": "1",
       "id": 82
+    },
+    {
+      "userText": "Agora fica legal ",
+      "text": "Agora fica legal ",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 83
+    },
+    {
+      "userText": "ta vendo esse chat ?",
+      "text": "ta vendo esse chat ?",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 84
+    },
+    {
+      "userText": "presta atenção no que eu posso fazer com ele ",
+      "text": "presta atenção no que eu posso fazer com ele ",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 85
+    },
+    {
+      "userText": "assim eu so digito ",
+      "text": "assim eu so digito ",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 86
+    },
+    {
+      "userText": "mas quando eu coloco ",
+      "text": "mas quando eu coloco ",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 87
+    },
+    {
+      "userText": "/r d20",
+      "text": "/r d20 = 19",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 88
+    },
+    {
+      "userText": "ele rola o dado kkkkkkkkkkkkkk",
+      "text": "ele rola o dado kkkkkkkkkkkkkk",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 89
+    },
+    {
+      "userText": "nice ne ?",
+      "text": "nice ne ?",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 90
+    },
+    {
+      "userText": "mas tem coisa melhor ",
+      "text": "mas tem coisa melhor ",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 91
+    },
+    {
+      "userText": "vou pegar o link do youtube ",
+      "text": "vou pegar o link do youtube ",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 92
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=hu5h5dCFCUM",
+      "text": "!play https://www.youtube.com/watch?v=hu5h5dCFCUM",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 93
+    },
+    {
+      "userText": "acabei de arrumar isso kkkkkkkkkkkkkkkkkkk",
+      "text": "acabei de arrumar isso kkkkkkkkkkkkkkkkkkk",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "3",
+      "id": 94
+    },
+    {
+      "userText": "Cadastrada mesa e player ",
+      "text": "Cadastrada mesa e player ",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "9",
+      "id": 95
+    },
+    {
+      "userText": "asdadas",
+      "text": "asdadas",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "8",
+      "id": 96
+    },
+    {
+      "userText": "adasd hjvds jv",
+      "text": "adasd hjvds jv",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "8",
+      "id": 97
+    },
+    {
+      "userText": "/r d20",
+      "text": "/r d20 = 10",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "8",
+      "id": 98
+    },
+    {
+      "userText": "/r d10",
+      "text": "/r d10 = 6",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "8",
+      "id": 99
+    },
+    {
+      "userText": "/r d20",
+      "text": "/r d20 = 16",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "8",
+      "id": 100
+    },
+    {
+      "userText": "sdasda",
+      "text": "sdasda",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "8",
+      "id": 101
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=fD3t1DQyatQ",
+      "text": "!play https://www.youtube.com/watch?v=fD3t1DQyatQ",
+      "user": "User com 13 anos",
+      "userID": "3",
+      "mesaID": "8",
+      "id": 102
     }
   ],
   "players": [
@@ -949,6 +1136,12 @@
       "userId": "3",
       "mesaId": "3",
       "id": 5
+    },
+    {
+      "user": "User com 13 anos",
+      "userId": "3",
+      "mesaId": "9",
+      "id": 6
     }
   ]
 }
