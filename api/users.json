@@ -1,4 +1,4 @@
-{
+﻿{
   "users": [
     {
       "name": "Admin",
@@ -35,7 +35,7 @@
       "id": 2
     },
     {
-      "name": "User com 13 anos",
+      "name": "User com 13 anoss",
       "email": "user13@hotmail.com",
       "password": "admin",
       "dataNascimento": "2003-06-18",
