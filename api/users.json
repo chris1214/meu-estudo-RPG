@@ -1,4 +1,4 @@
-﻿{
+{
   "users": [
     {
       "name": "Admin",
@@ -71,8 +71,13 @@
           "url": "http://2.bp.blogspot.com/-4Vs9-1R7poY/VOsXCp7gRcI/AAAAAAAAIJc/g934BTN8qm0/s1600/526aaf1993c5f13c2924644d83be7e68.jpg"
         }
       ],
-      "players": [],
-      "vagas": 5,
+      "players": [
+        {
+          "user": "Admin",
+          "id": "1"
+        }
+      ],
+      "vagas": 4,
       "id": 1
     },
     {
@@ -1104,6 +1109,62 @@
       "userID": "3",
       "mesaID": "8",
       "id": 102
+    },
+    {
+      "userText": "asdasd",
+      "text": "asdasd",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "1",
+      "id": 103
+    },
+    {
+      "userText": "fasf",
+      "text": "fasf",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "1",
+      "id": 104
+    },
+    {
+      "userText": "/r d20",
+      "text": "/r d20 = 1",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "1",
+      "id": 105
+    },
+    {
+      "userText": "/r d20",
+      "text": "/r d20 = 18",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "1",
+      "id": 106
+    },
+    {
+      "userText": "!play https://www.youtube.com/watch?v=fJ9rUzIMcZQ&list=RDEMbHaAxpOZhcVmmF6I3y0siA&start_radio=1",
+      "text": "!play https://www.youtube.com/watch?v=fJ9rUzIMcZQ&list=RDEMbHaAxpOZhcVmmF6I3y0siA&start_radio=1",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "1",
+      "id": 107
+    },
+    {
+      "userText": "!exit",
+      "text": "!exit",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "1",
+      "id": 108
+    },
+    {
+      "userText": "!exite",
+      "text": "!exite",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "1",
+      "id": 109
     }
   ],
   "players": [
@@ -1142,6 +1203,12 @@
       "userId": "3",
       "mesaId": "9",
       "id": 6
+    },
+    {
+      "user": "Admin",
+      "userId": "1",
+      "mesaId": "1",
+      "id": 7
     }
   ]
 }
