@@ -4,7 +4,7 @@ export default{
   props: ['id', 'name'],
   data(){
       return{
-        minhaMesa: [],
+        minhasMesas: [],
         mesas: [],
         myPlayers: [],
         httpPlayers: 'http://localhost:3000/players',
@@ -49,23 +49,20 @@ export default{
         }
       ).then(
         function () {
-          var mesas = this.myPlayers.length;
-          console.log(mesas);
-          for (var i = 0; i < mesas; i++){
-            console.log(this.myPlayers[i].mesaId);
+          var minhasMesas = this.myPlayers.length;
+          for (var i = 0; i < minhasMesas;i++){
             this.$http.get(`${this.httpMesas}?id=${this.myPlayers[i].mesaId}`).then(
               response => {
-                this.mesa = response.body;
-                this.minhaMesa.push( response.body);
-                console.log(this.minhaMesa)
+                this.mesas.push({'mesa': response.body});
+                var x = this.mesas.length;
+                this.minhasMesas.push(this.mesas[x-1].mesa[0]);
               }, error => {
                 console.log("Error")
               }
-            )
+            );
           }
         }
       );
-      console.log(this.mesa)
     }
   },
   created(){
@@ -77,9 +74,7 @@ export default{
   <div>
     <b-container fluid class="padding-top">
       <el-row :gutter="20">
-        <p v-for="item in minhaMesa">{{item}}</p><br><br>
-        <p v-for="item in myPlayers">{{item}}</p><br><br>
-        <div v-for="mesa in minhaMesa">
+        <div v-for="mesa in minhasMesas">
           <el-col :xs="12" :sm="6" :md="6" :lg="4" :xl="4" @click="enter()">
             <renderImagem
               :id="id"

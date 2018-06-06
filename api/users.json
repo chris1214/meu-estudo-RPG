@@ -260,9 +260,13 @@
         {
           "user": "Chris",
           "id": "2"
+        },
+        {
+          "user": "Admin",
+          "id": "1"
         }
       ],
-      "vagas": 4,
+      "vagas": 3,
       "id": 8
     },
     {
@@ -1209,6 +1213,12 @@
       "userId": "1",
       "mesaId": "1",
       "id": 7
+    },
+    {
+      "user": "Admin",
+      "userId": "1",
+      "mesaId": "8",
+      "id": 8
     }
   ]
 }
