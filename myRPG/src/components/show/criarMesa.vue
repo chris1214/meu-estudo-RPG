@@ -80,10 +80,6 @@ export default{
             ],
             url: [
               { required: true, message: 'Imagem principal da mesa é obrigatório'}
-            ],
-            playersMin: [
-              { required: true, type: 'number', message: 'Somente numeros sao permitidos',},
-              {min: 1, message: 'No minimo 1 player',trigger: 'blur'}
             ]
           }
         }
@@ -135,6 +131,7 @@ export default{
     },
     watch: {
       tipo: function (value){
+        console.log(value)
         if(value == 'propio'){
           this.propio = true,
           this.existente = false
@@ -142,13 +139,16 @@ export default{
           this.propio = false,
           this.existente = true
         }
-      },
-      resultados: function (value) {
-        console.log(valu.faixaEtariae);
-        console.log(value.title);
-        console.log(value.url);
-        console.log(value.playersMin)
-        console.log(value)
+      }
+    },
+    computed: {
+      now: function () {
+        if (!this.resultados.faixaEtaria == '' && !this.resultados.title == '' && !this.resultados.url == ''){
+          return this.buttonProximo = true;
+        }else{
+          return this.buttonProximo = false, this.mapas = true;
+
+        }
       }
     }
 }
@@ -159,7 +159,7 @@ export default{
       <el-col :span="22" :offset="1">
         <b-card title="Crie sua Mesa"
                 class="mb-2">
-          {{mapas}}
+          {{now}}
           <el-tabs v-model="activeName">
             <el-tab-pane label="Sistema" name="first">
               <el-form label-position="top" :model="resultados" :rules="regra">
@@ -251,7 +251,7 @@ export default{
                 </el-row>
                 <el-row :gutter="20">
                   <el-col :span="4">
-                    <el-form-item prop="playersMin" :rules="regra.playersMin" label="Quantidade minima de players">
+                    <el-form-item label="Quantidade minima de players">
                       <el-input v-model="resultados.playersMin"/>
                     </el-form-item>
                   </el-col>

@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="91b2c247-1427-446e-b05c-d9fea72ccea9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myRPG/src/components/mesa.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myRPG/src/components/mesa.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue" afterDir="false" />
     </list>
     <ignored path="meu-estudo-RPG.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,20 +32,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="users.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/users.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="263" column="14" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
+            <state relative-caret-position="75">
+              <caret line="285" column="1" lean-forward="true" selection-start-line="285" selection-start-column="1" selection-end-line="285" selection-end-column="1" />
               <folding>
+                <element signature="e#13#1390#0" />
+                <element signature="e#19#541#0" />
+                <element signature="e#214#341#0" />
+                <element signature="e#547#961#0" />
+                <element signature="e#743#870#0" />
+                <element signature="e#967#1386#0" />
+                <element signature="e#1175#1296#0" />
+                <element signature="e#1403#8970#0" />
                 <element signature="e#1409#2372#0" />
+                <element signature="e#2028#2238#0" />
+                <element signature="e#2038#2230#0" />
                 <element signature="e#2378#3106#0" />
+                <element signature="e#2924#3045#0" />
+                <element signature="e#2934#3037#0" />
                 <element signature="e#3112#3938#0" />
+                <element signature="e#3637#3793#0" />
+                <element signature="e#3647#3785#0" />
                 <element signature="e#3944#5048#0" />
+                <element signature="e#4460#4778#0" />
+                <element signature="e#4470#4626#0" />
+                <element signature="e#4636#4770#0" />
                 <element signature="e#5054#6001#0" />
+                <element signature="e#5539#5941#0" />
+                <element signature="e#5549#5754#0" />
+                <element signature="e#5764#5933#0" />
                 <element signature="e#6007#6713#0" />
+                <element signature="e#6498#6653#0" />
+                <element signature="e#6508#6645#0" />
                 <element signature="e#6793#7497#0" />
+                <element signature="e#7240#7436#0" />
+                <element signature="e#7250#7428#0" />
                 <element signature="e#7503#8422#0" />
+                <element signature="e#8028#8220#0" />
+                <element signature="e#8038#8212#0" />
+                <element signature="e#7844#8966#0" />
               </folding>
             </state>
           </provider>
@@ -56,8 +81,186 @@
       <file leaf-file-name="mesa.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myRPG/src/components/mesa.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+            <state relative-caret-position="360">
+              <caret line="277" column="26" lean-forward="true" selection-start-line="277" selection-start-column="26" selection-end-line="277" selection-end-column="26" />
+              <folding>
+                <element signature="n#script#0;n#!!top" />
+                <element signature="e#23#4424#0" />
+                <element signature="e#79#757#0" />
+                <element signature="e#93#753#0" />
+                <element signature="e#366#505#0" />
+                <element signature="e#648#744#0" />
+                <element signature="e#772#777#0" />
+                <element signature="e#790#4368#0" />
+                <element signature="e#818#1000#0" />
+                <element signature="e#884#933#0" />
+                <element signature="e#944#986#0" />
+                <element signature="e#1016#1246#0" />
+                <element signature="e#1265#1272#0" />
+                <element signature="e#1300#2352#0" />
+                <element signature="e#1434#1513#0" />
+                <element signature="e#1518#2346#0" />
+                <element signature="e#1716#1768#0" />
+                <element signature="e#1779#1825#0" />
+                <element signature="e#1864#1890#0" />
+                <element signature="e#1962#2204#0" />
+                <element signature="e#1994#2106#0" />
+                <element signature="e#2215#2261#0" />
+                <element signature="e#2270#2490#0" />
+                <element signature="e#2368#2397#0" />
+                <element signature="e#2421#2450#0" />
+                <element signature="e#2510#2623#0" />
+                <element signature="e#2641#3773#0" />
+                <element signature="e#3009#3041#0" />
+                <element signature="e#3070#3143#0" />
+                <element signature="e#3170#3353#0" />
+                <element signature="e#3214#3345#0" />
+                <element signature="e#3438#3706#0" />
+                <element signature="e#3545#3696#0" />
+                <element signature="e#3717#3759#0" />
+                <element signature="e#3792#4057#0" />
+                <element signature="e#3966#4006#0" />
+                <element signature="e#4012#4051#0" />
+                <element signature="e#4080#4262#0" />
+                <element signature="e#4379#4384#0" />
+                <element signature="e#4295#4320#0" />
+                <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#style#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#0;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#2;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#3;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#4;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#p#0;n#el-col#4;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#span#0;n#p#0;n#el-col#4;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#5;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#1;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-row#1;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#0;n#el-row#1;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#1;n#el-row#1;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#style#0;n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#0;n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#1;n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#2;n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-collapse-item#1;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#0;n#el-collapse-item#1;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-collapse-item#2;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-collapse-item#3;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#b-card#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#0;n#b-card#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#p#0;n#div#0;n#b-card#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-tab-pane#3;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#router-link#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#iframe#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#style#0;n#!!top" />
+                <element signature="e#10281#10341#0" />
+                <element signature="e#10359#10425#0" />
+                <element signature="e#10441#10465#0" />
+                <element signature="e#10207#10259#0" />
+                <element signature="e#10298#10357#0" />
+                <element signature="e#10393#10445#0" />
+                <element signature="e#10482#10593#0" />
+                <element signature="n#style#1;n#!!top" />
+                <element signature="e#10634#10723#0" />
+                <element signature="e#10740#10871#0" />
+                <element signature="e#10878#10951#0" />
+                <element signature="e#10962#11119#0" />
+                <element signature="e#11132#11158#0" />
+                <element signature="e#11163#11311#0" />
+                <element signature="e#11335#11377#0" />
+                <element signature="e#11392#11426#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="criarMesa.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="148" column="44" selection-start-line="148" selection-start-column="44" selection-end-line="148" selection-end-column="44" />
+              <folding>
+                <element signature="e#241#355#0" />
+                <element signature="e#381#765#0" />
+                <element signature="e#395#475#0" />
+                <element signature="e#489#573#0" />
+                <element signature="e#587#663#0" />
+                <element signature="e#677#753#0" />
+                <element signature="e#790#1217#0" />
+                <element signature="e#804#873#0" />
+                <element signature="e#887#956#0" />
+                <element signature="e#970#1039#0" />
+                <element signature="e#1053#1122#0" />
+                <element signature="e#1136#1205#0" />
+                <element signature="e#1241#1614#0" />
+                <element signature="e#1917#2106#0" />
+                <element signature="e#2130#2309#0" />
+                <element signature="e#2169#2250#0" />
+                <element signature="e#1739#1746#0" />
+                <element signature="e#1777#2533#0" />
+                <element signature="e#2005#2450#0" />
+                <element signature="e#2037#2438#0" />
+                <element signature="e#2550#2839#0" />
+                <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#1;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-form-item#0;n#el-col#2;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-form-item#0;n#el-col#3;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-form-item#0;n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-form-item#0;n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-select#0;n#el-form-item#0;n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#2;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-form-item#0;n#el-col#2;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#3;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-form-item#0;n#el-col#3;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#2;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-form-item#0;n#el-col#2;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#3;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-form-item#0;n#el-col#3;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#4;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#p#0;n#el-col#4;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#b#0;n#p#0;n#el-col#4;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-row#1;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#style#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myRPG/src/components/create.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="66" column="73" lean-forward="true" selection-start-line="66" selection-start-column="73" selection-end-line="66" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -99,6 +302,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tipo</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -130,7 +338,6 @@
         <option value="$PROJECT_DIR$/myRPG/src/main.js" />
         <option value="$PROJECT_DIR$/myRPG/package.json" />
         <option value="$PROJECT_DIR$/myRPG/src/helperClass/myClass.css" />
-        <option value="$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue" />
         <option value="$PROJECT_DIR$/myRPG/src/components/minhasMesas.vue" />
         <option value="$PROJECT_DIR$/myRPG/src/router/index.js" />
         <option value="$PROJECT_DIR$/myRPG/src/components/show/minhasMesas.vue" />
@@ -138,8 +345,9 @@
         <option value="$PROJECT_DIR$/myRPG/src/components/inicio.vue" />
         <option value="$PROJECT_DIR$/myRPG/Previa.html" />
         <option value="$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue" />
-        <option value="$PROJECT_DIR$/myRPG/src/components/mesa.vue" />
         <option value="$PROJECT_DIR$/api/users.json" />
+        <option value="$PROJECT_DIR$/myRPG/src/components/mesa.vue" />
+        <option value="$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue" />
       </list>
     </option>
   </component>
@@ -492,7 +700,7 @@
       <workItem from="1527559129795" duration="598000" />
       <workItem from="1528205742061" duration="140000" />
       <workItem from="1528213413617" duration="4437000" />
-      <workItem from="1528284529710" duration="3863000" />
+      <workItem from="1528284529710" duration="17628000" />
     </task>
     <task id="LOCAL-00001" summary="Tela de criação de mesa iniciada e codigo refatorado">
       <created>1526662674886</created>
@@ -571,11 +779,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528287301439</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Ajustando pedido de jogo.">
+      <created>1528288519645</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1528288519645</updated>
+    </task>
+    <task id="LOCAL-00013" summary="muita coisa.">
+      <created>1528302575418</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1528302575418</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186529000" />
+    <option name="totallyTimeSpent" value="200294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
@@ -594,7 +816,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24924242" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -638,7 +860,14 @@
     <MESSAGE value="corrigindo bug da musica no chat de bate-papo" />
     <MESSAGE value="Minhas mesas" />
     <MESSAGE value="Mesas que eu participo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Mesas que eu participo." />
+    <MESSAGE value="Ajustando pedido de jogo." />
+    <MESSAGE value="muita coisa." />
+    <option name="LAST_COMMIT_MESSAGE" value="muita coisa." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -805,13 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/create.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3587">
-          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/components/example.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -819,24 +1041,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12">
           <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -904,6 +1112,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/users.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="285" column="1" lean-forward="true" selection-start-line="285" selection-start-column="1" selection-end-line="285" selection-end-column="1" />
+          <folding>
+            <element signature="e#13#1390#0" />
+            <element signature="e#19#541#0" />
+            <element signature="e#214#341#0" />
+            <element signature="e#547#961#0" />
+            <element signature="e#743#870#0" />
+            <element signature="e#967#1386#0" />
+            <element signature="e#1175#1296#0" />
+            <element signature="e#1403#8970#0" />
+            <element signature="e#1409#2372#0" />
+            <element signature="e#2028#2238#0" />
+            <element signature="e#2038#2230#0" />
+            <element signature="e#2378#3106#0" />
+            <element signature="e#2924#3045#0" />
+            <element signature="e#2934#3037#0" />
+            <element signature="e#3112#3938#0" />
+            <element signature="e#3637#3793#0" />
+            <element signature="e#3647#3785#0" />
+            <element signature="e#3944#5048#0" />
+            <element signature="e#4460#4778#0" />
+            <element signature="e#4470#4626#0" />
+            <element signature="e#4636#4770#0" />
+            <element signature="e#5054#6001#0" />
+            <element signature="e#5539#5941#0" />
+            <element signature="e#5549#5754#0" />
+            <element signature="e#5764#5933#0" />
+            <element signature="e#6007#6713#0" />
+            <element signature="e#6498#6653#0" />
+            <element signature="e#6508#6645#0" />
+            <element signature="e#6793#7497#0" />
+            <element signature="e#7240#7436#0" />
+            <element signature="e#7250#7428#0" />
+            <element signature="e#7503#8422#0" />
+            <element signature="e#8028#8220#0" />
+            <element signature="e#8038#8212#0" />
+            <element signature="e#7844#8966#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -913,24 +1172,181 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/components/mesa.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+        <state relative-caret-position="360">
+          <caret line="277" column="26" lean-forward="true" selection-start-line="277" selection-start-column="26" selection-end-line="277" selection-end-column="26" />
+          <folding>
+            <element signature="n#script#0;n#!!top" />
+            <element signature="e#23#4424#0" />
+            <element signature="e#79#757#0" />
+            <element signature="e#93#753#0" />
+            <element signature="e#366#505#0" />
+            <element signature="e#648#744#0" />
+            <element signature="e#772#777#0" />
+            <element signature="e#790#4368#0" />
+            <element signature="e#818#1000#0" />
+            <element signature="e#884#933#0" />
+            <element signature="e#944#986#0" />
+            <element signature="e#1016#1246#0" />
+            <element signature="e#1265#1272#0" />
+            <element signature="e#1300#2352#0" />
+            <element signature="e#1434#1513#0" />
+            <element signature="e#1518#2346#0" />
+            <element signature="e#1716#1768#0" />
+            <element signature="e#1779#1825#0" />
+            <element signature="e#1864#1890#0" />
+            <element signature="e#1962#2204#0" />
+            <element signature="e#1994#2106#0" />
+            <element signature="e#2215#2261#0" />
+            <element signature="e#2270#2490#0" />
+            <element signature="e#2368#2397#0" />
+            <element signature="e#2421#2450#0" />
+            <element signature="e#2510#2623#0" />
+            <element signature="e#2641#3773#0" />
+            <element signature="e#3009#3041#0" />
+            <element signature="e#3070#3143#0" />
+            <element signature="e#3170#3353#0" />
+            <element signature="e#3214#3345#0" />
+            <element signature="e#3438#3706#0" />
+            <element signature="e#3545#3696#0" />
+            <element signature="e#3717#3759#0" />
+            <element signature="e#3792#4057#0" />
+            <element signature="e#3966#4006#0" />
+            <element signature="e#4012#4051#0" />
+            <element signature="e#4080#4262#0" />
+            <element signature="e#4379#4384#0" />
+            <element signature="e#4295#4320#0" />
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#2;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#3;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#4;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#p#0;n#el-col#4;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#span#0;n#p#0;n#el-col#4;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#5;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-row#1;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#1;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#1;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#2;n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-collapse-item#1;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#el-collapse-item#1;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-collapse-item#2;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-collapse-item#3;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#b-card#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#b-card#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#p#0;n#div#0;n#b-card#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-tab-pane#3;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#router-link#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#iframe#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#!!top" />
+            <element signature="e#10281#10341#0" />
+            <element signature="e#10359#10425#0" />
+            <element signature="e#10441#10465#0" />
+            <element signature="e#10207#10259#0" />
+            <element signature="e#10298#10357#0" />
+            <element signature="e#10393#10445#0" />
+            <element signature="e#10482#10593#0" />
+            <element signature="n#style#1;n#!!top" />
+            <element signature="e#10634#10723#0" />
+            <element signature="e#10740#10871#0" />
+            <element signature="e#10878#10951#0" />
+            <element signature="e#10962#11119#0" />
+            <element signature="e#11132#11158#0" />
+            <element signature="e#11163#11311#0" />
+            <element signature="e#11335#11377#0" />
+            <element signature="e#11392#11426#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/users.json">
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/create.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="263" column="14" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
+        <state relative-caret-position="405">
+          <caret line="66" column="73" lean-forward="true" selection-start-line="66" selection-start-column="73" selection-end-line="66" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="148" column="44" selection-start-line="148" selection-start-column="44" selection-end-line="148" selection-end-column="44" />
           <folding>
-            <element signature="e#1409#2372#0" />
-            <element signature="e#2378#3106#0" />
-            <element signature="e#3112#3938#0" />
-            <element signature="e#3944#5048#0" />
-            <element signature="e#5054#6001#0" />
-            <element signature="e#6007#6713#0" />
-            <element signature="e#6793#7497#0" />
-            <element signature="e#7503#8422#0" />
+            <element signature="e#241#355#0" />
+            <element signature="e#381#765#0" />
+            <element signature="e#395#475#0" />
+            <element signature="e#489#573#0" />
+            <element signature="e#587#663#0" />
+            <element signature="e#677#753#0" />
+            <element signature="e#790#1217#0" />
+            <element signature="e#804#873#0" />
+            <element signature="e#887#956#0" />
+            <element signature="e#970#1039#0" />
+            <element signature="e#1053#1122#0" />
+            <element signature="e#1136#1205#0" />
+            <element signature="e#1241#1614#0" />
+            <element signature="e#1917#2106#0" />
+            <element signature="e#2130#2309#0" />
+            <element signature="e#2169#2250#0" />
+            <element signature="e#1739#1746#0" />
+            <element signature="e#1777#2533#0" />
+            <element signature="e#2005#2450#0" />
+            <element signature="e#2037#2438#0" />
+            <element signature="e#2550#2839#0" />
+            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#1;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#2;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#3;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#2;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#2;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#3;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#3;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#2;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#2;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#3;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#3;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#4;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#p#0;n#el-col#4;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#b#0;n#p#0;n#el-col#4;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-row#1;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#!!top" />
           </folding>
         </state>
       </provider>
