@@ -167,12 +167,10 @@ export default{
     </div>
     <b-container>
       <b-row style="margin-top: 2%;">
-        <b-col md="11" offset-md="1">
-          <b-card :title="mesa.title"
-                  class="mb-2">
+        <b-col md="12">
+          <b-card :title="mesa.title">
             <el-tabs>
               <el-tab-pane label="Descrição da mesa">
-
                 <el-row>
                   <el-col :span="12">
                     <el-row :gutter="40">
@@ -213,34 +211,27 @@ export default{
                     <p>{{mesa.descricao}}</p>
                   </el-col>
                 </el-row>
-
               </el-tab-pane>
               <el-tab-pane label="Ficha">
                 <el-button @click="entrarNaMesa()">Pedido para jogo</el-button>
               </el-tab-pane>
-              <el-tab-pane label="Chat de bate-papo">
+              <el-tab-pane label="Chat Geral">
                 <b-row>
                   <b-col md="2">
                     <el-collapse class="myChats">
                       <el-collapse-item title="Chat-de-Voz">
-                        <el-row>
-                          <el-col :span="8">
-                            <img class="char" src="../img/charElfa.jpg">
+                        <el-row style="padding: 5px;">
+                          <el-col :span="24" class="list-friends">
+                              <img width="35" height="35" src="http://cs625730.vk.me/v625730358/1126a/qEjM1AnybRA.jpg">
+                              <p>{{name}}</p>
                           </el-col>
-                          <el-col :span="8">
-                            <img class="char" src="../img/charElfa.jpg">
+                          <el-col :span="24" class="list-friends">
+                              <img width="35" height="35" src="http://cs625730.vk.me/v625730358/1126a/qEjM1AnybRA.jpg">
+                              <p>{{name}}</p>
                           </el-col>
-                          <el-col :span="8">
-                            <img class="char" src="../img/charElfa.jpg">
-                          </el-col>
-                          <el-col :span="8">
-                            <img class="char" src="../img/charElfa.jpg">
-                          </el-col>
-                          <el-col :span="8">
-                            <img class="char" src="../img/charElfa.jpg">
-                          </el-col>
-                          <el-col :span="8">
-                            <img class="char" src="../img/charElfa.jpg">
+                          <el-col :span="24" class="list-friends">
+                              <img width="35" height="35" src="http://cs625730.vk.me/v625730358/1126a/qEjM1AnybRA.jpg">
+                              <p>{{name}}</p>
                           </el-col>
                         </el-row>
                       </el-collapse-item>
@@ -287,6 +278,8 @@ export default{
                   </b-col>
                 </b-row>
               </el-tab-pane>
+              <el-tab-pane label="Assistir" v-show="true">
+              </el-tab-pane>
             </el-tabs>
             <router-link :to="voltar">
               <el-button size="mini">Voltar</el-button>
@@ -301,6 +294,18 @@ export default{
   </div>
 </template>
 <style>
+.list-friends img{
+  border-radius: 50%;
+  border: 3px solid #696c75;
+}
+.list-friends p{
+  color: black;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+.list-friends{
+  display: flex;
+}
 .myChats .el-collapse-item__header{
   color: #ffffff;
   background-color: #0000003b;
@@ -367,8 +372,6 @@ export default{
 .imgPrincipal {
   height: 100%;
   width: 100%;
+  border: solid 1px yellow;
 }
-
-
-
 </style>

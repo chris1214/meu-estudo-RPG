@@ -68,7 +68,24 @@ export default{
           },
           mapasSecundariosTitle: '',
           mapasSecundariosUrl: '',
-          tipo: ''
+          tipo: '',
+          buttonProximo: false,
+          mapas: true,
+          regra: {
+            faixaEtaria: [
+              { required: true, message: 'O tipo do sistema é obrigatório',trigger: 'change' }
+            ],
+            title: [
+              { required: true, message: 'Senha obrigatório'}
+            ],
+            url: [
+              { required: true, message: 'Imagem principal da mesa é obrigatório'}
+            ],
+            playersMin: [
+              { required: true, type: 'number', message: 'Somente numeros sao permitidos',},
+              {min: 1, message: 'No minimo 1 player',trigger: 'blur'}
+            ]
+          }
         }
     },
     components:{
@@ -110,6 +127,10 @@ export default{
 
         this.mapasSecundariosTitle = '';
         this.mapasSecundariosUrl = '';
+      },
+      proximo() {
+        this.mapas = false;
+        this.activeName = 'second';
       }
     },
     watch: {
@@ -121,6 +142,13 @@ export default{
           this.propio = false,
           this.existente = true
         }
+      },
+      resultados: function (value) {
+        console.log(valu.faixaEtariae);
+        console.log(value.title);
+        console.log(value.url);
+        console.log(value.playersMin)
+        console.log(value)
       }
     }
 }
@@ -131,9 +159,10 @@ export default{
       <el-col :span="22" :offset="1">
         <b-card title="Crie sua Mesa"
                 class="mb-2">
+          {{mapas}}
           <el-tabs v-model="activeName">
             <el-tab-pane label="Sistema" name="first">
-              <el-form label-position="top">
+              <el-form label-position="top" :model="resultados" :rules="regra">
                 <el-row :gutter="20">
                   <el-col :span="4">
                     <el-form-item label="Tipo de Sistema">
@@ -161,7 +190,7 @@ export default{
                     </el-form-item>
                   </el-col>
                   <el-col :span="4">
-                    <el-form-item label="Faixa etária da mesa">
+                    <el-form-item prop="faixaEtaria" :rules="regra.faixaEtaria"  label="Faixa etária da mesa">
                       <el-select v-model="resultados.faixaEtaria">
                         <el-option
                           v-for="item in faixaEtaria"
@@ -173,12 +202,12 @@ export default{
                     </el-form-item>
                   </el-col>
                   <el-col :span="4">
-                    <el-form-item label="Titulo da Mesa">
+                    <el-form-item prop="title" :rules="regra.title" label="Titulo da Mesa">
                       <el-input v-model="resultados.title" type="text"/>
                     </el-form-item>
                   </el-col>
                   <el-col :span="4">
-                    <el-form-item label="URL da Imagem para a mesa">
+                    <el-form-item  prop="url" :rules="regra.url" label="URL da Imagem para a mesa">
                       <el-input v-model="resultados.url"/>
                     </el-form-item>
                   </el-col>
@@ -222,13 +251,13 @@ export default{
                 </el-row>
                 <el-row :gutter="20">
                   <el-col :span="4">
-                    <el-form-item label="Quantidade minima de players">
-                      <el-input v-model="resultados.playersMin" type="number"/>
+                    <el-form-item prop="playersMin" :rules="regra.playersMin" label="Quantidade minima de players">
+                      <el-input v-model="resultados.playersMin"/>
                     </el-form-item>
                   </el-col>
                   <el-col :span="4">
                     <el-form-item label="Quantidade Maxima de players">
-                      <el-input v-model="resultados.playersMax" type="number"/>
+                      <el-input v-model="resultados.playersMax"/>
                     </el-form-item>
                   </el-col>
                 </el-row>
@@ -239,9 +268,12 @@ export default{
                     </el-form-item>
                   </el-col>
                 </el-row>
+                <el-row v-show="buttonProximo">
+                  <el-button @click="proximo()" >Próximo</el-button>
+                </el-row>
               </el-form>
             </el-tab-pane>
-            <el-tab-pane label="Mapas" name="second">
+            <el-tab-pane :disabled="mapas" label="Mapas" name="second">
               <el-form label-position="top">
                 <el-row :gutter="20">
                   <el-col :span="6">
@@ -279,8 +311,6 @@ export default{
                 </el-row>
               </el-form>
             </el-tab-pane>
-            <el-tab-pane label="Role" name="third">Role</el-tab-pane>
-            <el-tab-pane label="Task" name="fourth">Task</el-tab-pane>
           </el-tabs>
         </b-card>
       </el-col>

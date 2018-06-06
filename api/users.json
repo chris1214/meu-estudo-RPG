@@ -249,7 +249,12 @@
       "playersMax": "10",
       "mapaPrincipal": "https://vignette.wikia.nocookie.net/hybrid-fanfic/images/a/ac/8589130565809-demon-dragon-wallpaper-hd.jpg/revision/latest?cb=20141229021955",
       "descricao": "Uma descrição muito doida",
-      "players": [],
+      "players": [
+        {
+          "user": "Admin",
+          "id": "1"
+        }
+      ],
       "mapasSecundarios": [
         {
           "title": "Mais uma mesa ai",
@@ -257,9 +262,25 @@
         }
       ],
       "id": 9,
-      "vagas": 10
+      "vagas": 9
     }
   ],
-  "chatMesa": [],
-  "players": []
+  "chatMesa": [
+    {
+      "userText": "a",
+      "text": "a",
+      "user": "Admin",
+      "userID": "1",
+      "mesaID": "9",
+      "id": 1
+    }
+  ],
+  "players": [
+    {
+      "user": "Admin",
+      "userId": "1",
+      "mesaId": "9",
+      "id": 1
+    }
+  ]
 }
