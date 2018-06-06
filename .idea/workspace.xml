@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="91b2c247-1427-446e-b05c-d9fea72ccea9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myRPG/src/components/mesa.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myRPG/src/components/mesa.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue" afterDir="false" />
     </list>
     <ignored path="meu-estudo-RPG.iws" />
@@ -32,20 +34,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="users.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/users.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18165">
-              <caret line="1211" column="5" selection-start-line="1211" selection-start-column="5" selection-end-line="1211" selection-end-column="5" />
+            <state relative-caret-position="473">
+              <caret line="263" column="14" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
+              <folding>
+                <element signature="e#1409#2372#0" />
+                <element signature="e#2378#3106#0" />
+                <element signature="e#3112#3938#0" />
+                <element signature="e#3944#5048#0" />
+                <element signature="e#5054#6001#0" />
+                <element signature="e#6007#6713#0" />
+                <element signature="e#6793#7497#0" />
+                <element signature="e#7503#8422#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MesasParticipo.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mesa.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myRPG/src/components/mesa.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MesasParticipo.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="76" column="41" lean-forward="true" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
+            <state relative-caret-position="210">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -64,15 +85,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1290">
               <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mesa.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myRPG/src/components/mesa.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -124,10 +136,10 @@
         <option value="$PROJECT_DIR$/myRPG/src/components/show/minhasMesas.vue" />
         <option value="$PROJECT_DIR$/myRPG/src/components/show/mesasQueParticipo.vue" />
         <option value="$PROJECT_DIR$/myRPG/src/components/inicio.vue" />
-        <option value="$PROJECT_DIR$/api/users.json" />
-        <option value="$PROJECT_DIR$/myRPG/src/components/mesa.vue" />
         <option value="$PROJECT_DIR$/myRPG/Previa.html" />
         <option value="$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue" />
+        <option value="$PROJECT_DIR$/myRPG/src/components/mesa.vue" />
+        <option value="$PROJECT_DIR$/api/users.json" />
       </list>
     </option>
   </component>
@@ -211,7 +223,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -480,7 +492,7 @@
       <workItem from="1527559129795" duration="598000" />
       <workItem from="1528205742061" duration="140000" />
       <workItem from="1528213413617" duration="4437000" />
-      <workItem from="1528284529710" duration="2701000" />
+      <workItem from="1528284529710" duration="3863000" />
     </task>
     <task id="LOCAL-00001" summary="Tela de criação de mesa iniciada e codigo refatorado">
       <created>1526662674886</created>
@@ -552,11 +564,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528218189156</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Mesas que eu participo.">
+      <created>1528287301439</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1528287301439</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185367000" />
+    <option name="totallyTimeSpent" value="186529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
@@ -564,60 +583,34 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Palette&#9;" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="right" id="Designer" order="4" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24963397" />
+      <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info id="Learn" order="3" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Designer" order="6" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info id="Palette&#9;" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -644,7 +637,8 @@
     <MESSAGE value="Musicas do youtube funcionando&#10;" />
     <MESSAGE value="corrigindo bug da musica no chat de bate-papo" />
     <MESSAGE value="Minhas mesas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minhas mesas" />
+    <MESSAGE value="Mesas que eu participo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Mesas que eu participo." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -896,20 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/users.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18165">
-          <caret line="1211" column="5" selection-start-line="1211" selection-start-column="5" selection-end-line="1211" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/mesa.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/Previa.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -926,8 +906,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="76" column="41" lean-forward="true" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
+        <state relative-caret-position="210">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/mesa.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/users.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="263" column="14" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
+          <folding>
+            <element signature="e#1409#2372#0" />
+            <element signature="e#2378#3106#0" />
+            <element signature="e#3112#3938#0" />
+            <element signature="e#3944#5048#0" />
+            <element signature="e#5054#6001#0" />
+            <element signature="e#6007#6713#0" />
+            <element signature="e#6793#7497#0" />
+            <element signature="e#7503#8422#0" />
+          </folding>
         </state>
       </provider>
     </entry>

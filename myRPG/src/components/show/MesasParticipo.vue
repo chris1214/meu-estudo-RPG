@@ -15,31 +15,6 @@ export default{
     renderImagem
   },
   methods: {
-    /*getAll(myHttp, resposta, id){
-      this.$http.get(`${myHttp}${id}`).then(
-        response => {
-          this[resposta] = response.body;
-        }, error => {
-          console.log('Error')
-        }
-      ).then(
-        function(){
-          var player = this.myPlayers.length;
-          console.log(player)
-          if(player){
-            for(var i = 0; i < player; i++){
-              this.$http.get(`${this.httpMesas}?id=${value[i].mesaId}`).then(
-                response => {
-                  this.mesas.push(response.body);
-                }, error => {
-                  console.log('Error')
-                }
-              )
-            }
-          }
-        }
-      )
-    },*/
     myGet(){
       this.$http.get(`${this.httpPlayers}?userId=${this.id}`).then(
         response => {

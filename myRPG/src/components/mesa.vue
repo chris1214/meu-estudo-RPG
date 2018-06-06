@@ -65,19 +65,22 @@ export default{
           }, error => {
             console.log('Error')
           }
-        )
-        this.$http.post(`${this.httpPlayers}`, this.newPlayers).then(
-          response => {
-            this.newPlayers = {
-              user: this.name,
-              userId: this.id,
-              mesaId: this.mesaId,
-            }
-            this.getAll(`${this.httpPlayers}`, 'players', `?mesaId=${this.mesaId}`);
-          }, error => {
-            console.log('Error')
+        ).then(
+          function () {
+            this.$http.post(`${this.httpPlayers}`, this.newPlayers).then(
+              response => {
+                this.newPlayers = {
+                  user: this.name,
+                  userId: this.id,
+                  mesaId: this.mesaId,
+                };
+                this.getAll(`${this.httpPlayers}`, 'players', `?mesaId=${this.mesaId}`);
+              }, error => {
+                console.log('Error')
+              }
+            )
           }
-        )
+        );
       }
     },
     totalDeVagas(){
