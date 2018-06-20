@@ -2,7 +2,7 @@
 export default {
   data () {
     return {
-      httpUsers: 'http://localhost:3000/users',
+      httpUsers: 'http://localhost:8080/user/list',
       users: [],
       values: {
         email: '',

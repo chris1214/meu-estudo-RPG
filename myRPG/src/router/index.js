@@ -6,6 +6,7 @@ import list from '@/components/show/list'
 import inicio from '@/components/inicio'
 import mesa from '@/components/mesa'
 import example from '@/components/example'
+import texteGrails from '@/components/texteGrails'
 import faixaEtaria from '@/components/utils/faixaEtaria'
 
 Vue.use(Router)
@@ -21,6 +22,11 @@ export default new Router({
       path: '/inicio/example/',
       name: 'example',
       component: example
+    },
+    {
+      path: '/texteGrails/',
+      name: 'texteGrails',
+      component: texteGrails
     },
     {
       path: '/create/',

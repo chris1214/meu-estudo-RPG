@@ -3,7 +3,7 @@ export default{
     data(){
         return{
           dados: {
-          httpUsers: 'http://localhost:3000/users',
+          httpUsers: 'http://localhost:8080/user/list',
             desejoMeTornar: [
               {
                 label: 'Mestre',
@@ -59,13 +59,19 @@ export default{
             ],
             password: [
               { required: true, message: 'Senha e obrigatório'},
-              {min: 5, max: 50, message: 'No minimo 5 caracteres e no maximo 50', trigger: 'blur'}
+              {min: 6, max: 35, message: 'No minimo 5 caracteres e no maximo 50', trigger: 'blur'}
             ],
-            confirmePassowrd: [{ required: true, message: 'Confirmação de senha é obrigatório'}],
-            dataNascimento: [{ required: true, message: 'Data de Nascimento é obrigatório',}],
+            confirmePassowrd: [
+              { required: true, message: 'Confirmação de senha é obrigatório'}],
+            dataNascimento: [{ required: true, message: 'Data de Nascimento é obrigatório',}
+            ],
             tags: {
-              desejo: [{ required: true, message: 'Desejo é obrigatório', trigger: 'change'}],
-              experiencia: [{ required: true, message: 'Experiencia é obrigatório', trigger: 'change'}],
+              desejo: [
+                { required: true, message: 'Desejo é obrigatório', trigger: 'change'}
+                ],
+              experiencia: [
+                { required: true, message: 'Experiencia é obrigatório', trigger: 'change'}
+                ],
             },
           },
         }
@@ -74,7 +80,7 @@ export default{
     },
     methods: {
       pushAll(){
-        this.$http.post(`http://localhost:3000/users/`, this.resultados).then(
+        this.$http.post(`http://localhost:8080/user/save`, this.resultados).then(
           response => {
             this.$router.push('/')
           }, error => {

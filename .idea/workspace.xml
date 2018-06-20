@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b2c247-1427-446e-b05c-d9fea72ccea9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue" afterDir="false" />
     </list>
     <ignored path="meu-estudo-RPG.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,8 +35,8 @@
       <file leaf-file-name="users.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/users.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="285" column="1" lean-forward="true" selection-start-line="285" selection-start-column="1" selection-end-line="285" selection-end-column="1" />
+            <state relative-caret-position="3420">
+              <caret line="285" column="1" selection-start-line="285" selection-start-column="1" selection-end-line="285" selection-end-column="1" />
               <folding>
                 <element signature="e#13#1390#0" />
                 <element signature="e#19#541#0" />
@@ -45,34 +45,8 @@
                 <element signature="e#743#870#0" />
                 <element signature="e#967#1386#0" />
                 <element signature="e#1175#1296#0" />
-                <element signature="e#1403#8970#0" />
-                <element signature="e#1409#2372#0" />
                 <element signature="e#2028#2238#0" />
                 <element signature="e#2038#2230#0" />
-                <element signature="e#2378#3106#0" />
-                <element signature="e#2924#3045#0" />
-                <element signature="e#2934#3037#0" />
-                <element signature="e#3112#3938#0" />
-                <element signature="e#3637#3793#0" />
-                <element signature="e#3647#3785#0" />
-                <element signature="e#3944#5048#0" />
-                <element signature="e#4460#4778#0" />
-                <element signature="e#4470#4626#0" />
-                <element signature="e#4636#4770#0" />
-                <element signature="e#5054#6001#0" />
-                <element signature="e#5539#5941#0" />
-                <element signature="e#5549#5754#0" />
-                <element signature="e#5764#5933#0" />
-                <element signature="e#6007#6713#0" />
-                <element signature="e#6498#6653#0" />
-                <element signature="e#6508#6645#0" />
-                <element signature="e#6793#7497#0" />
-                <element signature="e#7240#7436#0" />
-                <element signature="e#7250#7428#0" />
-                <element signature="e#7503#8422#0" />
-                <element signature="e#8028#8220#0" />
-                <element signature="e#8038#8212#0" />
-                <element signature="e#7844#8966#0" />
               </folding>
             </state>
           </provider>
@@ -82,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/myRPG/src/components/mesa.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="277" column="26" lean-forward="true" selection-start-line="277" selection-start-column="26" selection-end-line="277" selection-end-column="26" />
+              <caret line="277" column="26" selection-start-line="277" selection-start-column="26" selection-end-line="277" selection-end-column="26" />
               <folding>
                 <element signature="n#script#0;n#!!top" />
                 <element signature="e#23#4424#0" />
@@ -102,28 +76,7 @@
                 <element signature="e#1518#2346#0" />
                 <element signature="e#1716#1768#0" />
                 <element signature="e#1779#1825#0" />
-                <element signature="e#1864#1890#0" />
-                <element signature="e#1962#2204#0" />
-                <element signature="e#1994#2106#0" />
-                <element signature="e#2215#2261#0" />
-                <element signature="e#2270#2490#0" />
-                <element signature="e#2368#2397#0" />
-                <element signature="e#2421#2450#0" />
-                <element signature="e#2510#2623#0" />
-                <element signature="e#2641#3773#0" />
-                <element signature="e#3009#3041#0" />
-                <element signature="e#3070#3143#0" />
-                <element signature="e#3170#3353#0" />
-                <element signature="e#3214#3345#0" />
-                <element signature="e#3438#3706#0" />
-                <element signature="e#3545#3696#0" />
-                <element signature="e#3717#3759#0" />
-                <element signature="e#3792#4057#0" />
-                <element signature="e#3966#4006#0" />
-                <element signature="e#4012#4051#0" />
-                <element signature="e#4080#4262#0" />
                 <element signature="e#4379#4384#0" />
-                <element signature="e#4295#4320#0" />
                 <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
                 <element signature="n#style#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
@@ -166,31 +119,16 @@
                 <element signature="n#router-link#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
                 <element signature="n#iframe#0;n#div#0;n#template#0;n#!!top" />
                 <element signature="n#style#0;n#!!top" />
-                <element signature="e#10281#10341#0" />
-                <element signature="e#10359#10425#0" />
-                <element signature="e#10441#10465#0" />
-                <element signature="e#10207#10259#0" />
-                <element signature="e#10298#10357#0" />
-                <element signature="e#10393#10445#0" />
-                <element signature="e#10482#10593#0" />
                 <element signature="n#style#1;n#!!top" />
-                <element signature="e#10634#10723#0" />
-                <element signature="e#10740#10871#0" />
-                <element signature="e#10878#10951#0" />
-                <element signature="e#10962#11119#0" />
-                <element signature="e#11132#11158#0" />
-                <element signature="e#11163#11311#0" />
-                <element signature="e#11335#11377#0" />
-                <element signature="e#11392#11426#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="criarMesa.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="criarMesa.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="150">
               <caret line="148" column="44" selection-start-line="148" selection-start-column="44" selection-end-line="148" selection-end-column="44" />
               <folding>
                 <element signature="e#241#355#0" />
@@ -206,14 +144,6 @@
                 <element signature="e#1053#1122#0" />
                 <element signature="e#1136#1205#0" />
                 <element signature="e#1241#1614#0" />
-                <element signature="e#1917#2106#0" />
-                <element signature="e#2130#2309#0" />
-                <element signature="e#2169#2250#0" />
-                <element signature="e#1739#1746#0" />
-                <element signature="e#1777#2533#0" />
-                <element signature="e#2005#2450#0" />
-                <element signature="e#2037#2438#0" />
-                <element signature="e#2550#2839#0" />
                 <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
                 <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
                 <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#1;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
@@ -256,11 +186,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="create.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myRPG/src/components/create.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="66" column="73" lean-forward="true" selection-start-line="66" selection-start-column="73" selection-end-line="66" selection-end-column="92" />
+            <state relative-caret-position="1830">
+              <caret line="140" column="44" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -268,7 +198,7 @@
       <file leaf-file-name="MesasParticipo.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="450">
               <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="41" />
             </state>
           </provider>
@@ -372,10 +302,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="-14" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="y" value="30" />
+    <option name="width" value="1366" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -383,7 +312,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -396,32 +325,11 @@
               <item name="meu-estudo-RPG" type="462c0819:PsiDirectoryNode" />
               <item name="myRPG" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="meu-estudo-RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meu-estudo-RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="myRPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meu-estudo-RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meu-estudo-RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="myRPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meu-estudo-RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meu-estudo-RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="myRPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="show" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -429,7 +337,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../groovy/myApp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
@@ -462,58 +370,12 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
@@ -564,26 +426,22 @@
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -593,69 +451,18 @@
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -664,7 +471,7 @@
       <gulpfile />
       <tasks />
       <arguments />
-      <envs />
+      <pass-parent-envs>true</pass-parent-envs>
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -701,6 +508,9 @@
       <workItem from="1528205742061" duration="140000" />
       <workItem from="1528213413617" duration="4437000" />
       <workItem from="1528284529710" duration="17628000" />
+      <workItem from="1528372300204" duration="2489000" />
+      <workItem from="1528457377773" duration="2046000" />
+      <workItem from="1528466656092" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="Tela de criação de mesa iniciada e codigo refatorado">
       <created>1526662674886</created>
@@ -797,10 +607,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200294000" />
+    <option name="totallyTimeSpent" value="204877000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1366" height="738" extended-state="6" />
+    <frame x="1" y="-14" width="1366" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -816,7 +626,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24924242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25681818" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -866,7 +676,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -874,216 +684,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myRPG/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/create.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/list.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/helperClass/myClass.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/create.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/list.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/helperClass/myClass.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/utils/backgroundImg.vue" />
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/imgResponsiva.vue" />
-    <entry file="file://$PROJECT_DIR$/myRPG/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/img/Runa-Ansuz.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/img/koa5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/img/kingCastle.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/img/KingAs.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/img/King.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/img/Hagalaz.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/img/CavalheiroEdragao.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/img/000nv.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/img/castelo.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/sistemas/propio.vue" />
-    <entry file="file://$PROJECT_DIR$/myRPG/src/img/Dragon.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/img/Ilha.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/img/IlhaFuturista.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/notas/date">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/utils/faixaEtaria.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/example.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/inicio.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="121" column="10" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1890" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/helperClass/myClass.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/components/utils/RenderImagem.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1114,8 +714,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/users.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="285" column="1" lean-forward="true" selection-start-line="285" selection-start-column="1" selection-end-line="285" selection-end-column="1" />
+        <state relative-caret-position="3420">
+          <caret line="285" column="1" selection-start-line="285" selection-start-column="1" selection-end-line="285" selection-end-column="1" />
           <folding>
             <element signature="e#13#1390#0" />
             <element signature="e#19#541#0" />
@@ -1124,34 +724,8 @@
             <element signature="e#743#870#0" />
             <element signature="e#967#1386#0" />
             <element signature="e#1175#1296#0" />
-            <element signature="e#1403#8970#0" />
-            <element signature="e#1409#2372#0" />
             <element signature="e#2028#2238#0" />
             <element signature="e#2038#2230#0" />
-            <element signature="e#2378#3106#0" />
-            <element signature="e#2924#3045#0" />
-            <element signature="e#2934#3037#0" />
-            <element signature="e#3112#3938#0" />
-            <element signature="e#3637#3793#0" />
-            <element signature="e#3647#3785#0" />
-            <element signature="e#3944#5048#0" />
-            <element signature="e#4460#4778#0" />
-            <element signature="e#4470#4626#0" />
-            <element signature="e#4636#4770#0" />
-            <element signature="e#5054#6001#0" />
-            <element signature="e#5539#5941#0" />
-            <element signature="e#5549#5754#0" />
-            <element signature="e#5764#5933#0" />
-            <element signature="e#6007#6713#0" />
-            <element signature="e#6498#6653#0" />
-            <element signature="e#6508#6645#0" />
-            <element signature="e#6793#7497#0" />
-            <element signature="e#7240#7436#0" />
-            <element signature="e#7250#7428#0" />
-            <element signature="e#7503#8422#0" />
-            <element signature="e#8028#8220#0" />
-            <element signature="e#8038#8212#0" />
-            <element signature="e#7844#8966#0" />
           </folding>
         </state>
       </provider>
@@ -1165,7 +739,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="450">
           <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="41" />
         </state>
       </provider>
@@ -1173,7 +747,7 @@
     <entry file="file://$PROJECT_DIR$/myRPG/src/components/mesa.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="277" column="26" lean-forward="true" selection-start-line="277" selection-start-column="26" selection-end-line="277" selection-end-column="26" />
+          <caret line="277" column="26" selection-start-line="277" selection-start-column="26" selection-end-line="277" selection-end-column="26" />
           <folding>
             <element signature="n#script#0;n#!!top" />
             <element signature="e#23#4424#0" />
@@ -1193,28 +767,7 @@
             <element signature="e#1518#2346#0" />
             <element signature="e#1716#1768#0" />
             <element signature="e#1779#1825#0" />
-            <element signature="e#1864#1890#0" />
-            <element signature="e#1962#2204#0" />
-            <element signature="e#1994#2106#0" />
-            <element signature="e#2215#2261#0" />
-            <element signature="e#2270#2490#0" />
-            <element signature="e#2368#2397#0" />
-            <element signature="e#2421#2450#0" />
-            <element signature="e#2510#2623#0" />
-            <element signature="e#2641#3773#0" />
-            <element signature="e#3009#3041#0" />
-            <element signature="e#3070#3143#0" />
-            <element signature="e#3170#3353#0" />
-            <element signature="e#3214#3345#0" />
-            <element signature="e#3438#3706#0" />
-            <element signature="e#3545#3696#0" />
-            <element signature="e#3717#3759#0" />
-            <element signature="e#3792#4057#0" />
-            <element signature="e#3966#4006#0" />
-            <element signature="e#4012#4051#0" />
-            <element signature="e#4080#4262#0" />
             <element signature="e#4379#4384#0" />
-            <element signature="e#4295#4320#0" />
             <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
             <element signature="n#style#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
@@ -1257,36 +810,17 @@
             <element signature="n#router-link#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
             <element signature="n#iframe#0;n#div#0;n#template#0;n#!!top" />
             <element signature="n#style#0;n#!!top" />
-            <element signature="e#10281#10341#0" />
-            <element signature="e#10359#10425#0" />
-            <element signature="e#10441#10465#0" />
-            <element signature="e#10207#10259#0" />
-            <element signature="e#10298#10357#0" />
-            <element signature="e#10393#10445#0" />
-            <element signature="e#10482#10593#0" />
             <element signature="n#style#1;n#!!top" />
-            <element signature="e#10634#10723#0" />
-            <element signature="e#10740#10871#0" />
-            <element signature="e#10878#10951#0" />
-            <element signature="e#10962#11119#0" />
-            <element signature="e#11132#11158#0" />
-            <element signature="e#11163#11311#0" />
-            <element signature="e#11335#11377#0" />
-            <element signature="e#11392#11426#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myRPG/src/components/create.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="66" column="73" lean-forward="true" selection-start-line="66" selection-start-column="73" selection-end-line="66" selection-end-column="92" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/myRPG/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="150">
           <caret line="148" column="44" selection-start-line="148" selection-start-column="44" selection-end-line="148" selection-end-column="44" />
           <folding>
             <element signature="e#241#355#0" />
@@ -1302,14 +836,6 @@
             <element signature="e#1053#1122#0" />
             <element signature="e#1136#1205#0" />
             <element signature="e#1241#1614#0" />
-            <element signature="e#1917#2106#0" />
-            <element signature="e#2130#2309#0" />
-            <element signature="e#2169#2250#0" />
-            <element signature="e#1739#1746#0" />
-            <element signature="e#1777#2533#0" />
-            <element signature="e#2005#2450#0" />
-            <element signature="e#2037#2438#0" />
-            <element signature="e#2550#2839#0" />
             <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
             <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
             <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#1;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
@@ -1348,6 +874,543 @@
             <element signature="n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
             <element signature="n#style#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/create.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="140" column="44" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/users.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="285" column="1" selection-start-line="285" selection-start-column="1" selection-end-line="285" selection-end-column="1" />
+          <folding>
+            <element signature="e#13#1390#0" />
+            <element signature="e#19#541#0" />
+            <element signature="e#214#341#0" />
+            <element signature="e#547#961#0" />
+            <element signature="e#743#870#0" />
+            <element signature="e#967#1386#0" />
+            <element signature="e#1175#1296#0" />
+            <element signature="e#2028#2238#0" />
+            <element signature="e#2038#2230#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/mesa.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="277" column="26" selection-start-line="277" selection-start-column="26" selection-end-line="277" selection-end-column="26" />
+          <folding>
+            <element signature="n#script#0;n#!!top" />
+            <element signature="e#23#4424#0" />
+            <element signature="e#79#757#0" />
+            <element signature="e#93#753#0" />
+            <element signature="e#366#505#0" />
+            <element signature="e#648#744#0" />
+            <element signature="e#772#777#0" />
+            <element signature="e#790#4368#0" />
+            <element signature="e#818#1000#0" />
+            <element signature="e#884#933#0" />
+            <element signature="e#944#986#0" />
+            <element signature="e#1016#1246#0" />
+            <element signature="e#1265#1272#0" />
+            <element signature="e#1300#2352#0" />
+            <element signature="e#1434#1513#0" />
+            <element signature="e#1518#2346#0" />
+            <element signature="e#1716#1768#0" />
+            <element signature="e#1779#1825#0" />
+            <element signature="e#4379#4384#0" />
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#2;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#3;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#4;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#p#0;n#el-col#4;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#span#0;n#p#0;n#el-col#4;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#5;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-row#1;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#1;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#1;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#2;n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-collapse-item#1;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#el-collapse-item#1;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-collapse-item#2;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-collapse-item#3;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#b-card#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#b-card#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#p#0;n#div#0;n#b-card#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-tab-pane#3;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#router-link#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#iframe#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#!!top" />
+            <element signature="n#style#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="148" column="44" selection-start-line="148" selection-start-column="44" selection-end-line="148" selection-end-column="44" />
+          <folding>
+            <element signature="e#241#355#0" />
+            <element signature="e#381#765#0" />
+            <element signature="e#395#475#0" />
+            <element signature="e#489#573#0" />
+            <element signature="e#587#663#0" />
+            <element signature="e#677#753#0" />
+            <element signature="e#790#1217#0" />
+            <element signature="e#804#873#0" />
+            <element signature="e#887#956#0" />
+            <element signature="e#970#1039#0" />
+            <element signature="e#1053#1122#0" />
+            <element signature="e#1136#1205#0" />
+            <element signature="e#1241#1614#0" />
+            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#1;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#2;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#3;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#2;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#2;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#3;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#3;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#2;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#2;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#3;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#3;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#4;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#p#0;n#el-col#4;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#b#0;n#p#0;n#el-col#4;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-row#1;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/create.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/Previa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/list.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/create.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/helperClass/myClass.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/list.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/helperClass/myClass.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/notas/date">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/utils/faixaEtaria.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/example.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/inicio.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="121" column="10" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/helperClass/myClass.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/utils/RenderImagem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/minhasMesas.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/Previa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/list.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/users.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3420">
+          <caret line="285" column="1" selection-start-line="285" selection-start-column="1" selection-end-line="285" selection-end-column="1" />
+          <folding>
+            <element signature="e#13#1390#0" />
+            <element signature="e#19#541#0" />
+            <element signature="e#214#341#0" />
+            <element signature="e#547#961#0" />
+            <element signature="e#743#870#0" />
+            <element signature="e#967#1386#0" />
+            <element signature="e#1175#1296#0" />
+            <element signature="e#2028#2238#0" />
+            <element signature="e#2038#2230#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/MesasParticipo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/mesa.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="277" column="26" selection-start-line="277" selection-start-column="26" selection-end-line="277" selection-end-column="26" />
+          <folding>
+            <element signature="n#script#0;n#!!top" />
+            <element signature="e#23#4424#0" />
+            <element signature="e#79#757#0" />
+            <element signature="e#93#753#0" />
+            <element signature="e#366#505#0" />
+            <element signature="e#648#744#0" />
+            <element signature="e#772#777#0" />
+            <element signature="e#790#4368#0" />
+            <element signature="e#818#1000#0" />
+            <element signature="e#884#933#0" />
+            <element signature="e#944#986#0" />
+            <element signature="e#1016#1246#0" />
+            <element signature="e#1265#1272#0" />
+            <element signature="e#1300#2352#0" />
+            <element signature="e#1434#1513#0" />
+            <element signature="e#1518#2346#0" />
+            <element signature="e#1716#1768#0" />
+            <element signature="e#1779#1825#0" />
+            <element signature="e#4379#4384#0" />
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#2;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#3;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#4;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#p#0;n#el-col#4;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#span#0;n#p#0;n#el-col#4;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#5;n#el-row#0;n#el-col#0;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-row#1;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#1;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#1;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#2;n#el-row#0;n#el-collapse-item#0;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-collapse-item#1;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#el-collapse-item#1;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-collapse-item#2;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-collapse-item#3;n#el-collapse#0;n#b-col#0;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#b-card#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#b-card#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#p#0;n#div#0;n#b-card#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#b-col#1;n#b-row#0;n#el-tab-pane#2;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-tab-pane#3;n#el-tabs#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#router-link#0;n#b-card#0;n#b-col#0;n#b-row#0;n#b-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#iframe#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#!!top" />
+            <element signature="n#style#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/show/criarMesa.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="148" column="44" selection-start-line="148" selection-start-column="44" selection-end-line="148" selection-end-column="44" />
+          <folding>
+            <element signature="e#241#355#0" />
+            <element signature="e#381#765#0" />
+            <element signature="e#395#475#0" />
+            <element signature="e#489#573#0" />
+            <element signature="e#587#663#0" />
+            <element signature="e#677#753#0" />
+            <element signature="e#790#1217#0" />
+            <element signature="e#804#873#0" />
+            <element signature="e#887#956#0" />
+            <element signature="e#970#1039#0" />
+            <element signature="e#1053#1122#0" />
+            <element signature="e#1136#1205#0" />
+            <element signature="e#1241#1614#0" />
+            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#1;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#2;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#3;n#span#0;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#0;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-select#0;n#el-form-item#0;n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-option#0;n#el-select#0;n#el-form-item#0;n#el-col#1;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#2;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#2;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#3;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#3;n#span#1;n#el-row#0;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#2;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#0;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#1;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#2;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#2;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#3;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#0;n#el-col#3;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#4;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#p#0;n#el-col#4;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#b#0;n#p#0;n#el-col#4;n#el-row#0;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-row#1;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#1;n#el-form#0;n#el-tab-pane#1;n#el-tabs#0;n#b-card#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myRPG/src/components/create.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="140" column="44" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="44" />
         </state>
       </provider>
     </entry>

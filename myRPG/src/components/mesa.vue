@@ -4,9 +4,9 @@ export default{
     data(){
       return{
         mesa: [],
-        httpMesa: 'http://localhost:3000/mesas',
-        httpPlayers: 'http://localhost:3000/players',
-        httpChatMesa: 'http://localhost:3000/chatMesa',
+        httpMesa: 'http://localhost:8080/mesas/list',
+        httpPlayers: 'http://localhost:8080/players/list',
+        httpChatMesa: 'http://localhost:8080/chatMesa/list',
         activeName: 'first',
         voltar: `/inicio/${this.name}/${this.id}`,
         chat: {

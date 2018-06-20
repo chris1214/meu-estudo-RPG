@@ -6,8 +6,8 @@ export default{
       return{
          fotos: [],
          imageUrl: '',
-         httpMesa: 'http://localhost:3000/mesas',
-         httpUser: 'http://localhost:3000/users',
+         httpMesa: 'http://localhost:8080/mesas/list',
+         httpUser: 'http://localhost:8080/user/list',
          user: [],
          renderImg: true,
          img: 'https://image.freepik.com/icones-gratis/simbolo-de-cadeado_318-50592.jpg',
