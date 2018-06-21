@@ -4,7 +4,7 @@ export default{
     data(){
       return{
         mesa: [],
-        httpMesa: 'http://localhost:3000/mesas',
+        httpMesa: 'http://localhost:8080/mesas/list',
         activeName: 'first'
       }
   },

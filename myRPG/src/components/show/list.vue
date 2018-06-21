@@ -28,13 +28,58 @@ export default{
       this.getAll(`${this.httpMesa}`, 'fotos');
     },
     userOn(){
-      this.$http.get(`${this.httpUser}/${this.id}`).then(
-        response => {
-          this.user = response.body
-        }, error => {
-          console.log("usuario invalido")
-        }
-      )
+
+      console.log(`${this.httpUser}/${this.id}`)
+      this.$http.get(`${this.httpUser}/${this.id}`)
+        .then(
+          response => {
+            this.user = response.body
+            console.log('Foi')
+            console.log(this.user)
+          }, error => {
+            console.log("usuario invalido")
+          }
+        )
+        .then(
+          function () {
+            console.log('True')
+            var user = this.user[1].dataNascimento;
+            var userDate = new Date(user);
+
+            var newDate = new Date();
+            var faixaEtaria;
+            var idade =  Math.floor(Math.ceil(Math.abs(userDate.getTime() - newDate.getTime()) / (1000 * 3600 * 24)) / 365.25);
+            console.log(this.user.dataNascimento)
+            console.log(user)
+            if (idade < 10){
+
+              faixaEtaria = '9'
+
+            } else if(idade >= 10 && idade <= 11){
+
+              faixaEtaria = '10'
+
+            } else if(idade >= 12 && idade <= 13){
+
+              faixaEtaria = '12'
+
+            } else if(idade >= 14 && idade <= 15){
+
+              faixaEtaria = '14'
+
+            } else if(idade >= 16 && idade <= 17){
+
+              faixaEtaria = '16'
+
+            } else if(idade >= 18){
+
+              faixaEtaria = '18'
+
+            }
+            console.log(faixaEtaria)
+            this.faixaEtariaUser = faixaEtaria;
+          }
+        )
     }
   },
   computed: {
@@ -54,38 +99,7 @@ export default{
       }
     },
     user: function (resultado){
-      var user = resultado.dataNascimento;
-      var userDate = new Date(user);
 
-      var newDate = new Date();
-      var faixaEtaria;
-      var idade =  Math.floor(Math.ceil(Math.abs(userDate.getTime() - newDate.getTime()) / (1000 * 3600 * 24)) / 365.25);
-      if (idade < 10){
-
-        faixaEtaria = '9'
-
-      } else if(idade >= 10 && idade <= 11){
-
-         faixaEtaria = '10'
-
-      } else if(idade >= 12 && idade <= 13){
-
-         faixaEtaria = '12'
-
-      } else if(idade >= 14 && idade <= 15){
-
-         faixaEtaria = '14'
-
-      } else if(idade >= 16 && idade <= 17){
-
-         faixaEtaria = '16'
-
-      } else if(idade >= 18){
-
-         faixaEtaria = '18'
-
-      }
-      this.faixaEtariaUser = faixaEtaria;
     },
   },
   created(){
@@ -106,8 +120,9 @@ export default{
         </el-col>
       </el-row>
       <el-row :gutter="20">
+        {{user}}
         <div v-for="foto in filterFotos">
-          <el-col :xs="12" :sm="6" :md="6" :lg="4" :xl="4" @click="enter()">
+          <el-col :xs="12" :sm="6" :md="6" :lg="4" :xl="4">
             <renderImagem
               :faixaEtariaUser="faixaEtariaUser"
               :id="id"

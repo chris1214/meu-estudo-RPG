@@ -7,8 +7,8 @@ export default{
         minhasMesas: [],
         mesas: [],
         myPlayers: [],
-        httpPlayers: 'http://localhost:3000/players',
-        httpMesas: 'http://localhost:3000/mesas'
+        httpPlayers: 'http://localhost:8080/players/list',
+        httpMesas: 'http://localhost:8080/mesas/list'
       }
   },
   components:{

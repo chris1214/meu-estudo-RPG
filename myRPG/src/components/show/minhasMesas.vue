@@ -5,7 +5,7 @@ export default{
   data(){
       return{
         mesas: [],
-        httpMesas: 'http://localhost:3000/mesas'
+        httpMesas: 'http://localhost:8080/mesas/list'
       }
   },
   components:{

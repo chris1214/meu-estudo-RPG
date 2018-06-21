@@ -270,6 +270,9 @@ export default{
                         <el-button type="defalt" size="mini">
                           Voltar
                         </el-button>
+                        <el-button @click="pushAll()" type="defalt" size="mini">
+                          push
+                        </el-button>
                       </router-link>
                     </el-col>
                   </el-row>
