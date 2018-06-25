@@ -10,6 +10,7 @@ class MesasController {
             save: "POST",
             fake: "POST"
     ]
+    def mesasService
     def list() {
         respond Mesas.list()
     }
@@ -17,18 +18,8 @@ class MesasController {
         Mesas mesa = new Mesas()
         JSONObject json = request.JSON
 
-        mesa.tipoDoSistema = json.tipoDoSistema
-        mesa.valueTiposDeMesas = json.valueTiposDeMesas
-        mesa.faixaEtaria = json.faixaEtaria
-        mesa.title = json.title
-        mesa.mestre = json.mestre
-        mesa.playersMin = json.playersMin
-        mesa.playersMax = json.playersMax
-        mesa.mapaPrincipal = json.mapaPrincipal
-        mesa.descricao = json.descricao
-        mesa.type = json.newFile.type
-        mesa.url = json.newFile.url
-        mesa.size = json.newFile.size
+        mesasService.serviceConvertSaveJson(json,mesa)
+
 
 
        println '----------------------' *50
@@ -45,22 +36,7 @@ class MesasController {
         println mesa.url
         println mesa.size
         println '----------------------' * 50
-
-        mesa.save(flush: true)
-        if (!mesa.save()) {
-            mesa.errors.allErrors.each {
-                println it
-            }
-        }
         respond json
-
-    }
-    def fake(){
-
-        println '----------------------' *50
-        println params.upload
-        println params
-        println '----------------------' *50
 
     }
 }

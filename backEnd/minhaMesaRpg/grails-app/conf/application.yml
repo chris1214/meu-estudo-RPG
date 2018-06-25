@@ -97,22 +97,22 @@ dataSource:
     pooled: true
     jmxExport: true
     driverClassName: com.mysql.jdbc.Driver
-    username: root
-    password: 'root..'
+    username: christop_hagalaz
+    password: 'nat042022*'
 
 environments:
     development:
         dataSource:
             dbCreate: update
-            url: jdbc:mysql://localhost/myRpg
+            url: jdbc:mysql://localhost/christop_minhaMesaRpg
     test:
         dataSource:
             dbCreate: update
-            url: jdbc:mysql://localhost/myRpg
+            url: jdbc:mysql://localhost/christop_minhaMesaRpg
     production:
         dataSource:
             dbCreate: none
-            url: jdbc:mysql://localhost/myRpg
+            url: jdbc:mysql://localhost/christop_minhaMesaRpg
             properties:
                 jmxEnabled: true
                 initialSize: 5
