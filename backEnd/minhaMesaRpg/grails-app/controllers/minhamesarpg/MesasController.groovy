@@ -19,23 +19,6 @@ class MesasController {
         JSONObject json = request.JSON
 
         mesasService.serviceConvertSaveJson(json,mesa)
-
-
-
-       println '----------------------' *50
-        println mesa.tipoDoSistema
-        println mesa.valueTiposDeMesas
-        println mesa.faixaEtaria
-        println mesa.title
-        println mesa.mestre
-        println mesa.playersMin
-        println mesa.playersMax
-        println mesa.mapaPrincipal
-        println mesa.descricao
-        println mesa.type
-        println mesa.url
-        println mesa.size
-        println '----------------------' * 50
         respond json
 
     }

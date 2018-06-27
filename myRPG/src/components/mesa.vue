@@ -3,6 +3,7 @@ export default{
   props: ['mesaId', 'title', 'name', 'id'],
     data(){
       return{
+        mesas: [],
         mesa: [],
         httpMesa: 'http://localhost:8080/mesas/list',
         httpPlayers: 'http://localhost:8080/players/list',
@@ -33,16 +34,23 @@ export default{
   },
   methods: {
     getAll(http, mesa, id){
-      this.$http.get(`${http}/${id}`).then(
-        response => {
-          this[mesa] = response.body;
-        }, error => {
-          console.log('Error')
-        }
-      )
+      this.$http.get(`${http}/${id}`)
+        .then(
+          response => {
+            this[mesa] = response.body;
+          }, error => {
+            console.log('Error')
+          }
+        )
+        .then(
+          function () {
+            this.mesa = this.mesas[this.mesaId -1]
+            console.log(this.mesa)
+          }
+        )
     },
     getMesa() {
-      this.getAll(`${this.httpMesa}`, 'mesa', `${this.mesaId}`);
+      this.getAll(`${this.httpMesa}`, 'mesas', `${this.mesaId}`);
       this.getAll(`${this.httpChatMesa}`, 'myChat', `?mesaID=${this.mesaId}`);
       this.getAll(`${this.httpPlayers}`, 'players', `?mesaId=${this.mesaId}`);
     },

@@ -25,11 +25,18 @@ export default {
     },
     login(){
       if(this.values.email && this.values.password){
-        for(var i = 0; i < this.users.length; i++){
+        var error = true;
+        for(var i = 0; i <= this.users.length -1; i++){
           if(this.values.email == this.users[i].email && this.values.password == this.users[i].password){
-            this.$router.push('/inicio/' + this.users[i].name + '/' + this.users[i].id)
+            this.$router.push('/inicio/' + this.users[i].name + '/' + this.users[i].id);
+            error = false;
           }
         }
+
+        if (error) {
+          this.$message.error('Campo E-mail ou Senha incorretos');
+        }
+
       }else {
          this.$message.error('Campo E-mail ou Senha vazio');
       }
@@ -68,7 +75,7 @@ export default {
                   </el-row>
                 </el-form-item>
                 <el-form-item>
-                  <el-button native-type="submit" @click="login" type="primary" size="mini">
+                  <el-button native-type="submit" @click.prevent="login" type="primary" size="mini">
                     Login
                   </el-button>
                 </el-form-item>

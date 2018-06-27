@@ -8,9 +8,8 @@ export default{
          imageUrl: '',
          httpMesa: 'http://localhost:8080/mesas/list',
          httpUser: 'http://localhost:8080/user/list',
-         user: [],
+         user: null,
          renderImg: true,
-         img: 'https://image.freepik.com/icones-gratis/simbolo-de-cadeado_318-50592.jpg',
          faixaEtariaUser: ''
       }
   },
@@ -34,23 +33,20 @@ export default{
         .then(
           response => {
             this.user = response.body
-            console.log('Foi')
-            console.log(this.user)
           }, error => {
             console.log("usuario invalido")
           }
         )
         .then(
           function () {
-            console.log('True')
-            var user = this.user[1].dataNascimento;
+            var i = this.id - 1;
+            var user = this.user[i].dataNascimento;
             var userDate = new Date(user);
 
             var newDate = new Date();
             var faixaEtaria;
             var idade =  Math.floor(Math.ceil(Math.abs(userDate.getTime() - newDate.getTime()) / (1000 * 3600 * 24)) / 365.25);
-            console.log(this.user.dataNascimento)
-            console.log(user)
+
             if (idade < 10){
 
               faixaEtaria = '9'
@@ -76,7 +72,6 @@ export default{
               faixaEtaria = '18'
 
             }
-            console.log(faixaEtaria)
             this.faixaEtariaUser = faixaEtaria;
           }
         )
@@ -120,7 +115,6 @@ export default{
         </el-col>
       </el-row>
       <el-row :gutter="20">
-        {{user}}
         <div v-for="foto in filterFotos">
           <el-col :xs="12" :sm="6" :md="6" :lg="4" :xl="4">
             <renderImagem

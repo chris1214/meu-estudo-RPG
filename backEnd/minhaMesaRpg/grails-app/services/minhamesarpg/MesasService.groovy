@@ -18,5 +18,7 @@ class MesasService {
         mesa.type = json.newFile.type
         mesa.url = json.newFile.url
         mesa.size = json.newFile.size
+
+        mesa.save(flush: true)
     }
 }
