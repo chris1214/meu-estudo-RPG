@@ -1,13 +1,14 @@
 <script>
 import renderImagem from '../utils/RenderImagem'
+import {httpMesasList, httpUsersList} from '../../http'
 export default{
   props: ['filtro', 'title', 'myShow', "name","id"],
   data(){
       return{
          fotos: [],
          imageUrl: '',
-         httpMesa: 'http://localhost:8080/mesas/list',
-         httpUser: 'http://localhost:8080/user/list',
+         httpMesa: httpMesasList,
+         httpUser: httpUsersList,
          user: null,
          renderImg: true,
          faixaEtariaUser: ''
@@ -27,8 +28,6 @@ export default{
       this.getAll(`${this.httpMesa}`, 'fotos');
     },
     userOn(){
-
-      console.log(`${this.httpUser}/${this.id}`)
       this.$http.get(`${this.httpUser}/${this.id}`)
         .then(
           response => {

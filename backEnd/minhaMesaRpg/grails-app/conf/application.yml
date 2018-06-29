@@ -103,16 +103,16 @@ dataSource:
 environments:
     development:
         dataSource:
-            dbCreate: update
+            dbCreate: create-drop #update
             url: jdbc:mysql://localhost/myRpg
     test:
         dataSource:
             dbCreate: update
-            url: jdbc:mysql://localhost/christop_minhaMesaRpg
+            url: jdbc:mysql://localhost/myRpg
     production:
         dataSource:
-            dbCreate: update
-            url: jdbc:mysql://localhost/christop_minhaMesaRpg
+            dbCreate: create
+            url: jdbc:mysql://localhost/myRpg
             properties:
                 jmxEnabled: true
                 initialSize: 5

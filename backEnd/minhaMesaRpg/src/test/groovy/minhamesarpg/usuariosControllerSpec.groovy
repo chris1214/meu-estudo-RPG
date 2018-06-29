@@ -3,7 +3,7 @@ package minhamesarpg
 import grails.testing.web.controllers.ControllerUnitTest
 import spock.lang.Specification
 
-class UserControllerSpec extends Specification implements ControllerUnitTest<UserController> {
+class usuariosControllerSpec extends Specification implements ControllerUnitTest<UserController> {
 
     def setup() {
     }

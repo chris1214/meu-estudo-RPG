@@ -1,9 +1,10 @@
 <script>
+import {httpUsersSave} from '../http'
 export default{
     data(){
         return{
+          httpUserSave: httpUsersSave,
           dados: {
-          httpUsers: 'http://localhost:8080/user/list',
             desejoMeTornar: [
               {
                 label: 'Mestre',
@@ -80,7 +81,7 @@ export default{
     },
     methods: {
       pushAll(){
-        this.$http.post(`http://localhost:8080/user/save`, this.resultados).then(
+        this.$http.post(`${this.httpUserSave}`, this.resultados).then(
           response => {
             this.$router.push('/')
           }, error => {

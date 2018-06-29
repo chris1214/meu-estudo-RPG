@@ -1,17 +1,18 @@
 <script>
+import {httpMesasList} from '../../http'
 export default{
   props: ['mesaId', 'title', 'faixaEtaria'],
     data(){
       return{
         mesa: [],
-        httpMesa: 'http://localhost:8080/mesas/list',
+        httpMesa: httpMesasList,
         activeName: 'first'
       }
   },
   components:{
   },
   methods: {
-    getAll(myHttp, resposta){
+    getAll(){
       this.$http.get(`${this.httpMesa}/${this.mesaId}`).then(
         response => {
           this.mesa = response.body;

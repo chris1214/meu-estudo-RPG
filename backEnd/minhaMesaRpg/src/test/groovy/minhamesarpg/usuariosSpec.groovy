@@ -1,9 +1,9 @@
 package minhamesarpg
 
-import grails.testing.services.ServiceUnitTest
+import grails.testing.gorm.DomainUnitTest
 import spock.lang.Specification
 
-class UserServiceSpec extends Specification implements ServiceUnitTest<UserService>{
+class usuariosSpec extends Specification implements DomainUnitTest<usuarios> {
 
     def setup() {
     }

@@ -1,4 +1,5 @@
 <script>
+import {httpMesasList, httpPlayersList} from '../../http'
 import renderImagem from '../utils/RenderImagem'
 export default{
   props: ['id', 'name'],
@@ -7,8 +8,8 @@ export default{
         minhasMesas: [],
         mesas: [],
         myPlayers: [],
-        httpPlayers: 'http://localhost:8080/players/list',
-        httpMesas: 'http://localhost:8080/mesas/list'
+        httpPlayers: httpPlayersList,
+        httpMesas: httpMesasList
       }
   },
   components:{

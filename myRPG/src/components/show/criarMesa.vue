@@ -1,12 +1,12 @@
 <script>
   import upload from '../utils/uploadImg'
-
+  import {httpMesasList, httpMesasSave} from '../../http'
   export default {
     props: ['id', 'name'],
     data() {
       return {
-        httpMesa: 'http://localhost:8080/mesas/list',
-        httpMesaSave: 'http://localhost:8080/mesas/save',
+        httpMesa: httpMesasList,
+        httpMesaSave: httpMesasSave,
         activeName: 'first',
         propio: false,
         existente: false,

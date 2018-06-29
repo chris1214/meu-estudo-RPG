@@ -3,7 +3,7 @@ package minhamesarpg
 import grails.gorm.transactions.Transactional
 
 @Transactional
-class UserService {
+class UsuariosService {
 
     def serviceConvertJson(json, user) {
         String date =  json.dataNascimento

@@ -1,11 +1,12 @@
 <script>
+import {httpMesasList} from '../../http'
 import renderImagem from '../utils/RenderImagem'
 export default{
   props: ['id', 'name'],
   data(){
       return{
         mesas: [],
-        httpMesas: 'http://localhost:8080/mesas/list'
+        httpMesas: httpMesasList
       }
   },
   components:{

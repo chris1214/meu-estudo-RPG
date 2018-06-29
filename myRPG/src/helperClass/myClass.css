@@ -18,3 +18,15 @@ body {
 .el-tabs__item {
   color: white;
 }
+/*:root {
+  --tamanho: 50%;
+  --cor: #660066;
+}
+
+.exemplo-1 {
+  margin: var(--tamanho); // retorna 50%
+}
+
+.exemplo-2 {
+  color: var(--cor); // retorna #660066
+}*/

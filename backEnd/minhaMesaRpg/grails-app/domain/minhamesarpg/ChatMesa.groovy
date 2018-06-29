@@ -1,5 +1,6 @@
 package minhamesarpg
-
+import grails.rest.Resource
+@Resource(uri = '/application/json')
 class ChatMesa {
     String userText
     String text

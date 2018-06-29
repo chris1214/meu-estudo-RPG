@@ -1,8 +1,9 @@
 <script>
+import {httpUsersList} from '../http'
 export default {
   data () {
     return {
-      httpUsers: 'http://localhost:8080/user/list',
+      httpUsers: httpUsersList,
       users: [],
       values: {
         email: '',

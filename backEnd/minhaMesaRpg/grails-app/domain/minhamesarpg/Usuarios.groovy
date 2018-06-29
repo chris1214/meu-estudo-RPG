@@ -1,8 +1,8 @@
 package minhamesarpg
-
 import grails.rest.Resource
 @Resource(uri = '/application/json')
-class User {
+
+class Usuarios {
     String name
     String email
     String password
