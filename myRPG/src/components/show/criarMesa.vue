@@ -73,7 +73,8 @@
             url: '',
             size: '',
             file:[]
-          }
+          },
+          vagas: ''
         },
         mapasSecundariosTitle: '',
         mapasSecundariosUrl: '',
@@ -114,6 +115,7 @@
         this.resultados.mestre = this.name;
         this.resultados.idMestre = this.id;
         this.resultados.tipoDoSistema = this.tipo;
+        this.resultados.vagas = this.playersMax;
 
         this.$http.post(`${this.httpMesaSave}`, this.resultados).then(
           response => {

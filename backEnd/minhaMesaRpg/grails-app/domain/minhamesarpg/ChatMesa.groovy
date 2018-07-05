@@ -7,7 +7,6 @@ class ChatMesa {
     String user
     Integer userID
     Integer mesaID
-    Integer id
     static constraints = {
     }
 }

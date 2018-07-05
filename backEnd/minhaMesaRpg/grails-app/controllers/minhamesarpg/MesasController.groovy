@@ -8,18 +8,22 @@ class MesasController {
     static allowedMethods = [
             list: "GET",
             save: "POST",
-            fake: "POST"
+            update: "PUT"
     ]
+
+    Mesas mesa = new Mesas()
+    JSONObject json = request.JSON
     def mesasService
+
     def list() {
         respond Mesas.list()
     }
     def save() {
-        Mesas mesa = new Mesas()
-        JSONObject json = request.JSON
-
         mesasService.serviceConvertSaveJson(json,mesa)
         respond json
-
+    }
+    def update (){
+        mesasService.serviceConvertSaveJson(json,mesa)
+        respond json
     }
 }

@@ -5,7 +5,9 @@ class Players {
     String user
     Integer userId
     Integer mesaId
-    Integer id
     static constraints = {
+        user nullable: false,blanck: false
+        userId nullable: false,blanck: false
+        mesaId nullable: false,blanck: false
     }
 }

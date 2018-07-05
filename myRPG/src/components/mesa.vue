@@ -1,11 +1,12 @@
 <script>
-import {httpMesasList, httpPlayersList,httpChatMesaList} from '../http'
+import {httpMesasList, httpPlayersList,httpChatMesaList, httpMesasUpdate} from '../http'
 export default{
   props: ['mesaId', 'title', 'name', 'id'],
     data(){
       return{
         mesas: [],
         mesa: [],
+        player: [],
         activeName: 'first',
         voltar: `/inicio/${this.name}/${this.id}`,
         chat: {
@@ -26,13 +27,15 @@ export default{
           userId: this.id,
           mesaId: this.mesaId,
         },
+        mesaTrue: false,
+        playersTrue: false,
       }
   },
   components:{
   },
   methods: {
-    getAll(http, mesa, id){
-      this.$http.get(`${http}/${id}`)
+    getAll(http, mesa){
+      this.$http.get(`${http}`)
         .then(
           response => {
             this[mesa] = response.body;
@@ -42,35 +45,47 @@ export default{
         )
         .then(
           function () {
-            this.mesa = this.mesas[this.mesaId -1]
+            for (var i = 0; i <= this.mesas.length; i++){
+              if (this.mesas.id = this.mesaId){
+                this.mesa = this.mesas[i -1]
+              }
+            }
           }
-        )
+      )
+        .then(
+          function () {
+            for (var i = 0; i <= this.players.length; i++){
+              if (this.players.mesaId = this.mesaId){
+                this.player.push(this.players[i - 1])
+              }
+            }
+            console.log(this.player)
+          }
+      )
     },
     getMesa() {
-      this.getAll(`${httpMesasList}`, 'mesas', `${this.mesaId}`);
-      this.getAll(`${httpChatMesaList}`, 'myChat', `?mesaID=${this.mesaId}`);
-      this.getAll(`${httpPlayersList}`, 'players', `?mesaId=${this.mesaId}`);
-    },
-    attPlayers() {
+      this.getAll(`${httpMesasList}`, 'mesas');
+      this.getAll(`${httpChatMesaList}`, 'myChat');
+      this.getAll(`${httpPlayersList}`, 'players');
     },
     enviar(total, players){
       var user = this.name;
       var id = this.id;
-      var myPush = this.mesa.players;
+      var myPush = this.players;
 
-      if(players >= this.mesa.playersMax){
+      if(players <= 0){
         this.$message.error('Desculpenos, porem a mesa esta lotada');
       }else {
-        myPush.push({'user': user, 'id': id});
         this.mesa.vagas = this.mesa.vagas - total;
 
-        this.$http.put(`${httpChatMesaList}/${this.mesaId}`, this.mesa).then(
+        this.$http.put(`${httpMesasUpdate}`, this.mesa).then(
           response => {
             this.mesa = response.body;
           }, error => {
             console.log('Error')
           }
-        ).then(
+        )
+        .then(
           function () {
             this.$http.post(`${httpPlayersList}`, this.newPlayers).then(
               response => {
@@ -79,7 +94,7 @@ export default{
                   userId: this.id,
                   mesaId: this.mesaId,
                 };
-                this.getAll(`${httpPlayersList}`, 'players', `?mesaId=${this.mesaId}`);
+                this.getAll(`${httpPlayersList}`, 'players');
               }, error => {
                 console.log('Error')
               }
@@ -91,7 +106,7 @@ export default{
     totalDeVagas(){
       var total = 1;
       var players;
-      for(var i = 0; i <= this.mesa.players.length; i++){
+      for(var i = 0; i <= this.mesa.vagas; i++){
         players = i
       }
       if(players == 0) {
@@ -193,7 +208,7 @@ export default{
                       </el-col>
                       <el-col>
                         <p><b>Players: </b>
-                          <span v-for="player in players">
+                          <span v-for="player in player">
                               {{player.user}},
                           </span>
                         </p>

@@ -26,11 +26,20 @@ endpoints:
     jmx:
         enabled: true
 
-corsInterceptor:
-    includeEnvironments: ['development', 'test']
-    excludeEnvironments: ['production']
-    allowedOrigins: ['http://localhost:8081']
-    allowedHeaders: ['my-authorization-header', 'origin', 'content-type', 'accept']
+#corsInterceptor:
+    #includeEnvironments: ['development', 'test']
+    #excludeEnvironments: ['production']
+    #allowedOrigins: ['http://localhost:8080']
+    #allowedHeaders: ['my-authorization-header', 'origin', 'content-type', 'accept']
+cors:
+    enabled: true
+    allowedHeaders:
+        - Content-Type
+    mappings:
+        /api/**:
+            allowedOrigins:
+                - http://localhost:8080
+                - http://minhamesarpg.com
 ---
 grails:
     mime:
@@ -103,16 +112,17 @@ dataSource:
 environments:
     development:
         dataSource:
-            dbCreate: create-drop #update
+            dbCreate: update #create-drop #create
             url: jdbc:mysql://localhost/myRpg
     test:
         dataSource:
             dbCreate: update
-            url: jdbc:mysql://localhost/myRpg
+            url: jdbc:mysql://localhost/christop_minhaMesaRpg
     production:
         dataSource:
             dbCreate: create
-            url: jdbc:mysql://localhost/myRpg
+            #url: jdbc:mysql://localhost/christop_minhaMesaRpg
+            url: jdbc:mysql://localhost:3306/christop_minhaMesaRpg
             properties:
                 jmxEnabled: true
                 initialSize: 5

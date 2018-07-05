@@ -17,7 +17,6 @@ def list() {
 def save () {
     Usuarios usuarios = new Usuarios()
     JSONObject json = request.JSON
-    println '------------' * 20
     usuariosService.serviceConvertJson(json, usuarios)
 
     respond json

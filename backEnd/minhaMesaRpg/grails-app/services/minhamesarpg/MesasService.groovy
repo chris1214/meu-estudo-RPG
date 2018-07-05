@@ -6,18 +6,21 @@ import grails.gorm.transactions.Transactional
 class MesasService {
 
     def serviceConvertSaveJson(json,mesa) {
+        int playersMax = Integer.parseInt(json.playersMax)
+        int playersMin = Integer.parseInt(json.playersMin)
+        int faixaEtaria = Integer.parseInt(json.faixaEtaria)
         mesa.tipoDoSistema = json.tipoDoSistema
         mesa.valueTiposDeMesas = json.valueTiposDeMesas
-        mesa.faixaEtaria = json.faixaEtaria
+        mesa.faixaEtaria = faixaEtaria
         mesa.title = json.title
         mesa.mestre = json.mestre
-        mesa.playersMin = json.playersMin
-        mesa.playersMax = json.playersMax
+        mesa.playersMin = playersMin
+        mesa.playersMax = playersMax
         mesa.mapaPrincipal = json.mapaPrincipal
         mesa.descricao = json.descricao
-        mesa.type = json.newFile.type
         mesa.url = json.newFile.url
-        mesa.size = json.newFile.size
+        mesa.size = json.size
+        mesa.vagas = playersMax
 
         mesa.save(flush: true)
     }
