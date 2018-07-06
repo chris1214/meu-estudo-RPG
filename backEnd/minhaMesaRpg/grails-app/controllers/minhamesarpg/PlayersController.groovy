@@ -11,13 +11,21 @@ class PlayersController {
             list: "GET",
             save: "POST"
     ]
+
     def list (){
-        respond Players.list()
+        int i = Integer.parseInt(params.id)
+        def player = Players.createCriteria()
+        def resultado = player.list {
+            like("mesa", i)
+        }
+        respond resultado
     }
     def save(){
         JSONObject json = request.JSON
-        Players players = new Players(json)
-        println players
+        Players players = new Players()
+        int resultado = Integer.parseInt(json.mesaId)
+        println players.mesa
+
         players.save(flush: true)
     }
 

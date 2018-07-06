@@ -11,19 +11,22 @@ class MesasController {
             update: "PUT"
     ]
 
-    Mesas mesa = new Mesas()
-    JSONObject json = request.JSON
+    Mesas newMesa = new Mesas()
     def mesasService
 
     def list() {
-        respond Mesas.list()
+        def getMesa = Mesas.get(params.id)
+        respond getMesa
     }
     def save() {
-        mesasService.serviceConvertSaveJson(json,mesa)
+        JSONObject json = request.JSON
+        mesasService.serviceConvertSaveJson(json,newMesa)
         respond json
     }
     def update (){
-        mesasService.serviceConvertSaveJson(json,mesa)
-        respond json
+        def getMesa = Mesas.get(params.id)
+        getMesa.vagas = getMesa.vagas - 1
+        getMesa.save(flush: true)
+        respond getMesa
     }
 }
