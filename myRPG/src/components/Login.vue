@@ -1,9 +1,10 @@
 <script>
-import {httpUsersList} from '../http'
+import {httpUsersList, httpGetUsuario} from '../http'
 export default {
   data () {
     return {
       httpUsers: httpUsersList,
+      httpUsuario: httpGetUsuario,
       users: [],
       values: {
         email: '',
@@ -27,12 +28,20 @@ export default {
     login(){
       if(this.values.email && this.values.password){
         var error = true;
-        for(var i = 0; i <= this.users.length -1; i++){
+        this.$http.get(`${this.httpUsuario}?email=${this.values.email} && ?password=${this.values.password}`).then(
+          response => {
+            console.log(`${this.httpUsuario}?email=${this.values.email} && ?password=${this.values.password}`);
+            this.users = response.body
+          }, error => {
+            console.log('error')
+          }
+        )
+        /*for(var i = 0; i <= this.users.length -1; i++){
           if(this.values.email == this.users[i].email && this.values.password == this.users[i].password){
             this.$router.push('/inicio/' + this.users[i].name + '/' + this.users[i].id);
             error = false;
           }
-        }
+        }*/
 
         if (error) {
           this.$message.error('Campo E-mail ou Senha incorretos');

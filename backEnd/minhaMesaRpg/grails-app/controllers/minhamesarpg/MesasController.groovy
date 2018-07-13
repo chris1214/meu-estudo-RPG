@@ -6,6 +6,7 @@ class MesasController {
 
     static responseFormats = ['json']
     static allowedMethods = [
+            mesa: "GET",
             list: "GET",
             save: "POST",
             update: "PUT"
@@ -14,9 +15,12 @@ class MesasController {
     Mesas newMesa = new Mesas()
     def mesasService
 
-    def list() {
+    def mesa() {
         def getMesa = Mesas.get(params.id)
         respond getMesa
+    }
+    def list() {
+        respond Mesas.list()
     }
     def save() {
         JSONObject json = request.JSON

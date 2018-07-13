@@ -108,7 +108,7 @@ environments:
     production:
         dataSource:
             dbCreate: none
-            url: jdbc:mysql://localhost/myRpg
+            url: jdbc:mysql://localhost:3306/myRpg
             properties:
                 jmxEnabled: true
                 initialSize: 5
