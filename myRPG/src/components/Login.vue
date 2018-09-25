@@ -5,7 +5,7 @@ export default {
     return {
       httpUsers: httpUsersList,
       httpUsuario: httpGetUsuario,
-      users: [],
+      users: {},
       values: {
         email: '',
         password: '',
@@ -28,14 +28,22 @@ export default {
     login(){
       if(this.values.email && this.values.password){
         var error = true;
-        this.$http.get(`${this.httpUsuario}?email=${this.values.email} && ?password=${this.values.password}`).then(
+        this.$http.get(`${this.httpUsuario}?email=${this.values.email}&&password=${this.values.password}`).then(
           response => {
-            console.log(`${this.httpUsuario}?email=${this.values.email} && ?password=${this.values.password}`);
-            this.users = response.body
+            console.log(`${this.httpUsuario}?email=${this.values.email}&&password=${this.values.password}`);
+            this.users = response.body;
+            console.log(response.body)
+            console.log(this.users)
+            console.log(typeof this.users)
           }, error => {
             console.log('error')
           }
-        )
+        );
+        if (this.users){
+          console.log('TRue')
+          this.$router.push('/inicio/' + this.users.name + '/' + this.users.id);
+          error = false;
+        }
         /*for(var i = 0; i <= this.users.length -1; i++){
           if(this.values.email == this.users[i].email && this.values.password == this.users[i].password){
             this.$router.push('/inicio/' + this.users[i].name + '/' + this.users[i].id);
@@ -53,7 +61,7 @@ export default {
     },
   },
   created(){
-    this.myGet();
+    console.log(this.users)
   }
 }
 

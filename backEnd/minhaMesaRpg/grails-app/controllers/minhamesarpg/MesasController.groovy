@@ -24,6 +24,7 @@ class MesasController {
     }
     def save() {
         JSONObject json = request.JSON
+        println json
         mesasService.serviceConvertSaveJson(json,newMesa)
         respond json
     }

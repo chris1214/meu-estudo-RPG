@@ -70,6 +70,9 @@ export default{
         this.conteudo.MesasParticipo = true;
       }
     },
+    logut() {
+      this.$router.push('/');
+    }
   },
   components:{
     list,
@@ -109,7 +112,7 @@ export default{
           </span>
         </el-col>
         <el-col :xs="12" :sm="12" :md="6" :lg="6" :xl="8" style="margin-top: 10px; right: 0; position: relative">
-
+          <el-button size="mini" :onclick="logut()">Sair</el-button>
         </el-col>
       </el-row>
     </div>

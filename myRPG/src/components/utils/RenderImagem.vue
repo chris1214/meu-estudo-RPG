@@ -36,8 +36,6 @@ export default {
 </script>
 <template>
   <div slot="body">
-
-    <!-- TODO - ajustar espaçamento do topo -->
     <div class="meu-thumbex margin-10px-10px-30px" :body-style="{ padding: '0px' }" :style="height">
       <div class="meu-thumbnail">
         <router-link :to="rota">

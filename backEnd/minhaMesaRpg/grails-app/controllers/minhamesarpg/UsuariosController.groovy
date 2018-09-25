@@ -12,16 +12,12 @@ static allowedMethods = [
 def usuariosService
 
 def getUsuario() {
-    println '**************'*50
-    println params
-    println params.email
-    println params.password
-    println '**************'*50
     def usuarios = Usuarios.createCriteria()
     def resultado = usuarios.list {
         like("email", params.email)
         like("password", params.password)
     }
+    println resultado
     respond resultado
 }
 

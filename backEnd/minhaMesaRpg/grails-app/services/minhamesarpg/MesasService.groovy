@@ -22,6 +22,13 @@ class MesasService {
         mesa.size = json.size
         mesa.vagas = playersMax
 
+        if (!mesa.save()) {
+            mesa.errors.allErrors.each {
+                println it
+
+            }
+        }
+
         mesa.save(flush: true)
     }
 }

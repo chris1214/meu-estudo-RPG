@@ -6,6 +6,7 @@ import list from '@/components/show/list'
 import inicio from '@/components/inicio'
 import mesa from '@/components/mesa'
 import example from '@/components/example'
+import testes from '@/components/testes'
 import texteGrails from '@/components/texteGrails'
 import faixaEtaria from '@/components/utils/faixaEtaria'
 
@@ -17,6 +18,11 @@ export default new Router({
       path: '/',
       name: 'Login',
       component: Login
+    },
+    {
+      path: '/inicio/testes/',
+      name: 'testes',
+      component: testes
     },
     {
       path: '/inicio/example/',
